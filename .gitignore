@@ -1,0 +1,40 @@
+# TODO: Ignore all Forge server stuff
+
+# Ignore all Mohist server stuff
+.mixin.out/
+astralsorcery/
+backups/
+banned-ips.json
+banned-players.json
+bukkit.yml
+commands.yml
+crafttweaker.log
+crash-reports/
+/customnpcs/
+eula.txt
+help.yml
+libraries/
+llibrary/
+local/
+logs/
+mods/
+Mohist*.jar
+mohist-config/
+ops.json
+options.txt
+paper.yml
+patchouli_books/
+permissions.yml
+plugins/
+resourcepacks/
+saves/
+server.properties
+servers.dat
+spigot.yml
+tmp/
+usercache.json
+usernamecache.json
+whitelist.json
+
+# Ignore misc junk
+*.dat_old

@@ -1,0 +1,15 @@
+advancements/
+aroma1997/
+AstralSoreryData/
+# Remove this next line after fixing up clones
+customnpcs/*
+DIM*/
+EnderStorage/
+forcedchunks.dat
+level.dat
+playerdata/
+region/
+session.lock
+stats
+uid.dat
+worldprimer/
