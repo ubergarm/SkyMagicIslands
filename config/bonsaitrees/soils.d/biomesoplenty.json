@@ -1,0 +1,98 @@
+[
+  {
+    "name": "biomesoplenty:loamy_grass",
+    "mod": "biomesoplenty",
+    "soil": {
+      "name": "biomesoplenty:grass",
+      "data": 2,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 1.00,
+      "dropChance": 1.00
+    },
+  
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "biomesoplenty:sandy_grass",
+    "mod": "biomesoplenty",
+    "soil": {
+      "name": "biomesoplenty:grass",
+      "data": 3,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 1.00,
+      "dropChance": 1.00
+    },
+  
+    "providedTags": [ "dirt", "grass", "sand" ]
+  },
+  {
+    "name": "biomesoplenty:origin_grass",
+    "mod": "biomesoplenty",
+    "soil": {
+      "name": "biomesoplenty:grass",
+      "data": 5,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 1.00,
+      "dropChance": 1.00
+    },
+  
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "biomesoplenty:overgrown_netherrack",
+    "mod": "biomesoplenty",
+    "soil": {
+      "name": "biomesoplenty:grass",
+      "data": 6,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 1.0,
+      "dropChance": 1.0
+    },
+  
+    "providedTags": [ "netherrack" ]
+  },
+  {
+    "name": "biomesoplenty:flowering_grass",
+    "mod": "biomesoplenty",
+    "soil": {
+      "name": "biomesoplenty:grass",
+      "data": 7,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 0.90,
+      "dropChance": 1.25
+    },
+  
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "biomesoplenty:white_sand",
+    "mod": "biomesoplenty",
+    "soil": {
+      "name": "biomesoplenty:white_sand",
+      "data": 0,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 1.00,
+      "dropChance": 1.00
+    },
+  
+    "providedTags": [ "sand" ]
+  }
+]

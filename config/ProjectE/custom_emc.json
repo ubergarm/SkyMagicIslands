@@ -1,0 +1,240 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:wheat_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pumpkin_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:melon_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot_seeds|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:apple|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pumpkin|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mushroom_stew|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit_stew|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mutton|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_mutton|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chicken|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_chicken|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:porkchop|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beef|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_beef|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_porkchop|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:fish|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_fruit|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wheat|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:melon|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:carrot|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potato|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:poisonous_potato|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:fish|3",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cookie|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:fish|2",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:fish|1",
+      "emc": 0
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|0",
+      "emc": 128
+    },
+    {
+      "item": "mysticalworld:amethyst_gem|0",
+      "emc": 8192
+    },
+    {
+      "item": "bewitchment:amethyst|0",
+      "emc": 8192
+    },
+    {
+      "item": "biomesoplenty:gem|0",
+      "emc": 8192
+    },
+    {
+      "item": "projectex:knowledge_sharing_book|0",
+      "emc": 65708
+    },
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 75520
+    },
+    {
+      "item": "bewitchment:cold_iron_plate|0",
+      "emc": 0
+    },
+    {
+      "item": "bewitchment:silver_plate|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:plate|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:plate|1",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:plate|2",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:plate|3",
+      "emc": 0
+    },
+    {
+      "item": "ceramics:unfired_clay|8",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_copper|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_lead|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_silver|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_dawnstone|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_iron|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_gold|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_aluminum|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_tin|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_nickel|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_electrum|0",
+      "emc": 0
+    },
+    {
+      "item": "embers:plate_bronze|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:ingot|0",
+      "emc": 0
+    },
+    {
+      "item": "bettercrates:iron_crate|0",
+      "emc": 416
+    },
+    {
+      "item": "bettercrates:copper_crate|0",
+      "emc": 288
+    },
+    {
+      "item": "bettercrates:golden_crate|0",
+      "emc": 2208
+    },
+    {
+      "item": "bettercrates:up_golden2|0",
+      "emc": 2364
+    },
+    {
+      "item": "mysticalworld:assorted_seeds|0",
+      "emc": 0
+    }
+  ]
+}

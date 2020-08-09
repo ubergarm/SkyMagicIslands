@@ -1,0 +1,66 @@
+[
+  {
+    "name": "botania:golden_grass",
+    "mod": "botania",
+    "soil": {
+      "name": "botania:altgrass",
+      "data": 1,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 1.00,
+      "dropChance": 1.00
+    },
+  
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "botania:vivid_grass",
+    "mod": "botania",
+    "soil": {
+      "name": "botania:altgrass",
+      "data": 2,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 0.90,
+      "dropChance": 1.1
+    },
+  
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "botania:infused_grass",
+    "mod": "botania",
+    "soil": {
+      "name": "botania:altgrass",
+      "data": 4,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 0.80,
+      "dropChance": 1.2
+    },
+  
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "botania:mutated_grass",
+    "mod": "botania",
+    "soil": {
+      "name": "botania:altgrass",
+      "data": 5,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 0.50,
+      "dropChance": 1.25
+    },
+  
+    "providedTags": [ "dirt", "grass" ]
+  }
+]
