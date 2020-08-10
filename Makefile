@@ -1,6 +1,6 @@
 SkyMagicIslands-config-test.zip:
 	@echo Zipping up configs, customNPCs, and functions...
-	zip -r SkyMagicIslands-config-test.zip config saves/world/customnpcs saves/world/data/functions scripts
+	zip -r SkyMagicIslands-config-test.zip config saves/world/customnpcs saves/world/data/functions scripts resources -x "*.log"
 	@echo ...DONE!
 
 config: SkyMagicIslands-config-test.zip

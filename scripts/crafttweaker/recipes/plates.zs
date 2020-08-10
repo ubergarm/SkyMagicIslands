@@ -1,8 +1,4 @@
-// Make all plates use Embers Rekindled hammer
-// and when metal support Melter and Stamper
-//import mods.contenttweaker.VanillaFactory;
-//import mods.contenttweaker.Fluid;
-//import mods.contenttweaker.Color;
+// Make all plates use Embers Rekindled hammer and support Melter and Stamper if molten fluids exist
 
 // Ceramics Plates
 recipes.removeByRecipeName("ceramics:armor/unfired_clay_plate");
@@ -28,24 +24,16 @@ recipes.addShapeless("thaumcraft_thaumiumplate", <thaumcraft:plate:2>, [<ore:ing
 recipes.removeByRecipeName("thaumcraft:voidplate");
 recipes.addShapeless("thaumcraft_voidplate", <thaumcraft:plate:3>, [<ore:ingotVoid>, <ore:ingotVoid>, <embers:tinker_hammer:*>]);
 
-// Register fluids for any metal ingots
-// github.com/CraftTweaker/CraftTweaker-Documentation/blob/master/docs/Mods/ContentTweaker/Vanilla/Creatable_Content/Fluid.md
-// var moltenThaumium = VanillaFactory.createFluid("thaumium", Color.fromHex("2B1E50"));
-// moltenThaumium.density = 2000;
-// moltenThaumium.gaseous = false;
-// moltenThaumium.viscosity = 6000;
-// moltenThaumium.temperature = 900;
-// moltenThaumium.luminosity = 15;
-// moltenThaumium.register();
-// <fluid:thaumium>.displayName = "Molten Thaumium";
-// src/resources/contenttweaker/lang/en_us.lang:fluid.cookie_dough=Liquid Cookie Dough
-
-
 // Add Embers Melter Recipes
 // github.com/DaedalusGame/EmbersRekindled/wiki/CraftTweaker-Support
 // mods.embers.Melter.add(ILiquidStack <outputfluid>,IIngredient <input>);
+mods.embers.Melter.add(<fluid:thaumium> * 144, <ore:ingotThaumium>);
+mods.embers.Melter.add(<fluid:thaumium> * 16, <ore:nuggetThaumium>);
+mods.embers.Melter.add(<fluid:thaumium> * 144, <ore:plateThaumium>);
 
 // Add Embers Stamper Recipes
 // github.com/DaedalusGame/EmbersRekindled/wiki/CraftTweaker-Support
 // mods.embers.Stamper.add(IItemStack <output>,ILiquidStack <liquid>,IIngredient <stamp>,IIngredient <input>);
+mods.embers.Stamper.add(<thaumcraft:plate:2>, <fluid:thaumium> * 144, <embers:stamp_plate>, null);
+mods.embers.Stamper.add(<thaumcraft:ingot>, <fluid:thaumium> * 144, <embers:stamp_bar>, null);
 
