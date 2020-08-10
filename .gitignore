@@ -27,9 +27,9 @@ patchouli_books/
 permissions.yml
 plugins/
 resourcepacks/
-saves/
 server.properties
 servers.dat
+/SkyMagicIslands-config-test.zip
 spigot.yml
 tmp/
 usercache.json

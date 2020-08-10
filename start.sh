@@ -3,7 +3,7 @@
 # Change -jar to match actual server version
 
 java -Xms1G \
-     -Xmx7G \
+     -Xmx3G \
      -XX:+UseG1GC \
      -XX:+ParallelRefProcEnabled \
      -XX:MaxGCPauseMillis=200 \
