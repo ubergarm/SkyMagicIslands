@@ -1,0 +1,87 @@
+{
+    "CompleterNpc": "Sunyata",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "Title": "Meeting Wuji",
+    "Text": "Find and talk to the leader of Sky Magic Islands HQ, old man Wuji. Perhaps I can get him to talk about the Philosopher's Stone.
+
+Afterwards, return to Sunyata to collect my starting gear, signing bonus, and then build my first airship to begin exploring!",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 7,
+    "QuestCommand": "",
+    "QuestDialogs": [
+        {
+            "Integer": 13,
+            "Slot": 0
+        }
+    ],
+    "ModRev": 18,
+    "Type": 1,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1597166433391L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "projectex:stone_table",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "projectex:knowledge_sharing_book",
+                "Count": 1b,
+                "tag": {
+                    "name": "ubergarm",
+                    "id": "1acbbcfaa73b4530973a486c520f806b"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "So I've finally awared the old guru, Wuji... Despite having so many questions, they all seemed to melt away in his presence...
+
+As the story of my old Colony life comes to a close, a new chapter rises up amongst these majestic Sky Magic Islands! Who knows what adventures await?! Maybe even one day I'll understand enough to command Dark Matter with my own Philosopher's Stone!
+
+Sunyata hands me a basic stone alchemy table, my signing bonus of 9 gold nuggets, and a glowing book full of wonderous knowledge to start me on my journey!",
+    "NextQuestTitle": ""
+}

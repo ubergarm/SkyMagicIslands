@@ -1,8 +1,7 @@
 advancements/
 aroma1997/
 AstralSoreryData/
-# Remove this next line after fixing up clones
-customnpcs/*
+*.dat_old
 DIM*/
 EnderStorage/
 forcedchunks.dat
