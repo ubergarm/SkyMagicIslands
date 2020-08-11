@@ -68,21 +68,14 @@ recipes.addShapeless("projecte_conversions/aeternalis_fuel_to_dark_matter", <pro
 // This will require some advancement in
 // other magic mods in this pack before
 // unlocking dark matter and up goodies
-// (manually update emc to recipe: 75,520)
+// (manually update emc value as well)
+recipes.removeByRecipeName("projecte:philosophers_stone_alt");
 recipes.removeByRecipeName("projecte:philosophers_stone");
 recipes.addShaped("projecte_philosophers_stone", <projecte:item.pe_philosophers_stone>,
   [
-    [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>],
-    [<ore:dustGlowstone>, <ore:blockDiamond>, <ore:dustGlowstone>],
-    [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>]
-  ]
-);
-recipes.removeByRecipeName("projecte:philosophers_stone_alt");
-recipes.addShaped("projecte_philosophers_stone_alt", <projecte:item.pe_philosophers_stone>,
-  [
-    [<ore:dustGlowstone>, <ore:dustRedstone>, <ore:dustGlowstone>],
-    [<ore:dustRedstone>, <ore:blockDiamond>, <ore:dustRedstone>],
-    [<ore:dustGlowstone>, <ore:dustRedstone>, <ore:dustGlowstone>]
+    [<embers:aspectus_dawnstone>, <bloodmagic:blood_orb>.withTag({orb:"bloodmagic:weak"}), <thaumcraft:nitor_yellow>],
+    [<astralsorcery:itemcraftingcomponent:2>, <totemic:stripped_cedar_log>, <bewitchment:bottled_frostfire>],
+    [<botania:alchemycatalyst>, <roots:elemental_soil>, <naturesaura:conversion_catalyst>]
   ]
 );
 
@@ -140,6 +133,16 @@ recipes.addShaped("projectex_compressed_refined_link", <projectex:compressed_ref
     [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>],
     [<minecraft:gold_block>, <projectex:refined_link>, <minecraft:gold_block>],
     [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>]
+  ]
+);
+
+// Change Recipe for ProjectE/EX Baubles that seem OP relative to other mid-ish game items
+recipes.removeByRecipeName("projecte:item.pe_repair_talisman");
+recipes.addShaped("projecte_item.pe_repair_talisman", <projecte:item.pe_repair_talisman>,
+  [
+    [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>],
+    [<ore:string>, <projectex:matter:3>, <ore:string>],
+    [<projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>]
   ]
 );
 
