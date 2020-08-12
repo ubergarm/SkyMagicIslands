@@ -1,5 +1,14 @@
 [
   {
+    "content": "minecraft:gold_nugget",
+    "amount": {
+      "min": 3,
+      "max": 18
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
     "content": "minecraft:dirt",
     "amount": {
       "min": 16,
@@ -39,7 +48,7 @@
     "content": "minecraft:apple",
     "amount": {
       "min": 2,
-      "max": 32
+      "max": 64
     },
     "unitWorth": 70,
     "weight": 100

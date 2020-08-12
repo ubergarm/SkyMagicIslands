@@ -1,5 +1,10 @@
 [
   {
+    "content": "minecraft:rotten_flesh",
+    "unitWorth": 55,
+    "weight": 100
+  },
+  {
     "content": "minecraft:gold_nugget",
     "unitWorth": 100,
     "weight": 100
