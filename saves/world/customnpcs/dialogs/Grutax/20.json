@@ -1,14 +1,14 @@
 {
     "DialogShowWheel": 0b,
-    "AvailabilityQuestId": 2,
+    "AvailabilityQuestId": 10,
     "Options": [
         {
             "OptionSlot": 0,
             "Option": {
                 "DialogCommand": "",
-                "Dialog": 10,
-                "Title": "Sky Magic Islands",
-                "DialogColor": 16777215,
+                "Dialog": 21,
+                "Title": "Aye, put'r there, partner!",
+                "DialogColor": 780857,
                 "OptionType": 1
             }
         },
@@ -16,29 +16,9 @@
             "OptionSlot": 1,
             "Option": {
                 "DialogCommand": "",
-                "Dialog": 11,
-                "Title": "Outpost HQ",
-                "DialogColor": 16777215,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 2,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 12,
-                "Title": "Starting Gear",
-                "DialogColor": 16777215,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 3,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 13,
-                "Title": "Philosopher's Stone",
-                "DialogColor": 261175,
+                "Dialog": 24,
+                "Title": "Naw, I'll start my own operation!",
+                "DialogColor": 16714240,
                 "OptionType": 1
             }
         }
@@ -47,7 +27,7 @@
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
     "AvailabilityScoreboard2Value": 1,
-    "DialogId": 9,
+    "DialogId": 20,
     "AvailabilityQuest": 6,
     "AvailabilityDialog4": 0,
     "AvailabilityScoreboardObjective": "",
@@ -68,7 +48,7 @@
     "AvailabilityScoreboardValue": 1,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Questioning Wuji",
+    "DialogTitle": "Meeting Grutax",
     "AvailabilityDialog": 0,
     "AvailabilityScoreboard2Type": 1,
     "AvailabilityFaction2": 0,
@@ -77,7 +57,13 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "So you still seek more word pointers? What thoughts dance upon your mind in the fullness of this present moment?",
+    "DialogText": "Aye, words gone round that you just arrived fresh up from the Colony! Well then, {player}, let me offer you a chance to get in on some of the action!
+
+Turns out there ain't any bedrock floatin' around up here from which to collect Ember, but I'm outfitting a mining venture into the heart of the Nethercore to tap the only remaining stuff!
+
+You're welcome to compete with me, or for the cost of only two Ember Bores I'll cut you in on the deal! I'd craft them myself, but I just ran out of clay!
+
+What do you say? ",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -94,7 +80,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597205676190L,
+        "TimePast": 1597209168781L,
         "Time": 0L,
         "Subject": ""
     }

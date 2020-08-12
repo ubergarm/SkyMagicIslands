@@ -9,7 +9,7 @@
     "AvailabilityScoreboard2Value": 1,
     "DialogId": 13,
     "AvailabilityQuest": 0,
-    "AvailabilityDialog4": 0,
+    "AvailabilityDialog4": 2,
     "AvailabilityScoreboardObjective": "",
     "AvailabilityDialog3": 1,
     "AvailabilityQuest2": 0,
@@ -18,7 +18,7 @@
     "AvailabilityQuest4": 0,
     "ModRev": 18,
     "DecreaseFaction1Points": 0b,
-    "DialogQuest": -1,
+    "DialogQuest": 2,
     "AvailabilityDialog2": 1,
     "OptionFactions1": -1,
     "AvailabilityDayTime": 0,
@@ -42,7 +42,9 @@
 
 I strongly suggest that you consider exploring many schools of magic as each contains its own approach to alchemy. Perhaps with time you can bring this knowledge together to unlock your own Philosopher's Stone and along with it the powerful Dark and Red Matters!
 
-Be warned however, knowledge is not wisdom; power is not bliss! Seek ye first within thine own self!
+Various experienced magicians and alchemists wonder by here trading their secrets with those ready to learn. Look around the island, and perhaps you'll make some new friends!
+
+Be warned however, knowledge is not wisdom; power is not bliss! Seek ye first within thine own Self!
 
 ",
     "AvailabilityQuest4Id": -1,
@@ -50,7 +52,7 @@ Be warned however, knowledge is not wisdom; power is not bliss! Seek ye first wi
     "AvailabilityQuest2Id": -1,
     "AvailabilityDialog2Id": 11,
     "AvailabilityDialog3Id": 12,
-    "AvailabilityDialog4Id": -1,
+    "AvailabilityDialog4Id": 13,
     "AvailabilityMinPlayerLevel": 0,
     "DecreaseFaction2Points": 0b,
     "DialogMail": {
@@ -61,7 +63,7 @@ Be warned however, knowledge is not wisdom; power is not bliss! Seek ye first wi
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597168910341L,
+        "TimePast": 1597205421341L,
         "Time": 0L,
         "Subject": ""
     }

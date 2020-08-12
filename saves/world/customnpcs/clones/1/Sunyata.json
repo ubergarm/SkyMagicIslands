@@ -235,7 +235,7 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 108023,
+    "HurtByTimestamp": 45508,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -330,7 +330,7 @@
             "NPCDialog": {
                 "DialogCommand": "",
                 "Dialog": 4,
-                "Title": "GreetingInitial",
+                "Title": "Meeting Sunyata",
                 "DialogColor": 14737632,
                 "OptionType": 1
             },
@@ -340,7 +340,7 @@
             "NPCDialog": {
                 "DialogCommand": "",
                 "Dialog": 5,
-                "Title": "GreetingDuring",
+                "Title": "Questing In Progress",
                 "DialogColor": 14737632,
                 "OptionType": 1
             },
@@ -350,11 +350,21 @@
             "NPCDialog": {
                 "DialogCommand": "",
                 "Dialog": 6,
-                "Title": "GretingAfter",
+                "Title": "Questing Complete",
                 "DialogColor": 14737632,
                 "OptionType": 1
             },
             "DialogSlot": 2
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 15,
+                "Title": "Usual Greeting",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 3
         }
     ],
     "AggroRange": 16,
@@ -476,7 +486,7 @@
     "AttackSpeed": 20,
     "PotionDuration": 5,
     "maxDelay": 40,
-    "ScriptEnabled": 0b,
+    "ScriptEnabled": 1b,
     "Role": 0,
     "DropChance": [
         {
@@ -539,7 +549,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 227684
+        "naturesaura:time_alive": 351569
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -617,6 +627,23 @@
     "MarkovGeneratorId": 6,
     "ItemGiverId": 0,
     "Scripts": [
+        {
+            "Script": "// When a CustomNPC stored in NBT structure spawns into a new world,
+// this function will reset their home so they don't teleport off to nowhere
+function init(event) {
+
+  event.npc.setHome(
+    event.npc.getX(),
+	event.npc.getY(),
+	event.npc.getZ()
+  );
+  
+}",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
     ],
     "Health": 20.0f,
     "pStick": 0b,
@@ -624,7 +651,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Quartermaster",
-    "TotalTicksAlive": 227664L,
+    "TotalTicksAlive": 351533L,
     "Rotation": [
         204.45343f,
         0.0f

@@ -37,9 +37,9 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Usually folks build a small Davinci's Vessels airship with balloons and a helm. Be warned though, while your friends can ride with you in a seat, they will fall off during a trip down to the Nethercore or back up! Also, a sleeping bag can provide comforts through long nights.
+    "DialogText": "Usually folks build a small Davinci's Vessels' airship with few balloons and a helm. Be warned though, while your friends can ride with you in a seat, they will fall off during a trip down to the Nethercore or back up! Also, a sleeping bag can provide comforts through long nights.
 
-I've heard that ancient mineshafts can be found in Mountain and Alps biomes, perhaps you can construct a device to locate those and others.
+I've heard that ancient mineshafts can be found in Mountain and Alps biomes; lavender fields, orchards, and  meadows tend to be more peaceful. Perhaps you can craft a device to locate them?
 
 The path of the Monk can give you a strong foundation upon which to develop your magical accumen. Rumors of floating monks stir about still today, though I've never seen it myself.
 
@@ -60,7 +60,7 @@ Good luck finding your own personal Philosopher's Stone!",
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597168674939L,
+        "TimePast": 1597203827190L,
         "Time": 0L,
         "Subject": ""
     }

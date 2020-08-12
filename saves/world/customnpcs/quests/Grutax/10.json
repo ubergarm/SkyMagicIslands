@@ -1,16 +1,12 @@
 {
-    "CompleterNpc": "Wuji",
+    "CompleterNpc": "Grutax",
     "NextQuestId": -1,
     "RandomReward": 0b,
     "QuestRepeat": 0,
     "QuestCompletion": 0,
     "IgnoreNBT": 1b,
-    "Title": "Philosopher's Stone",
-    "Text": "I must find my own Philsopher's Stone and then bring it to old man Wuji back at Sky Island Outpost HQ near 0, 180, 0.
-
-He suggested it would take something from many different schools of magic. 
-
-Perhaps the experienced magicians and alchemist traders could be a good source of information and materials?",
+    "Title": "Ember Bore",
+    "Text": "Grutax says if I can provide him two Ember Bores to outfit his Nethercore mining venture, then as an investor I will be entitled to collect dividends paid daily in Ember Shards!",
     "QuestFactionPoints": {
         "DecreaseFaction1Points": 0b,
         "OptionFaction2Points": 100,
@@ -19,7 +15,7 @@ Perhaps the experienced magicians and alchemist traders could be a good source o
         "OptionFaction1Points": 100,
         "DecreaseFaction2Points": 0b
     },
-    "RewardExp": 0,
+    "RewardExp": 7,
     "QuestCommand": "",
     "ModRev": 18,
     "Type": 0,
@@ -31,13 +27,23 @@ Perhaps the experienced magicians and alchemist traders could be a good source o
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597204626740L,
+        "TimePast": 1597208869430L,
         "Time": 0L,
         "Subject": ""
     },
     "IgnoreDamage": 1b,
     "Rewards": {
         "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:crystal_ember",
+                "Count": 1b,
+                "Damage": 0s
+            }
         ]
     },
     "Items": {
@@ -45,20 +51,16 @@ Perhaps the experienced magicians and alchemist traders could be a good source o
             {
                 "Slot": 0b,
                 "ForgeCaps": {
-                    "astralsorcery:cap_item_amulet_holder": {
-                    },
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "projecte:item.pe_philosophers_stone",
-                "Count": 1b,
-                "tag": {
-                },
+                "id": "embers:ember_bore",
+                "Count": 2b,
                 "Damage": 0s
             }
         ]
     },
-    "LeaveItems": 1b,
-    "CompleteText": "After all that work, and he didn't give me a darn thing! Well, I suppose I had fun along the way... Maybe that's all that matters! Follow your Bliss!",
+    "LeaveItems": 0b,
+    "CompleteText": "Aye!!! This will contribute a might wee bit to the cause! Here, take this Ember Crystal as a good faith gesture, and remember to come by to collect your daily investment dividends!",
     "NextQuestTitle": ""
 }

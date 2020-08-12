@@ -15,11 +15,149 @@
     "BossBar": 0b,
     "RespawnTime": 20,
     "NpcAngrySound": "",
+    "igJobInventory": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:brick_caminite",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:nugget_lead",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:nugget_copper",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:nugget_dawnstone",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:dust_ember",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:shard_ember",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:shard_ember",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:shard_ember",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:plate_copper",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
     "ReactsToFire": 0b,
+    "igLines": [
+        {
+            "Line": "This is your share for today's haul, {player}!"
+        },
+        {
+            "Line": "We're parthers through thick and thin, eh, {player}?"
+        },
+        {
+            "Line": "The Nethercore is tough some days..."
+        }
+    ],
     "IgnoreCobweb": 0b,
     "PositionOffsetZ": 5.0f,
     "PositionOffsetY": 5.0f,
     "PositionOffsetX": 5.0f,
+    "igAvailability": {
+        "AvailabilityQuestId": 10,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityScoreboard2Value": 1,
+        "AvailabilityQuest": 1,
+        "AvailabilityDialog4": 0,
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityQuest4": 0,
+        "ModRev": 18,
+        "AvailabilityDialog2": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialogId": -1,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityMinPlayerLevel": 0
+    },
     "LootMode": 0,
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
@@ -77,8 +215,8 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/entity/humanmale/tribeelder.png",
-    "NpcJob": 0,
+    "Texture": "customnpcs:textures/entity/dwarfmale/dwarf_keeper.png",
+    "NpcJob": 4,
     "BurstCount": 1,
     "NpcAttackLines": {
         "Lines": [
@@ -90,6 +228,7 @@
     "pImpact": 0,
     "MoveState": 0,
     "pRender3D": 1b,
+    "igCooldown": 600,
     "Motion": [
         0.0d,
         -0.0784000015258789d,
@@ -112,6 +251,7 @@
         "Lines": [
         ]
     },
+    "igGivingMethod": 0,
     "Fire": -1s,
     "ArmorItems": [
         {
@@ -128,9 +268,14 @@
     "TransformHasInv": 0b,
     "NpcInteractLines": {
         "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
         ]
     },
-    "HurtByTimestamp": 72859,
+    "HurtByTimestamp": 77423,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -190,7 +335,7 @@
     "NoFallDamage": 0b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "Wuji",
+    "Name": "Grutax",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
@@ -203,22 +348,21 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "roots:staff",
+            "id": "embers:ignition_cannon",
             "Count": 1b,
+            "tag": {
+                "cooldown": 0
+            },
             "Damage": 0s
         },
         {
             "Slot": 2b,
             "ForgeCaps": {
-                "astralsorcery:cap_item_amulet_holder": {
-                },
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "projecte:item.pe_philosophers_stone",
+            "id": "embers:shard_ember",
             "Count": 1b,
-            "tag": {
-            },
             "Damage": 0s
         }
     ],
@@ -226,8 +370,8 @@
         {
             "NPCDialog": {
                 "DialogCommand": "",
-                "Dialog": 7,
-                "Title": "GreetingInitial",
+                "Dialog": 20,
+                "Title": "Meeting Grutax",
                 "DialogColor": 14737632,
                 "OptionType": 1
             },
@@ -236,8 +380,8 @@
         {
             "NPCDialog": {
                 "DialogCommand": "",
-                "Dialog": 9,
-                "Title": "Questioning Wuji",
+                "Dialog": 22,
+                "Title": "Questing In Progress",
                 "DialogColor": 14737632,
                 "OptionType": 1
             },
@@ -246,22 +390,12 @@
         {
             "NPCDialog": {
                 "DialogCommand": "",
-                "Dialog": 19,
-                "Title": "Questing in Progress",
+                "Dialog": 23,
+                "Title": "Questing Complete",
                 "DialogColor": 14737632,
                 "OptionType": 1
             },
             "DialogSlot": 2
-        },
-        {
-            "NPCDialog": {
-                "DialogCommand": "",
-                "Dialog": 18,
-                "Title": "Completed Quest",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            },
-            "DialogSlot": 3
         }
     ],
     "AggroRange": 16,
@@ -315,7 +449,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.012000002f,
+            "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -335,7 +469,7 @@
             "PositionY": 1,
             "SkinColor": 11830381,
             "PlayerTexture": 0b,
-            "Color": 3361970,
+            "Color": 5013401,
             "BrowColor": 5982516,
             "BrowThickness": 4
         },
@@ -352,7 +486,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": -0.0f,
+            "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -368,6 +502,7 @@
             "ScaleX": 1.0f
         }
     },
+    "igCooldownType": 0,
     "minDelay": 20,
     "DoorInteract": 2,
     "MoveSpeed": 5,
@@ -445,7 +580,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 425079
+        "naturesaura:time_alive": 77941
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -466,6 +601,18 @@
     "MinExp": 0,
     "Armor": [
         {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "bibliocraft:biblioglasses",
+            "Count": 1b,
+            "Damage": 2s
+        },
+        {
             "Slot": 1b,
             "ForgeCaps": {
                 "astralsorcery:cap_item_amulet_holder": {
@@ -473,7 +620,7 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "bewitchment:besmirched_robes",
+            "id": "embers:ashen_cloak_chest",
             "Count": 1b,
             "Damage": 0s
         },
@@ -485,7 +632,7 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "bewitchment:besmirched_pants",
+            "id": "embers:ashen_cloak_legs",
             "Count": 1b,
             "Damage": 0s
         },
@@ -497,10 +644,8 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "botania:manaweaveboots",
+            "id": "embers:ashen_cloak_boots",
             "Count": 1b,
-            "tag": {
-            },
             "Damage": 0s
         }
     ],
@@ -508,7 +653,8 @@
     "GlowTexture": "",
     "MaxFiringRange": 15,
     "pXlr8": 0b,
-    "MarkovGeneratorId": 8,
+    "MarkovGeneratorId": 4,
+    "ItemGiverId": 0,
     "Scripts": [
         {
             "Script": "// When a CustomNPC stored in NBT structure spawns into a new world,
@@ -533,10 +679,10 @@ function init(event) {
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
-    "Title": "Guru",
-    "TotalTicksAlive": 425030L,
+    "Title": "Ember Smith",
+    "TotalTicksAlive": 77917L,
     "Rotation": [
-        40.05028f,
+        32.714844f,
         0.0f
     ],
     "ShowName": 0,

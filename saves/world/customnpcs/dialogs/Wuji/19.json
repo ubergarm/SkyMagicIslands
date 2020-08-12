@@ -6,39 +6,9 @@
             "OptionSlot": 0,
             "Option": {
                 "DialogCommand": "",
-                "Dialog": 10,
-                "Title": "Sky Magic Islands",
-                "DialogColor": 16777215,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 1,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 11,
-                "Title": "Outpost HQ",
-                "DialogColor": 16777215,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 2,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 12,
-                "Title": "Starting Gear",
-                "DialogColor": 16777215,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 3,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 13,
-                "Title": "Philosopher's Stone",
-                "DialogColor": 261175,
+                "Dialog": -1,
+                "Title": "Uuh, sure thing!",
+                "DialogColor": 14737632,
                 "OptionType": 1
             }
         }
@@ -47,8 +17,8 @@
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
     "AvailabilityScoreboard2Value": 1,
-    "DialogId": 9,
-    "AvailabilityQuest": 6,
+    "DialogId": 19,
+    "AvailabilityQuest": 3,
     "AvailabilityDialog4": 0,
     "AvailabilityScoreboardObjective": "",
     "AvailabilityDialog3": 0,
@@ -68,7 +38,7 @@
     "AvailabilityScoreboardValue": 1,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Questioning Wuji",
+    "DialogTitle": "Questing in Progress",
     "AvailabilityDialog": 0,
     "AvailabilityScoreboard2Type": 1,
     "AvailabilityFaction2": 0,
@@ -77,7 +47,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "So you still seek more word pointers? What thoughts dance upon your mind in the fullness of this present moment?",
+    "DialogText": "Remember, when the observer turns 180 degrees and becomes the observed, there you will find your true Self. What are you waiting for, go find your Philosopher's Stone!",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -94,7 +64,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597205676190L,
+        "TimePast": 1597205573142L,
         "Time": 0L,
         "Subject": ""
     }
