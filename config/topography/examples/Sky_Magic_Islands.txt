@@ -3,7 +3,6 @@ setSingleBiome("minecraft:void")
 
 //Add Vanilla Biome Types - Creates a new SkyIslandType. The argument is a biome id.
 forest = new SkyIslandType("minecraft:forest")
-forest.generateVillages(10)
 
 cold_taiga = new SkyIslandType("minecraft:taiga_cold")
 
@@ -11,24 +10,20 @@ desert = new SkyIslandType("minecraft:desert")
 desert.disableFluid()
 
 mesa = new SkyIslandType("minecraft:mesa")
-mesa.generateVillages(5)
 
 jungle = new SkyIslandType("minecraft:jungle")
 
 plains = new SkyIslandType("minecraft:plains")
-plains.generateVillages(5)
 
 taiga = new SkyIslandType("minecraft:taiga")
 
 swamp = new SkyIslandType("minecraft:swampland")
 
 mushroom = new SkyIslandType("minecraft:mushroom_island")
-mushroom.generateVillages(10)
 
 ice_plains = new SkyIslandType("minecraft:ice_flats")
 
 savanna = new SkyIslandType("minecraft:savanna")
-savanna.generateVillages(5)
 
 roofed_forest = new SkyIslandType("minecraft:roofed_forest")
 
@@ -58,7 +53,6 @@ bop_tropical_rainforest = new SkyIslandType("biomesoplenty:tropical_rainforest")
 bop_fen = new SkyIslandType("biomesoplenty:fen")
 
 bop_steppe = new SkyIslandType("biomesoplenty:steppe")
-bop_steppe.generateVillages(5)
 
 bop_alps_foothills = new SkyIslandType("biomesoplenty:alps_foothills")
 
@@ -66,10 +60,9 @@ bop_redwood_forest_edge = new SkyIslandType("biomesoplenty:redwood_forest_edge")
 
 bop_bayou = new SkyIslandType("biomesoplenty:bayou")
 
-// Probability of spawning mineshaft in a mountain biome island is (3 e.g. "one in 2" e.g. 50%)
+// Probability of spawning mineshaft in a mountain biome island is ("one in 1" = 100%)
 bop_mountain = new SkyIslandType("biomesoplenty:mountain")
-bop_mountain.generateVillages(5)
-bop_mountain.generateMineshafts(2)
+bop_mountain.generateMineshafts(1)
 
 bop_overgrown_cliffs = new SkyIslandType("biomesoplenty:overgrown_cliffs")
 
@@ -86,7 +79,6 @@ bop_chaparral = new SkyIslandType("biomesoplenty:chaparral")
 bop_flower_island = new SkyIslandType("biomesoplenty:flower_island")
 
 bop_flower_field = new SkyIslandType("biomesoplenty:flower_field")
-bop_flower_field.generateVillages(5)
 
 bop_wetland = new SkyIslandType("biomesoplenty:wetland")
 
@@ -103,7 +95,7 @@ bop_coral_reef = new SkyIslandType("biomesoplenty:coral_reef")
 bop_coral_reef.setFluidPercentage(.8)
 
 bop_orchard = new SkyIslandType("biomesoplenty:orchard")
-bop_orchard.generateVillages(10)
+bop_orchard.generateVillages(4)
 
 bop_moor = new SkyIslandType("biomesoplenty:moor")
 
@@ -124,8 +116,7 @@ bop_snowy_tundra = new SkyIslandType("biomesoplenty:snowy_tundra")
 
 // Probability of spawning mineshaft in alps biome island is (3 e.g. "one in 2" e.g. 50%)
 bop_alps = new SkyIslandType("biomesoplenty:alps")
-bop_alps.generateVillages(5)
-bop_alps.generateMineshafts(2)
+bop_alps.generateMineshafts(1)
 
 bop_lush_desert = new SkyIslandType("biomesoplenty:lush_desert")
 
@@ -138,10 +129,8 @@ bop_redwood_forest = new SkyIslandType("biomesoplenty:redwood_forest")
 bop_cherry_blossom_grove = new SkyIslandType("biomesoplenty:cherry_blossom_grove")
 
 bop_snowy_forest = new SkyIslandType("biomesoplenty:snowy_forest")
-bop_snowy_forest.generateVillages(10)
 
 bop_seasonal_forest = new SkyIslandType("biomesoplenty:seasonal_forest")
-bop_seasonal_forest.generateVillages(10)
 
 bop_temperate_rainforest = new SkyIslandType("biomesoplenty:temperate_rainforest")
 
@@ -154,22 +143,19 @@ bop_dead_swamp = new SkyIslandType("biomesoplenty:dead_swamp")
 bop_kelp_forest = new SkyIslandType("biomesoplenty:kelp_forest")
 
 bop_pasture = new SkyIslandType("biomesoplenty:pasture")
-bop_pasture.generateVillages(5)
 
 bop_glacier = new SkyIslandType("biomesoplenty:glacier")
 
 bop_meadow = new SkyIslandType("biomesoplenty:meadow")
-bop_meadow.generateVillages(5)
+bop_meadow.generateVillages(4)
 
 bop_lush_swamp = new SkyIslandType("biomesoplenty:lush_swamp")
 
 bop_tropical_island = new SkyIslandType("biomesoplenty:tropical_island")
 
 bop_grassland = new SkyIslandType("biomesoplenty:grassland")
-bop_grassland.generateVillages(5)
 
 bop_prairie = new SkyIslandType("biomesoplenty:prairie")
-bop_prairie.generateVillages(5)
 
 bop_snowy_coniferous_forest = new SkyIslandType("biomesoplenty:snowy_coniferous_forest")
 
@@ -182,6 +168,7 @@ bop_gravel_beach = new SkyIslandType("biomesoplenty:gravel_beach")
 bop_grove = new SkyIslandType("biomesoplenty:grove")
 
 bop_lavender_fields = new SkyIslandType("biomesoplenty:lavender_fields")
+bop_lavender_fields.generateVillages(4)
 
 bop_origin_beach = new SkyIslandType("biomesoplenty:origin_beach")
 
@@ -192,7 +179,6 @@ bop_sacred_springs = new SkyIslandType("biomesoplenty:sacred_springs")
 bop_crag = new SkyIslandType("biomesoplenty:crag")
 
 bop_brushland = new SkyIslandType("biomesoplenty:brushland")
-bop_brushland.generateVillages(10)
 
 bop_ominous_woods = new SkyIslandType("biomesoplenty:ominous_woods")
 
@@ -338,7 +324,7 @@ medium.addType(bop_alps_foothills)
 medium.addType(bop_redwood_forest_edge)
 medium.addType(bop_bayou)
 // mountains only for large as they may have a mineshaft structure
-// medium.addType(bop_mountain)
+//medium.addType(bop_mountain)
 medium.addType(bop_overgrown_cliffs)
 medium.addType(bop_highland)
 medium.addType(bop_volcanic_island)
@@ -431,7 +417,7 @@ small.addType(bop_alps_foothills)
 small.addType(bop_redwood_forest_edge)
 small.addType(bop_bayou)
 // mountains only for large as they may have a mineshaft structure
-// small.addType(bop_mountain)
+//small.addType(bop_mountain)
 small.addType(bop_overgrown_cliffs)
 small.addType(bop_highland)
 small.addType(bop_volcanic_island)

@@ -12,7 +12,7 @@ basicSkyIslands.registerDimension(0, "examples/Basic_Sky_Islands")
 
 //=====================================
 //Setup sky magic island config along with some functions
-skyMagicIslands = registerPreset("Sky Magic Islands", "images/Sky_Islands", "Sky Magic Islands using biomes o plenty.")
+skyMagicIslands = registerPreset("Sky Magic Islands", "images/Sky_Magic_Islands", "Sky Magic Islands using biomes o plenty.")
 skyMagicIslands.registerDimension(0, "examples/Sky_Magic_Islands")
 //This function stuff doesnt work at all, going to use https://www.curseforge.com/minecraft/mc-mods/world-primer instead
 //Run these arbitrary commands on the server at the start of the first Dimension 0 world tick
