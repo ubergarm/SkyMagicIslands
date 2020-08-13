@@ -17,7 +17,7 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
         "DecreaseFaction2Points": 0b
     },
     "RewardExp": 7,
-    "QuestCommand": "setblock 20 196 10 waystones:waystone",
+    "QuestCommand": "setblock 20 196 10 waystones:waystone 8 replace {WaystoneName:\"Sky Magic Islands HQ\",IsDummy:0b,WasGenerated:1b,x:20,y:196,z:10,IsMossy:0b,id:\"waystones:waystone\",IsGlobal:0b}",
     "QuestDialogs": [
         {
             "Integer": 13,
@@ -34,7 +34,7 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597353581149L,
+        "TimePast": 1597357722497L,
         "Time": 0L,
         "Subject": ""
     },
