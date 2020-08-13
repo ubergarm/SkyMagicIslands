@@ -17,7 +17,7 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
         "DecreaseFaction2Points": 0b
     },
     "RewardExp": 7,
-    "QuestCommand": "/setblock 20 196 10 waystones:waystone",
+    "QuestCommand": "setblock 20 196 10 waystones:waystone",
     "QuestDialogs": [
         {
             "Integer": 13,

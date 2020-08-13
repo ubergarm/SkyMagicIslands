@@ -18,7 +18,7 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
         "DecreaseFaction2Points": 0b
     },
     "RewardExp": 7,
-    "QuestCommand": "/noppes clone spawn Larry 1 0:14,196,15 Larry",
+    "QuestCommand": "noppes clone spawn Larry 1 0:14,196,15 Larry",
     "ModRev": 18,
     "Type": 0,
     "QuestMail": {
