@@ -1,0 +1,112 @@
+{
+    "CompleterNpc": "Lilith",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Building Materials",
+    "Text": "Lilith asked me for some building materials to help her start a new magic shop. Apparently, I was unable to resist because despite my best intentions I still ended up with this quest.
+
+It shouldn't take too much EMC from my stone table to fill this order. Maybe her shop will be of value to me in the long run?",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 7,
+    "QuestCommand": "/noppes clone spawn Larry 1 0:27,192,12 Buildy",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1597295901317L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "botania:flower",
+                "Count": 1b,
+                "Damage": 10s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "astralsorcery:itemcraftingcomponent",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "brewcraft:cherryvodkaitem",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:stone",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:glass",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:planks",
+                "Count": 64b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "Lilith leaps into the air, arms outstretched, and shouts \"Huzzzzaaaah!\" After catching her breath, she smiles and holds out a fancy bottle of clear liquid, a beautiful blue gem, and a delicate purple flower.
+
+\"A token of my thanks! Next time you come back you better bring gold nuggets—and *lots* of them!\", she says, throwing back her head and laughing.
+
+\"Well no time to waste, let's have a sip of that brew and get to work!\"",
+    "NextQuestTitle": ""
+}

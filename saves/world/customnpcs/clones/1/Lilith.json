@@ -375,7 +375,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 52398,
+    "HurtByTimestamp": 56362,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -662,6 +662,36 @@
         }
     ],
     "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 25,
+                "Title": "Meeting Lilith",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 26,
+                "Title": "Questing in Progress",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 1
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 27,
+                "Title": "Questing Complete",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 2
+        }
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
@@ -845,7 +875,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 231369
+        "naturesaura:time_alive": 342405
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -946,7 +976,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Trader",
-    "TotalTicksAlive": 231343L,
+    "TotalTicksAlive": 342376L,
     "Rotation": [
         274.8357f,
         0.0f
