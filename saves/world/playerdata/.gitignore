@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# except
+!.gitignore
+
+# need this player data which contains only book of knowledge sharing EMC data
+!00000000-0000-0000-0000-000000001337.dat
