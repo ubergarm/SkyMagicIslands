@@ -24,7 +24,7 @@
                     }
                 },
                 "id": "embers:crystal_ember",
-                "Count": 1b,
+                "Count": 2b,
                 "Damage": 0s
             },
             {
@@ -34,7 +34,7 @@
                     }
                 },
                 "id": "embers:shard_ember",
-                "Count": 5b,
+                "Count": 10b,
                 "Damage": 0s
             },
             {
@@ -43,8 +43,8 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "embers:shard_ember",
-                "Count": 3b,
+                "id": "embers:crystal_ember",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
@@ -54,7 +54,7 @@
                     }
                 },
                 "id": "embers:shard_ember",
-                "Count": 2b,
+                "Count": 5b,
                 "Damage": 0s
             },
             {
@@ -64,7 +64,7 @@
                     }
                 },
                 "id": "embers:shard_ember",
-                "Count": 1b,
+                "Count": 3b,
                 "Damage": 0s
             },
             {
@@ -177,6 +177,7 @@
         "Scenes": [
         ]
     },
+    "Bukkit.updateLevel": 2,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -205,6 +206,7 @@
         ]
     },
     "HurtTime": 0s,
+    "WorldUUIDLeast": -6609838725653088669L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
@@ -266,11 +268,19 @@
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
+    "AABB": [
+        16.19999998807907d,
+        185.0d,
+        13.199999988079071d,
+        16.80000001192093d,
+        186.89999997615814d,
+        13.800000011920929d
+    ],
     "NpcInteractLines": {
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 8905,
+    "HurtByTimestamp": 8783,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -393,6 +403,7 @@
             "DialogSlot": 2
         }
     ],
+    "WorldUUIDMost": -217646775100749554L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -497,6 +508,7 @@
             "ScaleX": 1.0f
         }
     },
+    "Spigot.ticksLived": 8991,
     "igCooldownType": 0,
     "minDelay": 20,
     "DoorInteract": 2,
@@ -575,7 +587,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 384095
+        "naturesaura:time_alive": 432508
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -675,7 +687,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Ember Smith",
-    "TotalTicksAlive": 383996L,
+    "TotalTicksAlive": 432426L,
     "Rotation": [
         32.714844f,
         0.0f

@@ -17,7 +17,7 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
         "DecreaseFaction2Points": 0b
     },
     "RewardExp": 7,
-    "QuestCommand": "/setblock ~2 ~ ~ waystones:waystone",
+    "QuestCommand": "/setblock 20 196 10 waystones:waystone",
     "QuestDialogs": [
         {
             "Integer": 13,
@@ -34,7 +34,7 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597347562271L,
+        "TimePast": 1597353581149L,
         "Time": 0L,
         "Subject": ""
     },

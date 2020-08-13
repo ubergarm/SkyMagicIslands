@@ -59,9 +59,9 @@
     "OptionFaction2Points": 100,
     "DialogText": "Aye, words gone round that you just arrived fresh up from the Colony! Well then, {player}, let me offer you a chance to get in on some of the action!
 
-Turns out there ain't any bedrock floatin' around up here from which to collect Ember, but I'm outfitting a mining venture into the heart of the Nethercore to tap the only remaining stuff!
+Turns out there ain't much more bedrock floatin' around up here than this pittance under my feet! So to collect enough Ember, I'm outfitting a mining venture into the heart of the Nethercore to tap the only remaining stuff!
 
-You're welcome to compete with me, or for the cost of only two Ember Bores I'll cut you in on the deal! I'd craft them myself, but I just ran out of clay!
+You're welcome to compete with me, or for the cost of only two Ember Bores and a quarter stack of good fuel: I'll cut you in on the deal! I'd craft it all myself, but I just ran out of clay, and I'm not interested in learnin' how to use those alchemist toys of yours...
 
 What do you say? ",
     "AvailabilityQuest4Id": -1,
@@ -80,7 +80,7 @@ What do you say? ",
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597209168781L,
+        "TimePast": 1597353375694L,
         "Time": 0L,
         "Subject": ""
     }

@@ -142,6 +142,7 @@
         "Scenes": [
         ]
     },
+    "Bukkit.updateLevel": 2,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -170,6 +171,7 @@
         ]
     },
     "HurtTime": 0s,
+    "WorldUUIDLeast": -6609838725653088669L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
@@ -231,11 +233,19 @@
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
+    "AABB": [
+        23.19999998807907d,
+        193.0d,
+        13.199999988079071d,
+        23.80000001192093d,
+        194.89999997615814d,
+        13.800000011920929d
+    ],
     "NpcInteractLines": {
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 20122,
+    "HurtByTimestamp": 12875,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -367,6 +377,7 @@
             "DialogSlot": 3
         }
     ],
+    "WorldUUIDMost": -217646775100749554L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -471,6 +482,7 @@
             "ScaleX": 1.0f
         }
     },
+    "Spigot.ticksLived": 12918,
     "igCooldownType": 0,
     "minDelay": 20,
     "DoorInteract": 2,
@@ -549,7 +561,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 712239
+        "naturesaura:time_alive": 764888
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -651,7 +663,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Quartermaster",
-    "TotalTicksAlive": 712157L,
+    "TotalTicksAlive": 764780L,
     "Rotation": [
         204.45343f,
         0.0f

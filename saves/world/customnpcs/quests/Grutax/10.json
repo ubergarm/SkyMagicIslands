@@ -15,7 +15,7 @@
         "OptionFaction1Points": 100,
         "DecreaseFaction2Points": 0b
     },
-    "RewardExp": 7,
+    "RewardExp": 20,
     "QuestCommand": "",
     "ModRev": 18,
     "Type": 0,
@@ -27,7 +27,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597208869430L,
+        "TimePast": 1597353343593L,
         "Time": 0L,
         "Subject": ""
     },
@@ -43,6 +43,16 @@
                 "id": "embers:crystal_ember",
                 "Count": 1b,
                 "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:shard_ember",
+                "Count": 3b,
+                "Damage": 0s
             }
         ]
     },
@@ -57,10 +67,22 @@
                 "id": "embers:ember_bore",
                 "Count": 2b,
                 "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "projecte:item.pe_fuel",
+                "Count": 16b,
+                "Damage": 0s
             }
         ]
     },
     "LeaveItems": 0b,
-    "CompleteText": "Aye!!! This will contribute a might wee bit to the cause! Here, take this Ember Crystal as a good faith gesture, and remember to come by to collect your daily investment dividends!",
+    "CompleteText": "Aye!!! This will contribute a might wee bit to the cause! Here, take what little Ember I have on-hand, and remember to come by *daily to collect your dividend payments!
+
+*(every 10 real life minutes, same as Sunyata)",
     "NextQuestTitle": ""
 }

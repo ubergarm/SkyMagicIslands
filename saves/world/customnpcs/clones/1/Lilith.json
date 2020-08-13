@@ -39,6 +39,7 @@
         "Scenes": [
         ]
     },
+    "Bukkit.updateLevel": 2,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -305,6 +306,7 @@
         ]
     },
     "HurtTime": 0s,
+    "WorldUUIDLeast": -6609838725653088669L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
@@ -366,6 +368,14 @@
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
+    "AABB": [
+        5.199999988079071d,
+        191.0d,
+        10.199999988079071d,
+        5.800000011920929d,
+        192.89999997615814d,
+        10.800000011920929d
+    ],
     "NpcInteractLines": {
         "Lines": [
             {
@@ -375,7 +385,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 21799,
+    "HurtByTimestamp": 7138,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -693,6 +703,7 @@
             "DialogSlot": 2
         }
     ],
+    "WorldUUIDMost": -217646775100749554L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -797,6 +808,7 @@
             "ScaleX": 1.0f
         }
     },
+    "Spigot.ticksLived": 7347,
     "minDelay": 20,
     "DoorInteract": 2,
     "MoveSpeed": 5,
@@ -812,7 +824,7 @@
     "AttackSpeed": 20,
     "PotionDuration": 5,
     "maxDelay": 40,
-    "ScriptEnabled": 0b,
+    "ScriptEnabled": 1b,
     "Role": 1,
     "DropChance": [
         {
@@ -875,7 +887,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 532155
+        "naturesaura:time_alive": 566582
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -976,7 +988,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Trader",
-    "TotalTicksAlive": 532007L,
+    "TotalTicksAlive": 566281L,
     "Rotation": [
         274.8357f,
         0.0f
