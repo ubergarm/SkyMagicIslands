@@ -15,149 +15,11 @@
     "BossBar": 0b,
     "RespawnTime": 20,
     "NpcAngrySound": "",
-    "igJobInventory": {
-        "NpcMiscInv": [
-            {
-                "Slot": 0b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "embers:crystal_ember",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 1b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "embers:shard_ember",
-                "Count": 5b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 2b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "embers:shard_ember",
-                "Count": 3b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 3b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "embers:shard_ember",
-                "Count": 2b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 4b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "embers:shard_ember",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 5b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "embers:dust_ember",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 6b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "embers:nugget_dawnstone",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 7b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "minecraft:blaze_rod",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 8b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "minecraft:skull",
-                "Count": 1b,
-                "Damage": 1s
-            }
-        ]
-    },
     "ReactsToFire": 0b,
-    "igLines": [
-        {
-            "Line": "This is your fair share of today's haul, {player}!"
-        },
-        {
-            "Line": "Not every day yields the same, but that is life, eh, {player}?"
-        },
-        {
-            "Line": "The Nethercore is filled with Ember and Monsters!"
-        }
-    ],
     "IgnoreCobweb": 0b,
     "PositionOffsetZ": 5.0f,
     "PositionOffsetY": 5.0f,
     "PositionOffsetX": 5.0f,
-    "igAvailability": {
-        "AvailabilityQuestId": 10,
-        "AvailabilityScoreboardType": 1,
-        "AvailabilityFactionStance": 0,
-        "AvailabilityScoreboard2Value": 1,
-        "AvailabilityQuest": 1,
-        "AvailabilityDialog4": 0,
-        "AvailabilityScoreboardObjective": "",
-        "AvailabilityDialog3": 0,
-        "AvailabilityQuest2": 0,
-        "AvailabilityQuest3": 0,
-        "AvailabilityScoreboard2Objective": "",
-        "AvailabilityQuest4": 0,
-        "ModRev": 18,
-        "AvailabilityDialog2": 0,
-        "AvailabilityDayTime": 0,
-        "AvailabilityFaction2Id": -1,
-        "AvailabilityScoreboardValue": 1,
-        "AvailabilityFaction": 0,
-        "AvailabilityDialog": 0,
-        "AvailabilityScoreboard2Type": 1,
-        "AvailabilityFaction2": 0,
-        "AvailabilityFactionId": -1,
-        "AvailabilityFaction2Stance": 0,
-        "AvailabilityDialogId": -1,
-        "AvailabilityQuest4Id": -1,
-        "AvailabilityQuest3Id": -1,
-        "AvailabilityQuest2Id": -1,
-        "AvailabilityDialog2Id": -1,
-        "AvailabilityDialog3Id": -1,
-        "AvailabilityDialog4Id": -1,
-        "AvailabilityMinPlayerLevel": 0
-    },
     "LootMode": 0,
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
@@ -198,6 +60,244 @@
         0.085f
     ],
     "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:crystal_essence",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 1,
+                            "key": "aer"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "astralsorcery:blockcustomsandore",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:white_sage",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:crystal_essence",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 1,
+                            "key": "aqua"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "astralsorcery:blockcustomore",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:garlic_seeds",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:crystal_essence",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 1,
+                            "key": "ordo"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:opal_ore",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:mandrake_seeds",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:crystal_essence",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 1,
+                            "key": "perditio"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:garnet_ore",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "roots:wildroot",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:crystal_essence",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 1,
+                            "key": "terra"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:salt_ore",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "botania:mushroom",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:crystal_essence",
+                "Count": 1b,
+                "tag": {
+                    "Aspects": [
+                        {
+                            "amount": 1,
+                            "key": "ignis"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "forge:bucketfilled",
+                "Count": 1b,
+                "tag": {
+                    "FluidName": "lifeessence",
+                    "Amount": 1000
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "biomesoplenty:willow_vine",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
     "StandingState": 0,
     "AttackInvisible": 0b,
     "NpcInteractNPCLines": {
@@ -208,6 +308,7 @@
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
+    "TraderIgnoreDamage": 0b,
     "AttackRange": 2,
     "NpcKillLines": {
         "Lines": [
@@ -215,8 +316,8 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/entity/dwarfmale/dwarf_keeper.png",
-    "NpcJob": 4,
+    "Texture": "customnpcs:textures/entity/elffemale/elfwarrior.png",
+    "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
         "Lines": [
@@ -228,7 +329,6 @@
     "pImpact": 0,
     "MoveState": 0,
     "pRender3D": 1b,
-    "igCooldown": 600,
     "Motion": [
         0.0d,
         -0.0784000015258789d,
@@ -251,7 +351,7 @@
         "Lines": [
         ]
     },
-    "igGivingMethod": 0,
+    "TraderMarket": "",
     "Fire": -1s,
     "ArmorItems": [
         {
@@ -268,9 +368,208 @@
     "TransformHasInv": 0b,
     "NpcInteractLines": {
         "Lines": [
+            {
+                "Line": "Magical arts require the finest of materials!",
+                "Song": "",
+                "Slot": 0
+            }
         ]
     },
-    "HurtByTimestamp": 8905,
+    "HurtByTimestamp": 52398,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 18b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 18b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 18b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 6b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 34b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:bucket",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -330,7 +629,7 @@
     "NoFallDamage": 0b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "Grutax",
+    "Name": "Lilith",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
@@ -343,10 +642,11 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "embers:ignition_cannon",
+            "id": "astralsorcery:itemilluminationwand",
             "Count": 1b,
             "tag": {
-                "cooldown": 0
+                "astralsorcery": {
+                }
             },
             "Damage": 0s
         },
@@ -356,42 +656,12 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "embers:shard_ember",
+            "id": "roots:infernal_bulb",
             "Count": 1b,
             "Damage": 0s
         }
     ],
     "NPCDialogOptions": [
-        {
-            "NPCDialog": {
-                "DialogCommand": "",
-                "Dialog": 20,
-                "Title": "Meeting Grutax",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            },
-            "DialogSlot": 0
-        },
-        {
-            "NPCDialog": {
-                "DialogCommand": "",
-                "Dialog": 22,
-                "Title": "Questing In Progress",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            },
-            "DialogSlot": 1
-        },
-        {
-            "NPCDialog": {
-                "DialogCommand": "",
-                "Dialog": 23,
-                "Title": "Questing Complete",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            },
-            "DialogSlot": 2
-        }
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
@@ -464,7 +734,7 @@
             "PositionY": 1,
             "SkinColor": 11830381,
             "PlayerTexture": 0b,
-            "Color": 5013401,
+            "Color": 10040115,
             "BrowColor": 5982516,
             "BrowThickness": 4
         },
@@ -497,7 +767,6 @@
             "ScaleX": 1.0f
         }
     },
-    "igCooldownType": 0,
     "minDelay": 20,
     "DoorInteract": 2,
     "MoveSpeed": 5,
@@ -506,14 +775,15 @@
     "Leashed": 0b,
     "SkinUrl": "",
     "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
     "GroundSound": "minecraft:block.stone.break",
     "MaxHealth": 20,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
     "PotionDuration": 5,
     "maxDelay": 40,
-    "ScriptEnabled": 1b,
-    "Role": 0,
+    "ScriptEnabled": 0b,
+    "Role": 1,
     "DropChance": [
         {
             "Integer": 100,
@@ -575,7 +845,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 315793
+        "naturesaura:time_alive": 231369
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -603,9 +873,9 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "bibliocraft:biblioglasses",
+            "id": "roots:sylvan_helmet",
             "Count": 1b,
-            "Damage": 2s
+            "Damage": 0s
         },
         {
             "Slot": 1b,
@@ -615,7 +885,7 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "embers:ashen_cloak_chest",
+            "id": "roots:sylvan_chestplate",
             "Count": 1b,
             "Damage": 0s
         },
@@ -627,8 +897,10 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "thaumcraft:crimson_plate_legs",
+            "id": "botania:manaweavelegs",
             "Count": 1b,
+            "tag": {
+            },
             "Damage": 0s
         },
         {
@@ -639,7 +911,7 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "embers:ashen_cloak_boots",
+            "id": "roots:sylvan_boots",
             "Count": 1b,
             "Damage": 0s
         }
@@ -648,8 +920,7 @@
     "GlowTexture": "",
     "MaxFiringRange": 15,
     "pXlr8": 0b,
-    "MarkovGeneratorId": 4,
-    "ItemGiverId": 0,
+    "MarkovGeneratorId": 3,
     "Scripts": [
         {
             "Script": "// When a CustomNPC stored in NBT structure spawns into a new world,
@@ -674,10 +945,10 @@ function init(event) {
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
-    "Title": "Ember Smith",
-    "TotalTicksAlive": 315774L,
+    "Title": "Trader",
+    "TotalTicksAlive": 231343L,
     "Rotation": [
-        32.714844f,
+        274.8357f,
         0.0f
     ],
     "ShowName": 0,

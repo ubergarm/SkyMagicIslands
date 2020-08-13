@@ -235,7 +235,7 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 45508,
+    "HurtByTimestamp": 37905,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -549,7 +549,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 351569
+        "naturesaura:time_alive": 588939
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -651,7 +651,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Quartermaster",
-    "TotalTicksAlive": 351533L,
+    "TotalTicksAlive": 588888L,
     "Rotation": [
         204.45343f,
         0.0f

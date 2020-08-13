@@ -130,7 +130,7 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 72859,
+    "HurtByTimestamp": 37037,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -445,7 +445,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 425079
+        "naturesaura:time_alive": 662736
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -534,7 +534,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Guru",
-    "TotalTicksAlive": 425030L,
+    "TotalTicksAlive": 662683L,
     "Rotation": [
         40.05028f,
         0.0f
