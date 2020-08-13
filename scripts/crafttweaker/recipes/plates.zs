@@ -27,13 +27,27 @@ recipes.addShapeless("thaumcraft_voidplate", <thaumcraft:plate:3>, [<ore:ingotVo
 // Add Embers Melter Recipes
 // github.com/DaedalusGame/EmbersRekindled/wiki/CraftTweaker-Support
 // mods.embers.Melter.add(ILiquidStack <outputfluid>,IIngredient <input>);
+mods.embers.Melter.add(<fluid:alchemicalbrass> * 144, <ore:ingotBrass>);
+mods.embers.Melter.add(<fluid:alchemicalbrass> * 16, <ore:nuggetBrass>);
+mods.embers.Melter.add(<fluid:alchemicalbrass> * 144, <ore:plateBrass>);
+
 mods.embers.Melter.add(<fluid:thaumium> * 144, <ore:ingotThaumium>);
 mods.embers.Melter.add(<fluid:thaumium> * 16, <ore:nuggetThaumium>);
 mods.embers.Melter.add(<fluid:thaumium> * 144, <ore:plateThaumium>);
 
+mods.embers.Melter.add(<fluid:voidmetal> * 144, <ore:ingotVoid>);
+mods.embers.Melter.add(<fluid:voidmetal> * 16, <ore:nuggetVoid>);
+mods.embers.Melter.add(<fluid:voidmetal> * 144, <ore:plateVoid>);
+
 // Add Embers Stamper Recipes
 // github.com/DaedalusGame/EmbersRekindled/wiki/CraftTweaker-Support
 // mods.embers.Stamper.add(IItemStack <output>,ILiquidStack <liquid>,IIngredient <stamp>,IIngredient <input>);
+mods.embers.Stamper.add(<thaumcraft:plate>, <fluid:alchemicalbrass> * 144, <embers:stamp_plate>, null);
+mods.embers.Stamper.add(<thaumcraft:ingot:2>, <fluid:alchemicalbrass> * 144, <embers:stamp_bar>, null);
+
 mods.embers.Stamper.add(<thaumcraft:plate:2>, <fluid:thaumium> * 144, <embers:stamp_plate>, null);
 mods.embers.Stamper.add(<thaumcraft:ingot>, <fluid:thaumium> * 144, <embers:stamp_bar>, null);
+
+mods.embers.Stamper.add(<thaumcraft:plate:3>, <fluid:voidmetal> * 144, <embers:stamp_plate>, null);
+mods.embers.Stamper.add(<thaumcraft:ingot:1>, <fluid:voidmetal> * 144, <embers:stamp_bar>, null);
 
