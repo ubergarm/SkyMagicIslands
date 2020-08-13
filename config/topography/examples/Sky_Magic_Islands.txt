@@ -481,7 +481,7 @@ small.addType(thc_magical_forest)
 
 //=====================================
 //Sets the nbt spawn structure for the dimension at y=176
-setSpawnStructure("smi_spawn", 176)
+setSpawnStructure("smi_spawn_island", 176)
 
 //=====================================
 //Disable Nether Portal Creation

@@ -375,7 +375,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 56362,
+    "HurtByTimestamp": 21799,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -424,8 +424,8 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:gold_nugget",
-                "Count": 18b,
+                "id": "minecraft:ender_pearl",
+                "Count": 4b,
                 "Damage": 0s
             },
             {
@@ -875,7 +875,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 342405
+        "naturesaura:time_alive": 532155
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -976,7 +976,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Trader",
-    "TotalTicksAlive": 342376L,
+    "TotalTicksAlive": 532007L,
     "Rotation": [
         274.8357f,
         0.0f

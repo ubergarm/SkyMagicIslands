@@ -48,7 +48,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Great! A stack of stone, glass, and oak wood will be enough to get started! My crew can handle the rest!",
+    "DialogText": "Great! Let's see, I think a stack of stone, half a stack of oak wood, and half a stack of white wool will be enough to get started! Once you deliver the building materials, my crew can handle the rest!",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -65,7 +65,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597294879214L,
+        "TimePast": 1597346691723L,
         "Time": 0L,
         "Subject": ""
     }

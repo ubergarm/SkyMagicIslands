@@ -29,7 +29,7 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597295901317L,
+        "TimePast": 1597347644921L,
         "Time": 0L,
         "Subject": ""
     },
@@ -86,8 +86,8 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:glass",
-                "Count": 64b,
+                "id": "minecraft:wool",
+                "Count": 32b,
                 "Damage": 0s
             },
             {
@@ -96,8 +96,8 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:planks",
-                "Count": 64b,
+                "id": "minecraft:log",
+                "Count": 32b,
                 "Damage": 0s
             }
         ]

@@ -575,7 +575,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 315793
+        "naturesaura:time_alive": 384095
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -675,7 +675,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Ember Smith",
-    "TotalTicksAlive": 315774L,
+    "TotalTicksAlive": 383996L,
     "Rotation": [
         32.714844f,
         0.0f

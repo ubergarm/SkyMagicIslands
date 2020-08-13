@@ -445,7 +445,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 662736
+        "naturesaura:time_alive": 741215
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -534,7 +534,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Guru",
-    "TotalTicksAlive": 662683L,
+    "TotalTicksAlive": 741135L,
     "Rotation": [
         40.05028f,
         0.0f
