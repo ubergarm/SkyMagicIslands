@@ -235,6 +235,38 @@
     {
       "item": "mysticalworld:assorted_seeds|0",
       "emc": 0
+    },
+    {
+      "item": "ceramics:clay_bucket|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:enchanted_book|0",
+      "emc": 0
+    },
+    {
+      "item": "ceramics:clay_barrel|1",
+      "emc": 0
+    },
+    {
+      "item": "ceramics:clay_barrel|0",
+      "emc": 0
+    },
+    {
+      "item": "ceramics:porcelain_barrel_extension|0",
+      "emc": 0
+    },
+    {
+      "item": "ceramics:porcelain_barrel|0",
+      "emc": 0
+    },
+    {
+      "item": "ceramics:faucet|0",
+      "emc": 0
+    },
+    {
+      "item": "ceramics:channel|0",
+      "emc": 0
     }
   ]
 }
