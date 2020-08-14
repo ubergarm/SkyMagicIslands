@@ -39,6 +39,7 @@
         "Scenes": [
         ]
     },
+    "Bukkit.updateLevel": 2,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -60,6 +61,288 @@
         0.085f
     ],
     "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 1s,
+                            "id": 0s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 1s,
+                            "id": 2s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "mutantbeasts:endersoul_hand",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 4s,
+                            "id": 0s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 4s,
+                            "id": 2s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "flying_things:pumpkin_stick",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 1s,
+                            "id": 3s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 1s,
+                            "id": 32s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "flying_things:phial_of_animation",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 4s,
+                            "id": 3s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 5s,
+                            "id": 32s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bountifulbaubles:trinketobsidianskull",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 1s,
+                            "id": 21s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 1s,
+                            "id": 33s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bountifulbaubles:magicmirror",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:enchanted_book",
+                "Count": 1b,
+                "tag": {
+                    "StoredEnchantments": [
+                        {
+                            "lvl": 3s,
+                            "id": 21s
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bountifulbaubles:potionwormhole",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bountifulbaubles:trinketballoon",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
     "StandingState": 0,
     "AttackInvisible": 0b,
     "NpcInteractNPCLines": {
@@ -67,9 +350,11 @@
         ]
     },
     "HurtTime": 0s,
+    "WorldUUIDLeast": -8765114184978053259L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
+    "TraderIgnoreDamage": 0b,
     "AttackRange": 2,
     "NpcKillLines": {
         "Lines": [
@@ -112,6 +397,7 @@
         "Lines": [
         ]
     },
+    "TraderMarket": "",
     "Fire": -1s,
     "ArmorItems": [
         {
@@ -126,26 +412,398 @@
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
+    "AABB": [
+        -71.80000001192093d,
+        161.0d,
+        38.19999998807907d,
+        -71.19999998807907d,
+        162.89999997615814d,
+        38.80000001192093d
+    ],
     "NpcInteractLines": {
         "Lines": [
             {
-                "Line": "Don't mind us, just friends of Lilith here!",
+                "Line": "I deal in those subtle magical arts...",
                 "Song": "",
                 "Slot": 0
             },
             {
-                "Line": "Have you seen my brother, Larry?",
+                "Line": "Have you seen my other cousin, Larry?",
                 "Song": "",
                 "Slot": 1
             },
             {
-                "Line": "Hi, I'm Larry, and this is my brother Larry.",
+                "Line": "All good magicians must learn how to build too!",
                 "Song": "",
                 "Slot": 2
             }
         ]
     },
-    "HurtByTimestamp": 9772,
+    "HurtByTimestamp": 43405,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:plate_lead",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:feather",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:skull",
+                "Count": 1b,
+                "Damage": 1s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:plate_lead",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:feather",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:nitor_yellow",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gunpowder",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:redstone_block",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "botania:manaresource",
+                "Count": 4b,
+                "Damage": 5s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gunpowder",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:redstone_block",
+                "Count": 10b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:bottled_hellfire",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:skull",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:slime_ball",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "embers:aspectus_dawnstone",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:skull",
+                "Count": 6b,
+                "Damage": 2s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "bewitchment:bottled_frostfire",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "totemic:eagle_drops",
+                "Count": 4b,
+                "Damage": 1s
+            },
+            {
+                "Slot": 18b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 19b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 20b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 21b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:nether_star",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 22b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:nether_star",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 23b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:lapis_block",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 24b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 25b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 26b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:lapis_block",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 27b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:nether_star",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 28b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:nether_star",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 29b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:lapis_block",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 30b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:gold_nugget",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 31b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:ghast_tear",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 32b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:lapis_block",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 33b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:ghast_tear",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 34b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:nether_wart",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 35b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:lapis_block",
+                "Count": 8b,
+                "Damage": 0s
+            }
+        ]
+    },
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -225,6 +883,7 @@
     ],
     "NPCDialogOptions": [
     ],
+    "WorldUUIDMost": 8108436172201608631L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -276,7 +935,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransX": 0.012000002f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -313,7 +972,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransX": -0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -329,14 +988,16 @@
             "ScaleX": 1.0f
         }
     },
+    "Spigot.ticksLived": 43663,
     "minDelay": 20,
-    "DoorInteract": 2,
+    "DoorInteract": 1,
     "MoveSpeed": 5,
     "TransformEditingModus": 0b,
     "UsingSkinUrl": 0b,
     "Leashed": 0b,
     "SkinUrl": "",
     "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
     "GroundSound": "minecraft:block.stone.break",
     "MaxHealth": 20,
     "HideBodyWhenKilled": 0b,
@@ -344,7 +1005,7 @@
     "PotionDuration": 5,
     "maxDelay": 40,
     "ScriptEnabled": 0b,
-    "Role": 0,
+    "Role": 1,
     "DropChance": [
         {
             "Integer": 100,
@@ -406,7 +1067,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 10195
+        "naturesaura:time_alive": 53940
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -476,10 +1137,10 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "",
-    "TotalTicksAlive": 10145L,
+    "TotalTicksAlive": 53808L,
     "Rotation": [
         46.89441f,
-        0.0f
+        -0.09866774f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
