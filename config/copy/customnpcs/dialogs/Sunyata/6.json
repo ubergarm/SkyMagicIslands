@@ -59,7 +59,9 @@
     "OptionFaction2Points": 100,
     "DialogText": "That old Wuji sure is something, eh? Though others before me have said, \"That old Wuji sure is nothing, eh?\"... Don't worry, I don't understand either. One can only innerstand such things!
 
-You're welcome to return here as often as you like! Make good use of the new Waystone behind you there to come collect your daily pay from me.
+You're welcome to return here as often as you like! Make good use of the new Waystone up there to come collect your *daily stipend from me.
+
+*(every 10 real life minutes - you must walk away at leat 10 blocks then come back within 3 blocks of NPC to trigger payouts)
 
 Until next time!",
     "AvailabilityQuest4Id": -1,
