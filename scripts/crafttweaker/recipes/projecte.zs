@@ -73,7 +73,7 @@ recipes.removeByRecipeName("projecte:philosophers_stone_alt");
 recipes.removeByRecipeName("projecte:philosophers_stone");
 recipes.addShaped("projecte_philosophers_stone", <projecte:item.pe_philosophers_stone>,
   [
-    [<embers:aspectus_dawnstone>, <bloodmagic:blood_orb>.withTag({orb:"bloodmagic:weak"}), <thaumcraft:nitor_yellow>],
+    [<embers:aspectus_lead>, <bloodmagic:blood_orb>.withTag({orb:"bloodmagic:weak"}), <thaumcraft:nitor_yellow>],
     [<astralsorcery:itemcraftingcomponent:2>, <totemic:stripped_cedar_log>, <bewitchment:bottled_frostfire>],
     [<botania:alchemycatalyst>, <roots:elemental_soil>, <naturesaura:conversion_catalyst>]
   ]
