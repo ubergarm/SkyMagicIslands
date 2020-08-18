@@ -32,6 +32,7 @@ removeAndHide(<randomthings:spectrecoil_ender>);
 removeAndHide(<randomthings:spectrecoil_number>);
 removeAndHide(<randomthings:spectrecoil_genesis>);
 removeAndHide(<randomthings:eclipsedclock>);
+removeAndHide(<randomthings:timeinabottle>);
 removeAndHide(<randomthings:spectrecharger>);
 removeAndHide(<randomthings:spectrecharger:1>);
 removeAndHide(<randomthings:spectrecharger:2>);
@@ -45,12 +46,13 @@ removeAndHide(<randomthings:potionvaporizer>);
 removeAndHide(<randomthings:rainshield>);
 removeAndHide(<randomthings:biomeradar>);
 removeAndHide(<randomthings:irondropper>);
+removeAndHide(<randomthings:blockbreaker>);
 
-// Remove and Hide Floo Powder and Port Key teleportation
-// because it seems kind of cheap price compared to alternatives
+// Remove and Hide Floo Powder
+// because we already got waystones and other ways too
+// leaving in the portkey as it has unique usages
 removeAndHide(<randomthings:ingredient:7>);
 removeAndHide(<randomthings:floosign>);
 removeAndHide(<randomthings:flootoken>);
 removeAndHide(<randomthings:floopouch>);
 removeAndHide(<randomthings:floobrick>);
-removeAndHide(<randomthings:portkey>);
