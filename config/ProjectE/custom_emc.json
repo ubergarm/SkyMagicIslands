@@ -267,6 +267,34 @@
     {
       "item": "ceramics:channel|0",
       "emc": 0
+    },
+    {
+      "item": "harvestcraft:boiledeggitem|0",
+      "emc": 0
+    },
+    {
+      "item": "harvestcraft:scrambledeggitem|0",
+      "emc": 0
+    },
+    {
+      "item": "harvestcraft:friedeggitem|0",
+      "emc": 0
+    },
+    {
+      "item": "harvestcraft:marshmellowsitem|0",
+      "emc": 0
+    },
+    {
+      "item": "harvestcraft:stockitem|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cake|0",
+      "emc": 0
+    },
+    {
+      "item": "harvestcraft:caramelitem|0",
+      "emc": 0
     }
   ]
 }
