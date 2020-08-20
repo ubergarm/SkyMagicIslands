@@ -295,6 +295,10 @@
     {
       "item": "harvestcraft:caramelitem|0",
       "emc": 0
+    },
+    {
+      "item": "patchouli:guide_book|0",
+      "emc": 0
     }
   ]
 }
