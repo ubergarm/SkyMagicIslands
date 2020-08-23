@@ -299,6 +299,10 @@
     {
       "item": "patchouli:guide_book|0",
       "emc": 0
+    },
+    {
+      "item": "botania:lexicon|0",
+      "emc": 0
     }
   ]
 }
