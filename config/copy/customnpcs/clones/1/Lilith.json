@@ -274,17 +274,11 @@
             {
                 "Slot": 16b,
                 "ForgeCaps": {
-                    "astralsorcery:cap_item_amulet_holder": {
-                    },
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "forge:bucketfilled",
+                "id": "minecraft:iron_ore",
                 "Count": 1b,
-                "tag": {
-                    "FluidName": "lifeessence",
-                    "Amount": 1000
-                },
                 "Damage": 0s
             },
             {
@@ -565,16 +559,6 @@
                     }
                 },
                 "id": "minecraft:gold_nugget",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 34b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "minecraft:bucket",
                 "Count": 1b,
                 "Damage": 0s
             }

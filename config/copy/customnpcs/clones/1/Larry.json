@@ -107,7 +107,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "mutantbeasts:endersoul_hand",
+                "id": "mutantbeasts:mutant_skeleton_skull",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -198,10 +198,12 @@
             {
                 "Slot": 8b,
                 "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "flying_things:phial_of_animation",
+                "id": "bountifulbaubles:trinketobsidianskull",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -249,7 +251,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "bountifulbaubles:trinketobsidianskull",
+                "id": "bountifulbaubles:magicmirror",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -297,7 +299,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "bountifulbaubles:magicmirror",
+                "id": "bountifulbaubles:trinketballoon",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -337,8 +339,12 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "bountifulbaubles:trinketballoon",
+                "id": "forge:bucketfilled",
                 "Count": 1b,
+                "tag": {
+                    "FluidName": "lifeessence",
+                    "Amount": 1000
+                },
                 "Damage": 0s
             }
         ]
@@ -350,7 +356,7 @@
         ]
     },
     "HurtTime": 0s,
-    "WorldUUIDLeast": -8765114184978053259L,
+    "WorldUUIDLeast": -8032264184787003449L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
@@ -413,12 +419,12 @@
     "pPhysics": 1b,
     "TransformHasInv": 0b,
     "AABB": [
-        -71.80000001192093d,
-        161.0d,
-        38.19999998807907d,
-        -71.19999998807907d,
-        162.89999997615814d,
-        38.80000001192093d
+        6.199999988079071d,
+        192.5d,
+        13.199999988079071d,
+        6.800000011920929d,
+        194.39999997615814d,
+        13.800000011920929d
     ],
     "NpcInteractLines": {
         "Lines": [
@@ -436,10 +442,15 @@
                 "Line": "All good magicians must learn how to build too!",
                 "Song": "",
                 "Slot": 2
+            },
+            {
+                "Line": "I recently brewed up some Chemical X! Dangerous stuff!",
+                "Song": "",
+                "Slot": 3
             }
         ]
     },
-    "HurtByTimestamp": 43405,
+    "HurtByTimestamp": 61697,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -498,9 +509,9 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "thaumcraft:nitor_yellow",
-                "Count": 4b,
-                "Damage": 0s
+                "id": "botania:manaresource",
+                "Count": 3b,
+                "Damage": 5s
             },
             {
                 "Slot": 6b,
@@ -508,7 +519,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:gunpowder",
+                "id": "minecraft:tnt",
                 "Count": 2b,
                 "Damage": 0s
             },
@@ -528,9 +539,9 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "botania:manaresource",
-                "Count": 4b,
-                "Damage": 5s
+                "id": "bewitchment:bottled_hellfire",
+                "Count": 3b,
+                "Damage": 0s
             },
             {
                 "Slot": 9b,
@@ -538,7 +549,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:gunpowder",
+                "id": "minecraft:tnt",
                 "Count": 8b,
                 "Damage": 0s
             },
@@ -558,8 +569,8 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "bewitchment:bottled_hellfire",
-                "Count": 4b,
+                "id": "embers:aspectus_dawnstone",
+                "Count": 3b,
                 "Damage": 0s
             },
             {
@@ -588,9 +599,9 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "embers:aspectus_dawnstone",
-                "Count": 8b,
-                "Damage": 0s
+                "id": "totemic:eagle_drops",
+                "Count": 3b,
+                "Damage": 1s
             },
             {
                 "Slot": 15b,
@@ -618,9 +629,9 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "totemic:eagle_drops",
-                "Count": 4b,
-                "Damage": 1s
+                "id": "minecraft:bucket",
+                "Count": 1b,
+                "Damage": 0s
             },
             {
                 "Slot": 18b,
@@ -648,8 +659,8 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:gold_nugget",
-                "Count": 9b,
+                "id": "minecraft:lapis_block",
+                "Count": 16b,
                 "Damage": 0s
             },
             {
@@ -739,7 +750,7 @@
                     }
                 },
                 "id": "minecraft:lapis_block",
-                "Count": 16b,
+                "Count": 8b,
                 "Damage": 0s
             },
             {
@@ -769,7 +780,7 @@
                     }
                 },
                 "id": "minecraft:lapis_block",
-                "Count": 8b,
+                "Count": 4b,
                 "Damage": 0s
             },
             {
@@ -799,7 +810,7 @@
                     }
                 },
                 "id": "minecraft:lapis_block",
-                "Count": 8b,
+                "Count": 1b,
                 "Damage": 0s
             }
         ]
@@ -883,7 +894,7 @@
     ],
     "NPCDialogOptions": [
     ],
-    "WorldUUIDMost": 8108436172201608631L,
+    "WorldUUIDMost": 32953976858559081L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -988,7 +999,7 @@
             "ScaleX": 1.0f
         }
     },
-    "Spigot.ticksLived": 43663,
+    "Spigot.ticksLived": 61732,
     "minDelay": 20,
     "DoorInteract": 1,
     "MoveSpeed": 5,
@@ -1067,7 +1078,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 53940
+        "naturesaura:time_alive": 72104
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -1137,10 +1148,10 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "",
-    "TotalTicksAlive": 53808L,
+    "TotalTicksAlive": 71877L,
     "Rotation": [
-        46.89441f,
-        -0.09866774f
+        271.19748f,
+        0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
