@@ -1,0 +1,74 @@
+[
+  {
+    "name": "roots:elemental_soil",
+    "mod": "roots",
+    "soil": {
+      "name": "roots:elemental_soil",
+      "data": 0,
+      "ignoreMeta": false
+    },
+    "modifiers": {
+      "growTime": 1.00,
+      "dropChance": 1.00
+    },
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "roots:elemental_soil_earth",
+    "mod": "roots",
+    "soil": {
+      "name": "roots:elemental_soil_earth",
+      "data": 0,
+      "ignoreMeta": false
+    },
+    "modifiers": {
+      "growTime": 1.00,
+      "dropChance": 2.00
+    },
+    "providedTags": [ "dirt", "grass", "sand" ]
+  },
+  {
+    "name": "roots:elemental_soil_air",
+    "mod": "roots",
+    "soil": {
+      "name": "roots:elemental_soil_air",
+      "data": 0,
+      "ignoreMeta": false
+    },
+    "modifiers": {
+      "growTime": 0.50,
+      "dropChance": 1.00
+    },
+    "providedTags": [ "dirt", "grass" ]
+  },
+  {
+    "name": "roots:elemental_soil_fire",
+    "mod": "roots",
+    "soil": {
+      "name": "roots:elemental_soil_fire",
+      "data": 0,
+      "ignoreMeta": false
+    },
+    "modifiers": {
+      "growTime": 1.0,
+      "dropChance": 1.2
+    },
+    "providedTags": [ "netherrack" ]
+  },
+  {
+    "name": "roots:elemental_soil_water",
+    "mod": "roots",
+    "soil": {
+      "name": "roots:elemental_soil_water",
+      "data": 0,
+      "ignoreMeta": false
+    },
+    "modifiers": {
+      "growTime": 0.90,
+      "dropChance": 1.25
+    },
+    "providedTags": [ "dirt", "grass" ]
+  }
+]
+
+
