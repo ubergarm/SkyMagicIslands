@@ -303,6 +303,14 @@
     {
       "item": "botania:lexicon|0",
       "emc": 0
+    },
+    {
+      "item": "totemic:totempedia|0",
+      "emc": 0
+    },
+    {
+      "item": "randomthings:glowingmushroom|0",
+      "emc": 64
     }
   ]
 }
