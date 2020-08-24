@@ -7,21 +7,12 @@ printDocumentation(false)
 setAsDefaultWorldType()
 
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
-basicSkyIslands = registerPreset("Basic Sky Islands", "images/Sky_Islands", "Sky Islands of various biomes and sizes.")
-basicSkyIslands.registerDimension(0, "examples/Basic_Sky_Islands")
-
-//=====================================
-//Setup sky magic island config along with some functions
 skyMagicIslands = registerPreset("Sky Magic Islands", "images/Sky_Magic_Islands", "Sky Magic Islands using biomes o plenty.")
 skyMagicIslands.registerDimension(0, "examples/Sky_Magic_Islands")
-//This function stuff doesnt work at all, going to use https://www.curseforge.com/minecraft/mc-mods/world-primer instead
-//Run these arbitrary commands on the server at the start of the first Dimension 0 world tick
-//Put the function in a file like minecraft/world/data/functions/blinkgear/myspawn.mcfunction
-//And call it with blinkgear:myspawn or blinkgear:stuff/mycommand etc...
-//skyMagicIslands.addInitialServerFunction("blinkgear:myspawn")
-//Run these arbitrary commands on the server when any player first logs in
-//skyMagicIslands.addInitialPlayerFunction("blinkgear:myspawn")
-//=====================================
+//skyMagicIslands.addInitialPlayerFunction("smi:testspawn")
+
+basicSkyIslands = registerPreset("Basic Sky Islands", "images/Sky_Islands", "Sky Islands of various biomes and sizes.")
+basicSkyIslands.registerDimension(0, "examples/Basic_Sky_Islands")
 
 overworld = registerPreset("Overworld", "images/Overworld", "Basic overworld. Uses multithreaded noise to generate a bit faster than vanilla.")
 overworld.registerDimension(0, "examples/Overworld")
