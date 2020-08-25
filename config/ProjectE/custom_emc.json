@@ -311,6 +311,26 @@
     {
       "item": "randomthings:glowingmushroom|0",
       "emc": 64
+    },
+    {
+      "item": "biomesoplenty:mushroom|3",
+      "emc": 56
+    },
+    {
+      "item": "biomesoplenty:grass|1",
+      "emc": 8
+    },
+    {
+      "item": "biomesoplenty:flower_0|3",
+      "emc": 872
+    },
+    {
+      "item": "biomesoplenty:grass|0",
+      "emc": 8
+    },
+    {
+      "item": "brewcraft:preparedbeachrummixitem|0",
+      "emc": 0
     }
   ]
 }
