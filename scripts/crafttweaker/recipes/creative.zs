@@ -74,4 +74,7 @@ if(hideCreativeItems) {
     // Bountiful Baubles
     removeAndHide(<bountifulbaubles:modifierbook>);
 
+    // Modular Machinery
+    removeAndHide(<modularmachinery:itemconstructtool>);
+
 }
