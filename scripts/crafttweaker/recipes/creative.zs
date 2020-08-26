@@ -77,4 +77,7 @@ if(hideCreativeItems) {
     // Modular Machinery
     removeAndHide(<modularmachinery:itemconstructtool>);
 
+    // Random Things
+    removeAndHide(<randomthings:spectrecoil_genesis>);
+
 }
