@@ -95,6 +95,7 @@ bop_coral_reef = new SkyIslandType("biomesoplenty:coral_reef")
 bop_coral_reef.setFluidPercentage(.8)
 
 bop_orchard = new SkyIslandType("biomesoplenty:orchard")
+bop_orchard.setFluidPercentage(.02)
 bop_orchard.generateVillages(4)
 
 bop_moor = new SkyIslandType("biomesoplenty:moor")
@@ -147,6 +148,7 @@ bop_pasture = new SkyIslandType("biomesoplenty:pasture")
 bop_glacier = new SkyIslandType("biomesoplenty:glacier")
 
 bop_meadow = new SkyIslandType("biomesoplenty:meadow")
+bop_meadow.setFluidPercentage(.02)
 bop_meadow.generateVillages(4)
 
 bop_lush_swamp = new SkyIslandType("biomesoplenty:lush_swamp")
@@ -168,6 +170,7 @@ bop_gravel_beach = new SkyIslandType("biomesoplenty:gravel_beach")
 bop_grove = new SkyIslandType("biomesoplenty:grove")
 
 bop_lavender_fields = new SkyIslandType("biomesoplenty:lavender_fields")
+bop_lavender_fields.setFluidPercentage(.02)
 bop_lavender_fields.generateVillages(4)
 
 bop_origin_beach = new SkyIslandType("biomesoplenty:origin_beach")
@@ -192,7 +195,7 @@ thc_magical_forest = new SkyIslandType("thaumcraft:magical_forest")
 //=====================================
 //Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
 skyIslands = new SkyIslandGeneratorV2()
-skyIslands.setRegionSize(29)
+skyIslands.setRegionSize(32)
 addGenerator(skyIslands)
 
 // Add a global hook to caves so worley's can work its magic under the islands, set min cave y to something higher for more caves
@@ -200,7 +203,7 @@ caves = new VanillaCaveGenerator()
 addGenerator(caves)
 
 //Adds sky islands. Arguments are horizontal radius, top height, bottom height, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
-large = skyIslands.addSkyIslands(100, 100, 62, 1, true)
+large = skyIslands.addSkyIslands(128, 128, 79, 1, true)
 
 //Adds a SkyIslandType we created above to the island generator.
 large.addType(forest)
@@ -291,12 +294,12 @@ large.addType(thc_eerie)
 large.addType(thc_magical_forest)
 
 //=====================================
-oceanIslands = skyIslands.addSkyIslands(50, 50, 31, 2, false)
-oceanIslands.setFluidDepth(12)
+oceanIslands = skyIslands.addSkyIslands(96, 96, 59, 1, false)
+oceanIslands.setFluidDepth(24)
 oceanIslands.addType(ocean)
 
 //=====================================
-medium = skyIslands.addSkyIslands(50, 50, 31, 32, true)
+medium = skyIslands.addSkyIslands(96, 96, 59, 32, true)
 medium.addType(forest)
 medium.addType(cold_taiga)
 medium.addType(desert)
@@ -389,7 +392,7 @@ medium.addType(thc_magical_forest)
 
 //=====================================
 // Add Vanilla Biomes to small types
-small = skyIslands.addSkyIslands(25, 25, 15, 64, true)
+small = skyIslands.addSkyIslands(48, 48, 30, 64, true)
 small.addType(forest)
 small.addType(cold_taiga)
 small.addType(desert)
