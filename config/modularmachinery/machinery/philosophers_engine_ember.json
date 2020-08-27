@@ -1,0 +1,118 @@
+{
+    "registryname": "philosophers_engine_ember",
+    "localizedname": "Philosopher's Engine: Ember",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:lava@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "nbt": {"Items":[{"Slot":"0","id":"projecte:item.pe_philosophers_stone","Count":"1b","tag":{},"Damage":"0s"}]},
+            "elements": [
+                "projecte:dm_pedestal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "embers:block_caminite_brick@0"
+            ]
+        }
+    ]}

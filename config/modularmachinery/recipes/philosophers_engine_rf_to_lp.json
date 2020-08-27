@@ -1,0 +1,17 @@
+{
+    "machine": "philosophers_engine_lp",
+    "registryName": "philosophers_engine_rf_to_lp",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmagic:lifeessence",
+            "io-type": "output",
+            "amount": 20
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 128
+        }
+    ]
+}
