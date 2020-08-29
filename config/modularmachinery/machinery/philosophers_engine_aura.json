@@ -1,6 +1,6 @@
 {
 	"registryname": "philosophers_engine_aura",
-    "localizedname": "Philosopher's Engine - Aura",
+    "localizedname": "Philosopher's Engine: Aura",
     "parts": [
         {
             "x": -1,
@@ -94,7 +94,7 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "nbt": {"Items":[{"Slot":"0","id":"projecte:item.pe_philosophers_stone","Count":"1b","tag":{},"Damage":"0s"}]},
+            "nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
             "elements": [
                 "projecte:dm_pedestal@0"
             ]
