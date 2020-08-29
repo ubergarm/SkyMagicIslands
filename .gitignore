@@ -2,13 +2,13 @@
 
 # Ignore all Mohist server stuff
 .mixin.out/
+1.12.2.json
 astralsorcery/
 backups/
 banned-ips.json
 banned-players.json
 bukkit.yml
 commands.yml
-crafttweaker.log
 crash-reports/
 /customnpcs/
 eula.txt
@@ -17,7 +17,8 @@ libraries/
 llibrary/
 logs/
 mods/
-Mohist*.jar
+*.jar
+*.log
 mohist-config/
 ops.json
 options.txt

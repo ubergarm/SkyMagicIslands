@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 ## Change -Xmx to be less than actal sever RAM
 ## Change -jar to match actual server version
+SERVERJAR="forge-1.12.2-14.23.5.2854.jar"
+#SERVERJAR="Mohist-1.12.2-b71b544-server.jar"
 
 ## This isn't great design, but quick bandage for now:
 ## How many times to restart server before giving up
@@ -31,7 +33,7 @@ while [ $COUNT -gt 0 ]; do
          -XX:MaxTenuringThreshold=1 \
          -Dusing.aikars.flags=true \
          -Daikars.new.flags=true \
-         -jar Mohist-1.12.2-5d032f7-server.jar \
+         -jar "$SERVERJAR" \
          nogui
 
     echo "[$(date)] Server stopped! Will restart $COUNT more times!"
