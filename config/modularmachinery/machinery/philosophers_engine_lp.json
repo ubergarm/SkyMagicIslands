@@ -55,7 +55,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "bloodmagic:demon_extras@5"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -63,7 +63,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "bloodmagic:demon_extras@5"
+                "modularmachinery:blockenergyoutputhatch"
             ]
         },
         {
