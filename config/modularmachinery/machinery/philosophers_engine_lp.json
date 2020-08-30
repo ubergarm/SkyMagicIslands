@@ -7,32 +7,15 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune@0"
+                "modularmagic:blocklifeessenceprovideroutput@0"
             ]
         },
         {
             "x": 0,
-            "y": 1,
-            "z": 1,
-            "nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
+            "y": 2,
+            "z": 2,
             "elements": [
-                "projecte:dm_pedestal@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune@0"
+                "bloodmagic:inversion_pillar_end@1"
             ]
         },
         {
@@ -40,23 +23,15 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockenergyinputhatch"
+                "modularmagic:blocklifeessenceproviderinput@0"
             ]
         },
         {
-            "x": -1,
+            "x": -2,
             "y": 0,
-            "z": 2,
+            "z": 3,
             "elements": [
-                "modularmagic:blocklifeessenceproviderinput"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune@0"
+                "bloodmagic:demon_extras@5"
             ]
         },
         {
@@ -64,15 +39,264 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "bloodmagic:blood_rune@0"
+                "bloodmagic:inversion_pillar_end@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_extras@5"
             ]
         },
         {
             "x": 1,
             "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
+            "elements": [
+                "projecte:dm_pedestal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_pillar_2@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
             "z": 2,
             "elements": [
-                "modularmagic:blocklifeessenceprovideroutput"
+                "bloodmagic:demon_pillar_2@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:inversion_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_pillar_2@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_pillar_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_brick_2@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:demon_extras@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_extras@5"
             ]
         }
     ]}

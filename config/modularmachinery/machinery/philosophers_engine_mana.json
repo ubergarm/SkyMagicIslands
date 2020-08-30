@@ -3,124 +3,284 @@
     "localizedname": "Philosopher's Engine: Mana",
     "parts": [
         {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-        {
             "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "botania:shimmerrock@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
+            "y": 2,
             "z": 2,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-		{
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:shimmerrock@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "botania:shimmerwoodplanks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
             "nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
             "elements": [
                 "projecte:dm_pedestal@0"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
+            "x": -2,
+            "y": -2,
             "z": 1,
             "elements": [
-                "botania:shimmerwoodplanks@0"
+                "botania:shimmerrock@0"
             ]
         },
         {
             "x": 0,
-            "y": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:animatedtorch@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:animatedtorch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
             "z": 0,
             "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
                 "botania:shimmerwoodplanks@0"
             ]
         },
         {
             "x": 0,
-            "y": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmagic:blockmanaprovideroutput@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
             "z": 1,
             "elements": [
-                "modularmagic:blockmanaprovideroutput"
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:shimmerwoodplanks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:shimmerwoodplanks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "botania:shimmerrock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:animatedtorch@0"
             ]
         }
     ]}

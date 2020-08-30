@@ -3,108 +3,164 @@
     "localizedname": "Philosopher's Engine: Aura",
     "parts": [
         {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
             "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "naturesaura:generator_limit_remover@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
+            "y": 2,
             "z": 2,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "naturesaura:infused_brick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockenergyinputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "naturesaura:ancient_planks@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
             "nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
             "elements": [
                 "projecte:dm_pedestal@0"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
+            "x": -2,
+            "y": -2,
             "z": 1,
             "elements": [
                 "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "naturesaura:generator_limit_remover@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -112,15 +168,95 @@
             "y": 1,
             "z": 0,
             "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmagic:blockauraprovideroutput@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
                 "naturesaura:ancient_planks@0"
             ]
         },
         {
             "x": 0,
-            "y": 2,
-            "z": 1,
+            "y": -2,
+            "z": 0,
             "elements": [
-                "modularmagic:blockauraprovideroutput"
+                "naturesaura:ancient_planks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "naturesaura:ancient_planks@0"
             ]
         }
     ]}
