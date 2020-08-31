@@ -25,6 +25,14 @@ scoreboard teams option TeamMagic nametagVisibility never # neat already display
 todo
 ```
 
+## Server Tuning
+```bash
+# find the pid of the tick update task and pin it to a single cpu core an give it slight priority
+htop
+sudo taskset -p 04 14692
+sudo renice -n -1 14692
+```
+
 ## References
 - todo
 - todo
