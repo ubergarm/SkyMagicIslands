@@ -79,5 +79,6 @@ if(hideCreativeItems) {
 
     // Random Things
     removeAndHide(<randomthings:spectrecoil_genesis>);
+    removeAndHide(<randomthings:dungeonchestgenerator>);
 
 }
