@@ -61,12 +61,10 @@ I wonder what he will give me if I complete this quest?!",
         ]
     },
     "LeaveItems": 1b,
-    "CompleteText": "Finally, I've assembled all the necessary parts!
+    "CompleteText": "Finally, I've assembled all the necessary parts and proudly show Wuji!
 
-After all that work, Wuji didn't give me a darn thing!
+Wuji's eyes glow as he tells me, \"Not bad! I knew it was in you! Remember, if you build your own Philosopher Engines to convert mana bewtween types—Redstone Flux power is what destroyed the world long ago! Have fun!\"
 
-Well, I suppose I had fun along the way... Maybe that's all that matters!?
-
-Follow your Bliss!",
+After all that work, Wuji gave me noting but a few words and a long silence! Well, I suppose I did have some fun along the way... Maybe that's all that matters!?  Follow your Bliss!",
     "NextQuestTitle": ""
 }
