@@ -39,7 +39,6 @@
         "Scenes": [
         ]
     },
-    "Bukkit.updateLevel": 2,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -277,7 +276,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:iron_ore",
+                "id": "bewitchment:spanish_moss",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -300,7 +299,6 @@
         ]
     },
     "HurtTime": 0s,
-    "WorldUUIDLeast": -6609838725653088669L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
@@ -362,14 +360,6 @@
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
-    "AABB": [
-        5.199999988079071d,
-        191.0d,
-        10.199999988079071d,
-        5.800000011920929d,
-        192.89999997615814d,
-        10.800000011920929d
-    ],
     "NpcInteractLines": {
         "Lines": [
             {
@@ -379,7 +369,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 7138,
+    "HurtByTimestamp": 20846,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -582,6 +572,38 @@
             "Name": "generic.scales"
         },
         {
+            "Base": 1.0d,
+            "Name": "generic.physicalDamageRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.experienceRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.fireDamageRate"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.fireAspect"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.barehandedPower"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.witchburn"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction_generation"
+        },
+        {
             "Base": 20.0d,
             "Name": "generic.maxHealth"
         },
@@ -687,7 +709,6 @@
             "DialogSlot": 2
         }
     ],
-    "WorldUUIDMost": -217646775100749554L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -698,6 +719,7 @@
         },
         "mahoutsukai:mahou": {
             "MAHOUTSUKAI_PLAYER_PREV_YAW": 0.0f,
+            "MAHOUTSUKAI_SHOW_MAHOU": 0b,
             "MAHOUTSUKAI_MANA_FULL": 1b,
             "MAHOUTSUKAI_MANA_UP_COUNTER": 100,
             "MAHOUTSUKAI_PLAYER_POSSESSING": 0b,
@@ -792,7 +814,6 @@
             "ScaleX": 1.0f
         }
     },
-    "Spigot.ticksLived": 7347,
     "minDelay": 20,
     "DoorInteract": 2,
     "MoveSpeed": 5,
@@ -871,7 +892,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 566582
+        "naturesaura:time_alive": 596740
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -972,15 +993,37 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Trader",
-    "TotalTicksAlive": 566281L,
+    "TotalTicksAlive": 596384L,
     "Rotation": [
         274.8357f,
         0.0f
     ],
-    "ShowName": 0,
+    "ShowName": 1,
     "npcInteracting": 1b,
     "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
+    "ActiveEffects": [
+        {
+            "Ambient": 0b,
+            "CurativeItems": [
+                {
+                    "ForgeCaps": {
+                        "astralsorcery:cap_item_amulet_holder": {
+                        },
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "minecraft:milk_bucket",
+                    "Count": 1b,
+                    "Damage": 0s
+                }
+            ],
+            "ShowParticles": 1b,
+            "Duration": 2,
+            "Id": 119b,
+            "Amplifier": 0b
+        }
+    ],
     "SpawnCycle": 0
 }

@@ -39,7 +39,6 @@
         "Scenes": [
         ]
     },
-    "Bukkit.updateLevel": 2,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -155,7 +154,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "flying_things:pumpkin_stick",
+                "id": "randomthings:summoningpendulum",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -356,7 +355,6 @@
         ]
     },
     "HurtTime": 0s,
-    "WorldUUIDLeast": -8032264184787003449L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
@@ -418,14 +416,6 @@
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
-    "AABB": [
-        6.199999988079071d,
-        192.5d,
-        13.199999988079071d,
-        6.800000011920929d,
-        194.39999997615814d,
-        13.800000011920929d
-    ],
     "NpcInteractLines": {
         "Lines": [
             {
@@ -450,7 +440,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 61697,
+    "HurtByTimestamp": 219,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -511,7 +501,7 @@
                 },
                 "id": "botania:manaresource",
                 "Count": 3b,
-                "Damage": 5s
+                "Damage": 14s
             },
             {
                 "Slot": 6b,
@@ -833,6 +823,38 @@
             "Name": "generic.scales"
         },
         {
+            "Base": 1.0d,
+            "Name": "generic.physicalDamageRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.experienceRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.fireDamageRate"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.fireAspect"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.barehandedPower"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.witchburn"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction_generation"
+        },
+        {
             "Base": 20.0d,
             "Name": "generic.maxHealth"
         },
@@ -894,7 +916,6 @@
     ],
     "NPCDialogOptions": [
     ],
-    "WorldUUIDMost": 32953976858559081L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -905,6 +926,7 @@
         },
         "mahoutsukai:mahou": {
             "MAHOUTSUKAI_PLAYER_PREV_YAW": 0.0f,
+            "MAHOUTSUKAI_SHOW_MAHOU": 0b,
             "MAHOUTSUKAI_MANA_FULL": 1b,
             "MAHOUTSUKAI_MANA_UP_COUNTER": 100,
             "MAHOUTSUKAI_PLAYER_POSSESSING": 0b,
@@ -999,7 +1021,6 @@
             "ScaleX": 1.0f
         }
     },
-    "Spigot.ticksLived": 61732,
     "minDelay": 20,
     "DoorInteract": 1,
     "MoveSpeed": 5,
@@ -1078,7 +1099,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 72104
+        "naturesaura:time_alive": 87342
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -1147,13 +1168,13 @@
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
-    "Title": "",
-    "TotalTicksAlive": 71877L,
+    "Title": "Trader",
+    "TotalTicksAlive": 87038L,
     "Rotation": [
         271.19748f,
         0.0f
     ],
-    "ShowName": 0,
+    "ShowName": 1,
     "npcInteracting": 1b,
     "UpdateBlocked": 0b,
     "AvoidsWater": 0b,

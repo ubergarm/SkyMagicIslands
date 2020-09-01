@@ -9,7 +9,7 @@ setAsDefaultWorldType()
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
 skyMagicIslands = registerPreset("Sky Magic Islands", "images/Sky_Magic_Islands", "Sky Magic Islands using biomes o plenty.")
 skyMagicIslands.registerDimension(0, "examples/Sky_Magic_Islands")
-//skyMagicIslands.addInitialPlayerFunction("smi:testspawn")
+skyMagicIslands.addInitialPlayerFunction("smi:onfirstjoin")
 
 basicSkyIslands = registerPreset("Basic Sky Islands", "images/Sky_Islands", "Sky Islands of various biomes and sizes.")
 basicSkyIslands.registerDimension(0, "examples/Basic_Sky_Islands")

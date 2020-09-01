@@ -130,7 +130,7 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 37037,
+    "HurtByTimestamp": 80,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -147,6 +147,38 @@
         {
             "Base": 0.0d,
             "Name": "generic.scales"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.physicalDamageRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.experienceRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.fireDamageRate"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.fireAspect"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.barehandedPower"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.witchburn"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction_generation"
         },
         {
             "Base": 20.0d,
@@ -274,6 +306,7 @@
         },
         "mahoutsukai:mahou": {
             "MAHOUTSUKAI_PLAYER_PREV_YAW": 0.0f,
+            "MAHOUTSUKAI_SHOW_MAHOU": 0b,
             "MAHOUTSUKAI_MANA_FULL": 1b,
             "MAHOUTSUKAI_MANA_UP_COUNTER": 100,
             "MAHOUTSUKAI_PLAYER_POSSESSING": 0b,
@@ -445,7 +478,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 768157
+        "naturesaura:time_alive": 768316
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -534,12 +567,12 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Guru",
-    "TotalTicksAlive": 768079L,
+    "TotalTicksAlive": 768206L,
     "Rotation": [
         40.05028f,
-        0.0f
+        -0.1783279f
     ],
-    "ShowName": 0,
+    "ShowName": 1,
     "npcInteracting": 1b,
     "UpdateBlocked": 0b,
     "AvoidsWater": 0b,

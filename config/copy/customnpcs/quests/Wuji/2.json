@@ -6,11 +6,13 @@
     "QuestCompletion": 0,
     "IgnoreNBT": 1b,
     "Title": "Philosopher's Stone",
-    "Text": "I must find my own Philsopher's Stone and then bring it to old man Wuji back at Sky Island Outpost HQ near 0, 180, 0.
+    "Text": "I must find my own Philsopher's Stone and then bring it to old man Wuji back at Sky Island Outpost HQ near 16, 200, 16.
 
 He suggested it would take something from many different schools of magic. 
 
-Perhaps the experienced magicians and alchemist traders could be a good source of information and materials?",
+Perhaps the experienced magicians and alchemist traders could be a good source of information and materials?
+
+I wonder what he will give me if I complete this quest?!",
     "QuestFactionPoints": {
         "DecreaseFaction1Points": 0b,
         "OptionFaction2Points": 100,
@@ -31,7 +33,7 @@ Perhaps the experienced magicians and alchemist traders could be a good source o
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597204626740L,
+        "TimePast": 1598912908966L,
         "Time": 0L,
         "Subject": ""
     },
@@ -59,6 +61,12 @@ Perhaps the experienced magicians and alchemist traders could be a good source o
         ]
     },
     "LeaveItems": 1b,
-    "CompleteText": "After all that work, and he didn't give me a darn thing! Well, I suppose I had fun along the way... Maybe that's all that matters! Follow your Bliss!",
+    "CompleteText": "Finally, I've assembled all the necessary parts!
+
+After all that work, Wuji didn't give me a darn thing!
+
+Well, I suppose I had fun along the way... Maybe that's all that matters!?
+
+Follow your Bliss!",
     "NextQuestTitle": ""
 }

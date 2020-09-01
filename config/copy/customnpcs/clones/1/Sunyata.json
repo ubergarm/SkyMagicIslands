@@ -142,7 +142,6 @@
         "Scenes": [
         ]
     },
-    "Bukkit.updateLevel": 2,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -171,7 +170,6 @@
         ]
     },
     "HurtTime": 0s,
-    "WorldUUIDLeast": -6609838725653088669L,
     "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
@@ -233,19 +231,11 @@
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
-    "AABB": [
-        23.19999998807907d,
-        193.0d,
-        13.199999988079071d,
-        23.80000001192093d,
-        194.89999997615814d,
-        13.800000011920929d
-    ],
     "NpcInteractLines": {
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 12875,
+    "HurtByTimestamp": 8501,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -262,6 +252,38 @@
         {
             "Base": 0.0d,
             "Name": "generic.scales"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.physicalDamageRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.experienceRate"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.fireDamageRate"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.fireAspect"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "generic.barehandedPower"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.witchburn"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attraction_generation"
         },
         {
             "Base": 20.0d,
@@ -377,7 +399,6 @@
             "DialogSlot": 3
         }
     ],
-    "WorldUUIDMost": -217646775100749554L,
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
@@ -388,6 +409,7 @@
         },
         "mahoutsukai:mahou": {
             "MAHOUTSUKAI_PLAYER_PREV_YAW": 0.0f,
+            "MAHOUTSUKAI_SHOW_MAHOU": 0b,
             "MAHOUTSUKAI_MANA_FULL": 1b,
             "MAHOUTSUKAI_MANA_UP_COUNTER": 100,
             "MAHOUTSUKAI_PLAYER_POSSESSING": 0b,
@@ -482,7 +504,6 @@
             "ScaleX": 1.0f
         }
     },
-    "Spigot.ticksLived": 12918,
     "igCooldownType": 0,
     "minDelay": 20,
     "DoorInteract": 2,
@@ -561,7 +582,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 764888
+        "naturesaura:time_alive": 794859
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -663,12 +684,12 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Quartermaster",
-    "TotalTicksAlive": 764780L,
+    "TotalTicksAlive": 794768L,
     "Rotation": [
         204.45343f,
         0.0f
     ],
-    "ShowName": 0,
+    "ShowName": 1,
     "npcInteracting": 1b,
     "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
