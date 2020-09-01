@@ -51,3 +51,49 @@ removeAndHide(<randomthings:floosign>);
 removeAndHide(<randomthings:flootoken>);
 removeAndHide(<randomthings:floopouch>);
 removeAndHide(<randomthings:floobrick>);
+
+// Change some recipes to increase difficulty of these items
+recipes.removeByRecipeName("randomthings:imbuingstation");
+recipes.addShaped("randomthings_imbuingstation", <randomthings:imbuingstation>,
+  [
+    [<bewitchment:mandrake_root>, <minecraft:water_bucket>, <bewitchment:mandrake_root>],
+    [<minecraft:vine>, <botania:rune:8>, <minecraft:vine>],
+    [<minecraft:waterlily>, <minecraft:emerald_block>, <minecraft:waterlily>]
+  ]
+);
+
+recipes.removeByRecipeName("randomthings:chunkanalyzer");
+recipes.addShaped("randomthings_chunkanalyzer", <randomthings:chunkanalyzer>,
+  [
+    [<embers:aspectus_copper>, <embers:ember_detector>, <thaumcraft:resonator>],
+    [<projecte:item.pe_divining_rod_3>, <astralsorcery:itemcraftingcomponent:3>, <randomthings:diviningrod:7>],
+    [null, <embers:ember_jar>.withTag({emberCapacity: 2000.0, ember: 2000.0}), null]
+  ]
+);
+
+recipes.removeByRecipeName("randomthings:weatheregg_rain");
+recipes.addShaped("randomthings_weatheregg_rain", <randomthings:weatheregg:1> * 2,
+  [
+    [<minecraft:obsidian>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:obsidian>],
+    [<minecraft:dye:4>, <astralsorcery:itemcraftingcomponent:4>, <minecraft:dye:4>],
+    [<minecraft:obsidian>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:obsidian>]
+  ]
+);
+
+recipes.removeByRecipeName("randomthings:weatheregg_storm");
+recipes.addShaped("randomthings_weatheregg_storm", <randomthings:weatheregg:2> * 2,
+  [
+    [<minecraft:obsidian>, <minecraft:sugar>, <minecraft:obsidian>],
+    [<minecraft:dye:4>, <astralsorcery:itemcraftingcomponent:4>, <minecraft:dye:4>],
+    [<minecraft:obsidian>, <minecraft:sugar>, <minecraft:obsidian>]
+  ]
+);
+
+recipes.removeByRecipeName("randomthings:weatheregg_sun");
+recipes.addShaped("randomthings_weatheregg_sun", <randomthings:weatheregg> * 2,
+  [
+    [<minecraft:obsidian>, <minecraft:feather>, <minecraft:obsidian>],
+    [<minecraft:double_plant>, <astralsorcery:itemcraftingcomponent:4>, <minecraft:double_plant>],
+    [<minecraft:obsidian>, <minecraft:feather>, <minecraft:obsidian>]
+  ]
+);

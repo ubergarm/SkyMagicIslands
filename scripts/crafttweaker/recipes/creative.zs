@@ -78,6 +78,7 @@ if(hideCreativeItems) {
     removeAndHide(<modularmachinery:itemconstructtool>);
 
     // Random Things
+    // these need to be in config/jei/itemBlacklist.cfg as well due to info tab
     removeAndHide(<randomthings:spectrecoil_genesis>);
     removeAndHide(<randomthings:dungeonchestgenerator>);
 
