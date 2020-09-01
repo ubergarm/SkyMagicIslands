@@ -1,3 +1,4 @@
+#modloaded bountifulbaubles
 // Bountiful Baubles mod
 import mods.jei.JEI.removeAndHide;
 

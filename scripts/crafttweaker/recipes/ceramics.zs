@@ -1,3 +1,4 @@
+#modloaded ceramics
 // Ceramics Mod and Bewitchment
 // Recipe conflict between ceramics:clay_bucket and bewitchment:unfired_jar
 // Make them both be required to be either at top or bottom row

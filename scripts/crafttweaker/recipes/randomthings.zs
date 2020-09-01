@@ -1,3 +1,4 @@
+#modloaded randomthings
 // Random Things Mod
 import mods.jei.JEI.removeAndHide;
 

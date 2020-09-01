@@ -1,3 +1,4 @@
+#modloaded bloodmagic
 // Blood Magic
 // Add recipe for raw pillar and accountremount
 // this may be a really bad idea as it isn't fully implemented afaict,

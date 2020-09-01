@@ -1,5 +1,7 @@
+#modloaded minecraft botania
 // Fixup some conflicting vanilla recipes
 
+// this next one messes up on of the advancements, oh well
 recipes.removeByRecipeName("minecraft:trapdoor");
 recipes.addShaped("minecraft_trapdoor", <minecraft:trapdoor>,
   [

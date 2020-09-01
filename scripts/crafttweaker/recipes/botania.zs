@@ -1,3 +1,4 @@
+#modloaded botania
 // Botania
 // Add recipe to convert Botania dyes into vanilla dye of same color
 // except for bone meal white, cocoa beans brown, or lapis blue

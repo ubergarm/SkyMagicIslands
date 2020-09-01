@@ -1,3 +1,4 @@
+#modloaded modularmachinery modularmagic naturesaura botania bloodmagic
 // Modular Machinery and Modular Magic
 
 // Change the Modularium Ingot to require sweet sweet purple dark matter
@@ -47,3 +48,4 @@ recipes.addShaped("modularmagic_blocklifeessenceprovideroutput", <modularmagic:b
 );
 
 // Remove and Hide all unused components
+// TODO

@@ -1,4 +1,6 @@
+#modloaded projecte projectex
 // ProjectE/EX
+import crafttweaker.mods.ILoadedMods;
 import mods.jei.JEI.removeAndHide;
 
 // Remove and Hide all Dark/Red Matter Gear
@@ -69,15 +71,25 @@ recipes.addShapeless("projecte_conversions/aeternalis_fuel_to_dark_matter", <pro
 // other magic mods in this pack before
 // unlocking dark matter and up goodies
 // (manually update emc value as well)
-recipes.removeByRecipeName("projecte:philosophers_stone_alt");
-recipes.removeByRecipeName("projecte:philosophers_stone");
-recipes.addShaped("projecte_philosophers_stone", <projecte:item.pe_philosophers_stone>,
-  [
-    [<embers:aspectus_lead>, <bloodmagic:blood_orb>.withTag({orb:"bloodmagic:weak"}), <thaumcraft:nitor_yellow>],
-    [<astralsorcery:itemcraftingcomponent:2>, <totemic:stripped_cedar_log>, <bewitchment:bottled_frostfire>],
-    [<botania:alchemycatalyst>, <roots:elemental_soil>, <naturesaura:conversion_catalyst>]
-  ]
-);
+if(loadedMods.contains("embers") &&
+   loadedMods.contains("bloodmagic") &&
+   loadedMods.contains("thaumcraft") &&
+   loadedMods.contains("astralsorcery") &&
+   loadedMods.contains("totemic") &&
+   loadedMods.contains("bewitchment") &&
+   loadedMods.contains("botania") &&
+   loadedMods.contains("roots") &&
+   loadedMods.contains("naturesaura")) {
+  recipes.removeByRecipeName("projecte:philosophers_stone_alt");
+  recipes.removeByRecipeName("projecte:philosophers_stone");
+  recipes.addShaped("projecte_philosophers_stone", <projecte:item.pe_philosophers_stone>,
+    [
+      [<embers:aspectus_lead>, <bloodmagic:blood_orb>.withTag({orb:"bloodmagic:weak"}), <thaumcraft:nitor_yellow>],
+      [<astralsorcery:itemcraftingcomponent:2>, <totemic:stripped_cedar_log>, <bewitchment:bottled_frostfire>],
+      [<botania:alchemycatalyst>, <roots:elemental_soil>, <naturesaura:conversion_catalyst>]
+    ]
+  );
+}
 
 // Reduce cost of Knowledge Sharing Book to encourage MP cooperation
 // (manually update emc to match recipe: 65,708)

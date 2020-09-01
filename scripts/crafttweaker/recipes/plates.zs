@@ -1,3 +1,4 @@
+#modloaded ceramics bewitchment thaumcraft embers
 // Make all plates use Embers Rekindled hammer and support Melter and Stamper if molten fluids exist
 
 // Ceramics Plates

@@ -1,3 +1,4 @@
+#modloaded bettercrates
 // Better Crates Mod
 import mods.jei.JEI.removeAndHide;
 

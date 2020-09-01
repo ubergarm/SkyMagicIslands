@@ -1,3 +1,4 @@
+#modloaded storagenetwork
 // Simple Storage Network
 // Adjust cost of some of the remotes
 
