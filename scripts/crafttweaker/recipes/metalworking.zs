@@ -1,5 +1,5 @@
-#modloaded ceramics bewitchment thaumcraft embers
-// Make all plates use Embers Rekindled hammer and support Melter and Stamper if molten fluids exist
+#modloaded ceramics bewitchment thaumcraft embers mystgears thaumicperiphery
+// Make all plates and gears use Embers Rekindled hammer and support Melter and Stamper if molten fluids exist
 
 // Ceramics Plates
 recipes.removeByRecipeName("ceramics:armor/unfired_clay_plate");
@@ -28,27 +28,47 @@ recipes.addShapeless("thaumcraft_voidplate", <thaumcraft:plate:3>, [<ore:ingotVo
 // Add Embers Melter Recipes
 // github.com/DaedalusGame/EmbersRekindled/wiki/CraftTweaker-Support
 // mods.embers.Melter.add(ILiquidStack <outputfluid>,IIngredient <input>);
+// basic metals gears -> fluid recipes
+mods.embers.Melter.add(<fluid:lead> * 288, <ore:gearLead>);
+mods.embers.Melter.add(<fluid:copper> * 288, <ore:gearCopper>);
+mods.embers.Melter.add(<fluid:aluminum> * 288, <ore:gearAluminum>);
+mods.embers.Melter.add(<fluid:tin> * 288, <ore:gearTin>);
+mods.embers.Melter.add(<fluid:bronze> * 288, <ore:gearBronze>);
+mods.embers.Melter.add(<fluid:nickel> * 288, <ore:gearNickel>);
+mods.embers.Melter.add(<fluid:silver> * 288, <ore:gearSilver>);
+mods.embers.Melter.add(<fluid:electrum> * 288, <ore:gearElectrum>);
+mods.embers.Melter.add(<fluid:antimony> * 288, <ore:gearAntimony>);
+mods.embers.Melter.add(<fluid:iron> * 288, <ore:gearIron>);
+mods.embers.Melter.add(<fluid:gold> * 288, <ore:gearGold>);
+
+// special molten fluids
 mods.embers.Melter.add(<fluid:alchemicalbrass> * 144, <ore:ingotBrass>);
 mods.embers.Melter.add(<fluid:alchemicalbrass> * 16, <ore:nuggetBrass>);
 mods.embers.Melter.add(<fluid:alchemicalbrass> * 144, <ore:plateBrass>);
+mods.embers.Melter.add(<fluid:alchemicalbrass> * 288, <ore:gearBrass>);
 
 mods.embers.Melter.add(<fluid:thaumium> * 144, <ore:ingotThaumium>);
 mods.embers.Melter.add(<fluid:thaumium> * 16, <ore:nuggetThaumium>);
 mods.embers.Melter.add(<fluid:thaumium> * 144, <ore:plateThaumium>);
+mods.embers.Melter.add(<fluid:thaumium> * 288, <ore:gearThaumium>);
 
 mods.embers.Melter.add(<fluid:voidmetal> * 144, <ore:ingotVoid>);
 mods.embers.Melter.add(<fluid:voidmetal> * 16, <ore:nuggetVoid>);
 mods.embers.Melter.add(<fluid:voidmetal> * 144, <ore:plateVoid>);
+mods.embers.Melter.add(<fluid:voidmetal> * 288, <ore:gearVoid>);
 
 // Add Embers Stamper Recipes
 // github.com/DaedalusGame/EmbersRekindled/wiki/CraftTweaker-Support
 // mods.embers.Stamper.add(IItemStack <output>,ILiquidStack <liquid>,IIngredient <stamp>,IIngredient <input>);
 mods.embers.Stamper.add(<thaumcraft:plate>, <fluid:alchemicalbrass> * 144, <embers:stamp_plate>, null);
+mods.embers.Stamper.add(<thaumicperiphery:gear_brass>, <fluid:alchemicalbrass> * 288, <embers:stamp_gear>, null);
 mods.embers.Stamper.add(<thaumcraft:ingot:2>, <fluid:alchemicalbrass> * 144, <embers:stamp_bar>, null);
 
 mods.embers.Stamper.add(<thaumcraft:plate:2>, <fluid:thaumium> * 144, <embers:stamp_plate>, null);
+// gear recipe already exists somehow
 mods.embers.Stamper.add(<thaumcraft:ingot>, <fluid:thaumium> * 144, <embers:stamp_bar>, null);
 
 mods.embers.Stamper.add(<thaumcraft:plate:3>, <fluid:voidmetal> * 144, <embers:stamp_plate>, null);
+mods.embers.Stamper.add(<mystgears:gear_void>, <fluid:voidmetal> * 288, <embers:stamp_gear>, null);
 mods.embers.Stamper.add(<thaumcraft:ingot:1>, <fluid:voidmetal> * 144, <embers:stamp_bar>, null);
 
