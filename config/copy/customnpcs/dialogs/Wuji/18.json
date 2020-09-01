@@ -47,7 +47,13 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Looks like you had it in you all along! Wei Wu Wei!!!",
+    "DialogText": "Looks like you had it in you all along!
+
+Don't mind that old Book of the Alchemist too much, half of those ancient relics don't exist in our world anymore...
+
+Have fun discovering ways to convert mana type between various schools of magic! You don't need a blueprint to build any Philosopher's Engine, just intuit the design by calling upon the great JEI always within us all!
+
+Wei Wu Wei!!!",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,

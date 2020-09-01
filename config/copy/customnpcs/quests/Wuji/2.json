@@ -8,7 +8,7 @@
     "Title": "Philosopher's Stone",
     "Text": "I must find my own Philsopher's Stone and then bring it to old man Wuji back at Sky Island Outpost HQ near 16, 200, 16.
 
-He suggested it would take something from many different schools of magic. 
+He suggested it would take something from many different schools of magic.
 
 Perhaps the experienced magicians and alchemist traders could be a good source of information and materials?
 
@@ -21,8 +21,8 @@ I wonder what he will give me if I complete this quest?!",
         "OptionFaction1Points": 100,
         "DecreaseFaction2Points": 0b
     },
-    "RewardExp": 0,
-    "QuestCommand": "",
+    "RewardExp": 1395,
+    "QuestCommand": "particle fireworksSpark ~ ~ ~ 5 5 5 1 2000",
     "ModRev": 18,
     "Type": 0,
     "QuestMail": {
@@ -40,6 +40,16 @@ I wonder what he will give me if I complete this quest?!",
     "IgnoreDamage": 1b,
     "Rewards": {
         "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "projecte:item.pe_manual",
+                "Count": 1b,
+                "Damage": 0s
+            }
         ]
     },
     "Items": {
@@ -63,8 +73,8 @@ I wonder what he will give me if I complete this quest?!",
     "LeaveItems": 1b,
     "CompleteText": "Finally, I've assembled all the necessary parts and proudly show Wuji!
 
-Wuji's eyes glow as he tells me, \"Not bad! I knew it was in you! Remember, if you build your own Philosopher Engines to convert mana bewtween types—Redstone Flux power is what destroyed the world long ago! Have fun!\"
+Wuji's eyes glow as he tells me, \"Not bad! I knew it was in you! Remember, if you build your own Philosopher Engines to convert mana between types—Redstone Flux power is what destroyed the world long ago! Have fun!\"
 
-After all that work, Wuji gave me noting but a few words and a long silence! Well, I suppose I did have some fun along the way... Maybe that's all that matters!?  Follow your Bliss!",
+After all that work, Wuji gave me nothing but a half empty book and a long silence! Well, I suppose I did have some fun along the way... Maybe that's all that matters!?  Follow your Bliss!",
     "NextQuestTitle": ""
 }
