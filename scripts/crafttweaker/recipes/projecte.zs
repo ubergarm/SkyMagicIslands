@@ -41,12 +41,18 @@ removeAndHide(<projecte:nova_cataclysm>);
 removeAndHide(<projecte:item.pe_destruction_catalyst>);
 removeAndHide(<projecte:item.pe_catalitic_lens>);
 
-// Remove and Hide the watch of flowing time
+// Remove and Hide the watch of flowing time and some bauble
 removeAndHide(<projecte:item.pe_time_watch>);
+removeAndHide(<projecte:item.pe_arcana_ring>);
+removeAndHide(<projecte:item.pe_evertide_amulet>);
+removeAndHide(<projecte:item.pe_volcanite_amulet>);
+removeAndHide(<projecte:item.pe_body_stone>);
+removeAndHide(<projecte:item.pe_soul_stone>);
+removeAndHide(<projecte:item.pe_life_stone>);
+removeAndHide(<projecte:item.pe_hyperkinetic_lens>);
 
 // Remove and Hide the Tome of Knowledge unlocking all EMC items
 removeAndHide(<projecte:item.pe_tome>);
-
 
 // Remove and Hide the ProjectEX Alchemy Table
 // as it just provides a limited early game version of the
@@ -148,16 +154,108 @@ recipes.addShaped("projectex_compressed_refined_link", <projectex:compressed_ref
   ]
 );
 
+// ==============================================================
 // Change Recipe for ProjectE/EX Baubles that seem OP relative to other mid-ish game items
 recipes.removeByRecipeName("projecte:item.pe_repair_talisman");
 recipes.addShaped("projecte_item.pe_repair_talisman", <projecte:item.pe_repair_talisman>,
   [
-    [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>],
-    [<ore:string>, <projectex:matter:3>, <ore:string>],
-    [<projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust>]
+    [<projecte:item.pe_covalence_dust>, <botania:auraringgreater>, <projecte:item.pe_covalence_dust:2>],
+    [<ore:string>, <projectex:matter:4>, <ore:string>],
+    [<projecte:item.pe_covalence_dust:2>, <botania:auraringgreater>, <projecte:item.pe_covalence_dust>]
   ]
 );
 
+recipes.removeByRecipeName("projecte:item.pe_ignition_0");
+recipes.addShaped("projecte_item.pe_ignition_0", <projecte:item.pe_ignition>,
+  [
+    [<randomthings:blazeandsteel>, <thaumcraft:crystal_ignis>, <randomthings:blazeandsteel>],
+    [<projectex:matter:2>, <projecte:item.pe_ring_iron_band>, <projectex:matter:2>],
+    [<bewitchment:bottled_hellfire>, <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_wild_fire"}}), <bewitchment:bottled_hellfire>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:interdiction_torch");
+recipes.addShaped("projecte_interdiction_torch", <projecte:interdiction_torch> * 2,
+  [
+    [<minecraft:redstone_torch>, <ore:gemDiamond>, <minecraft:redstone_torch>],
+    [<ore:gemDiamond>, <projecte:item.pe_philosophers_stone>, <ore:gemDiamond>],
+    [<roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_sanctuary"}}), <ore:dustGlowstone>, <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_sanctuary"}})]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_zero_ring");
+recipes.addShaped("projecte_item.pe_zero_ring", <projecte:item.pe_zero_ring>,
+  [
+    [<minecraft:snowball>, <bewitchment:frostflower>, <minecraft:snowball>],
+    [<projectex:matter:2>, <projecte:item.pe_ring_iron_band>, <projectex:matter:2>],
+    [<bewitchment:perpetual_ice>, <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_iced_touch"}}), <bewitchment:perpetual_ice>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_gem_density");
+recipes.addShaped("projecte_item.pe_gem_density", <projecte:item.pe_gem_density>,
+  [
+    [<ore:manaDiamond>, <ore:obsidian>, <ore:manaDiamond>],
+    [<projecte:item.pe_matter>, <ore:gemDiamond>, <projecte:item.pe_matter>],
+    [<ore:manaDiamond>, <ore:obsidian>, <ore:manaDiamond>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_black_hole_0");
+recipes.addShaped("projecte_item.pe_black_hole_0", <projecte:item.pe_black_hole>,
+  [
+    [<ore:string>, <bloodmagic:component:12>, <ore:string>],
+    [<projectex:matter:2>, <projecte:item.pe_ring_iron_band>, <projectex:matter:2>],
+    [<ore:string>, <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_magnetism"}}), <ore:string>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_harvest_god_0");
+recipes.addShaped("projecte_item.pe_harvest_god_0", <projecte:item.pe_harvest_god>,
+  [
+    [<ore:treeSapling>, <bloodmagic:component:5>, <ore:treeSapling>],
+    [<projectex:matter:2>, <projecte:item.pe_ring_iron_band>, <projectex:matter:2>],
+    [<ore:treeSapling>, <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_rampant_growth"}}), <ore:treeSapling>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_mind_stone_0");
+recipes.addShaped("projecte_item.pe_mind_stone_0", <projecte:item.pe_mind_stone>,
+  [
+    [<minecraft:book>, <minecraft:book>, <minecraft:book>],
+    [<projectex:matter:2>, <bloodmagic:experience_tome>, <projectex:matter:2>],
+    [<minecraft:book>, <minecraft:book>, <minecraft:book>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_archangel_smite_0");
+recipes.addShaped("projecte_item.pe_archangel_smite_0", <projecte:item.pe_archangel_smite>,
+  [
+    [<totemic:eagle_drops>, <totemic:eagle_drops:1>, <totemic:eagle_drops>],
+    [<projectex:matter:3>, <projecte:item.pe_ring_iron_band>, <projectex:matter:3>],
+    [<totemic:eagle_drops:1>, <totemic:baykok_bow>, <totemic:eagle_drops:1>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_swrg");
+recipes.addShaped("projecte_item.pe_swrg", <projecte:item.pe_swrg>,
+  [
+    [<projectex:matter:2>, <naturesaura:token_rage>, <projectex:matter:2>],
+    [<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), <projecte:item.pe_ring_iron_band>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"})],
+    [<projectex:matter:2>, <naturesaura:projectile_generator>, <projectex:matter:2>]
+  ]
+);
+
+recipes.removeByRecipeName("projecte:item.pe_mercurial_eye");
+recipes.addShaped("projecte_item.pe_mercurial_eye", <projecte:item.pe_mercurial_eye>,
+  [
+    [<ore:obsidian>, <botania:specialflower>.withTag({type: "rannuncarpus"}), <ore:obsidian>],
+    [<naturesaura:placer>, <betterbuilderswands:wandunbreakable>, <naturesaura:placer>],
+    [<projectex:matter:2>, <naturesaura:token_euphoria>, <projectex:matter:2>]
+  ]
+);
+
+// ==============================================================
 // Change Recipe for ProjectE/EX Transmutation Tables/Tablets
 // Drop the cost a bit to make them available for mid-ish-game
 // to use after graduating from stone table. no dark matter needed.
