@@ -495,6 +495,38 @@
     {
       "item": "biomesoplenty:white_sand|0",
       "emc": 4
+    },
+    {
+      "item": "botania:itemfinder|0",
+      "emc": 0
+    },
+    {
+      "item": "randomthings:portablesounddampener|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:baubles|6",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:baubles|5",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:baubles|4",
+      "emc": 0
+    },
+    {
+      "item": "soot:mug|0",
+      "emc": 0
+    },
+    {
+      "item": "harvestcraft:walnut_sapling|0",
+      "emc": 32
+    },
+    {
+      "item": "harvestcraft:avocado_sapling|0",
+      "emc": 32
     }
   ]
 }
