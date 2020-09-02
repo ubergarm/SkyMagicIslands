@@ -145,15 +145,7 @@
       "emc": 0
     },
     {
-      "item": "bewitchment:silver_plate|0",
-      "emc": 0
-    },
-    {
       "item": "thaumcraft:plate|0",
-      "emc": 0
-    },
-    {
-      "item": "thaumcraft:plate|1",
       "emc": 0
     },
     {
@@ -169,68 +161,8 @@
       "emc": 0
     },
     {
-      "item": "embers:plate_copper|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_lead|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_silver|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_dawnstone|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_iron|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_gold|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_aluminum|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_tin|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_nickel|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_electrum|0",
-      "emc": 0
-    },
-    {
-      "item": "embers:plate_bronze|0",
-      "emc": 0
-    },
-    {
       "item": "thaumcraft:ingot|0",
       "emc": 0
-    },
-    {
-      "item": "bettercrates:iron_crate|0",
-      "emc": 416
-    },
-    {
-      "item": "bettercrates:copper_crate|0",
-      "emc": 288
-    },
-    {
-      "item": "bettercrates:golden_crate|0",
-      "emc": 2208
-    },
-    {
-      "item": "bettercrates:up_golden2|0",
-      "emc": 2364
     },
     {
       "item": "mysticalworld:assorted_seeds|0",
@@ -331,6 +263,238 @@
     {
       "item": "brewcraft:preparedbeachrummixitem|0",
       "emc": 0
+    },
+    {
+      "item": "roots:component_pouch|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sugar|0",
+      "emc": 32
+    },
+    {
+      "item": "mahoutsukai:powdered_diamond|0",
+      "emc": 0
+    },
+    {
+      "item": "mahoutsukai:powdered_ender|0",
+      "emc": 0
+    },
+    {
+      "item": "mahoutsukai:powdered_gold|0",
+      "emc": 0
+    },
+    {
+      "item": "mahoutsukai:powdered_iron|0",
+      "emc": 0
+    },
+    {
+      "item": "mahoutsukai:powdered_quartz|0",
+      "emc": 0
+    },
+    {
+      "item": "mahoutsukai:powdered_emerald|0",
+      "emc": 0
+    },
+    {
+      "item": "mahoutsukai:powdered_eye|0",
+      "emc": 0
+    },
+    {
+      "item": "mahoutsukai:guidebook|0",
+      "emc": 0
+    },
+    {
+      "item": "akashictome:tome|0",
+      "emc": 0
+    },
+    {
+      "item": "randomthings:coloredgrass|0",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|1",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|2",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|3",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|4",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|5",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|6",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|7",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|8",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|9",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|10",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|11",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|12",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|13",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|14",
+      "emc": 16
+    },
+    {
+      "item": "randomthings:coloredgrass|15",
+      "emc": 16
+    },
+    {
+      "item": "OD|plateIron",
+      "emc": 256
+    },
+    {
+      "item": "OD|plateGold",
+      "emc": 2048
+    },
+    {
+      "item": "OD|plateNickel",
+      "emc": 1024
+    },
+    {
+      "item": "OD|plateLead",
+      "emc": 512
+    },
+    {
+      "item": "OD|plateSilver",
+      "emc": 512
+    },
+    {
+      "item": "OD|plateTin",
+      "emc": 256
+    },
+    {
+      "item": "OD|plateBronze",
+      "emc": 160
+    },
+    {
+      "item": "OD|plateCopper",
+      "emc": 128
+    },
+    {
+      "item": "OD|plateElectrum",
+      "emc": 1280
+    },
+    {
+      "item": "OD|plateAluminum",
+      "emc": 128
+    },
+    {
+      "item": "OD|plateAluminium",
+      "emc": 128
+    },
+    {
+      "item": "OD|gearNickel",
+      "emc": 2048
+    },
+    {
+      "item": "OD|gearLead",
+      "emc": 1024
+    },
+    {
+      "item": "OD|gearTin",
+      "emc": 512
+    },
+    {
+      "item": "OD|gearBronze",
+      "emc": 320
+    },
+    {
+      "item": "OD|gearCopper",
+      "emc": 256
+    },
+    {
+      "item": "OD|gearElelctrum",
+      "emc": 2560
+    },
+    {
+      "item": "OD|gearAluminum",
+      "emc": 256
+    },
+    {
+      "item": "OD|gearAluminium",
+      "emc": 256
+    },
+    {
+      "item": "OD|gearElectrum",
+      "emc": 2560
+    },
+    {
+      "item": "biomesoplenty:grass|2",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:grass|3",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:grass|4",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:grass|5",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:grass|6",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:grass|7",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:grass|8",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:dirt|0",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:dirt|1",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:dirt|2",
+      "emc": 4
+    },
+    {
+      "item": "biomesoplenty:white_sand|0",
+      "emc": 4
     }
   ]
 }
