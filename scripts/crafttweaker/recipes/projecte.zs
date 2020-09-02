@@ -159,7 +159,7 @@ recipes.addShaped("projectex_compressed_refined_link", <projectex:compressed_ref
 recipes.removeByRecipeName("projecte:item.pe_repair_talisman");
 recipes.addShaped("projecte_item.pe_repair_talisman", <projecte:item.pe_repair_talisman>,
   [
-    [<projecte:item.pe_covalence_dust>, <botania:auraringgreater>, <projecte:item.pe_covalence_dust:2>],
+    [<embers:isolated_materia>, <botania:auraringgreater>, <embers:isolated_materia>],
     [<ore:string>, <projectex:matter:4>, <ore:string>],
     [<projecte:item.pe_covalence_dust:2>, <botania:auraringgreater>, <projecte:item.pe_covalence_dust>]
   ]
