@@ -34,6 +34,6 @@ sudo renice -n -1 14692
 ```
 
 ## References
-- todo
+- [Intuitive Font by Bruno de Souza Leão](https://fontlibrary.org/en/font/intuitive)
 - todo
 - todo
