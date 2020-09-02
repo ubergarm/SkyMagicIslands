@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-## Change -Xmx to be less than actal sever RAM
-## Change -jar to match actual server version
+
+## Change SERVERJAR to match actual server file
 SERVERJAR="forge-1.12.2-14.23.5.2854.jar"
 #SERVERJAR="Mohist-1.12.2-b71b544-server.jar"
+## Change MAXRAM to be less than actal sever RAM
+MAXRAM="5G"
 
 ## This isn't great design, but quick bandage for now:
 ## How many times to restart server before giving up
@@ -12,7 +14,7 @@ while [ $COUNT -gt 0 ]; do
     let COUNT=COUNT-1
 
     java -Xms1G \
-         -Xmx3G \
+         -Xmx"$MAXRAM" \
          -XX:+UseG1GC \
          -XX:+ParallelRefProcEnabled \
          -XX:MaxGCPauseMillis=200 \
