@@ -1,5 +1,6 @@
 #modloaded randomthings
 // Random Things Mod
+import mods.contenttweaker.BlockMaterial;
 import mods.jei.JEI.removeAndHide;
 
 // Remove and Hide anything that uses RF,
@@ -41,6 +42,8 @@ removeAndHide(<randomthings:spectrecore>);
 removeAndHide(<randomthings:potionvaporizer>);
 removeAndHide(<randomthings:rainshield>);
 removeAndHide(<randomthings:biomeradar>);
+removeAndHide(<randomthings:biomecrystal>);
+removeAndHide(<randomthings:ingredient:4>);
 removeAndHide(<randomthings:irondropper>);
 removeAndHide(<randomthings:blockbreaker>);
 
@@ -52,6 +55,19 @@ removeAndHide(<randomthings:floosign>);
 removeAndHide(<randomthings:flootoken>);
 removeAndHide(<randomthings:floopouch>);
 removeAndHide(<randomthings:floobrick>);
+
+// Fixup some ore dictionaries for the colored grasses
+// Unfortunately don't know how to make it so you can plant flowers
+// on them like normal grass ??? but could increase hardnes, meh..
+<ore:grass>.add(<randomthings:coloredgrass:*>);
+// none of this junk works here or in contenttweaker side of the house:
+// mods.randomthings.coloredgrass.setBlockMaterial(crafttweaker.blocks.IMaterial.grass());
+// <randomthings:coloredgrass:*>.asBlock().setBlockMaterial(crafttweaker.blocks.IMaterial.grass());
+// <randomthings:coloredgrass:*>.blockmaterial = crafttweaker.blocks.IMaterial.grass();
+// <blockmaterial:grass>.add(<randomthings:coloredgrass:*>);
+// <randomthings:coloredgrass>.blockmaterial = <blockmaterial:grass>;
+// the one below actually works and is cool and breaks ur wooden hoe lmao
+// <randomthings:coloredgrass:*>.hardness = 5;
 
 // Change some recipes to increase difficulty of these items
 recipes.removeByRecipeName("randomthings:imbuingstation");
@@ -96,5 +112,14 @@ recipes.addShaped("randomthings_weatheregg_sun", <randomthings:weatheregg> * 2,
     [<minecraft:obsidian>, <minecraft:feather>, <minecraft:obsidian>],
     [<minecraft:double_plant>, <astralsorcery:itemcraftingcomponent:4>, <minecraft:double_plant>],
     [<minecraft:obsidian>, <minecraft:feather>, <minecraft:obsidian>]
+  ]
+);
+
+recipes.removeByRecipeName("randomthings:slimecube");
+recipes.addShaped("randomthings_slimecube", <randomthings:slimecube>,
+  [
+    [<thaumcraft:inlay>, <minecraft:slime_ball>, <thaumcraft:inlay>],
+    [<harvestcraft:slimegummiesitem>, <botania:slimebottle>, <harvestcraft:slimegummiesitem>],
+    [<minecraft:slime>, <harvestcraft:slimepieitem>, <minecraft:slime>]
   ]
 );
