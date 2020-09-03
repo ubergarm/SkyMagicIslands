@@ -1,6 +1,4 @@
 # Greet the new player
-say Welcome to Sky Magic Islands!
-say Crafting an Akashic tome will help keep your pile of magical books organized!
-say Check in with Sunyata to begin your magical adventures...
-#clear @p[x=25,y=193,z=12] astralsorcery:itemjournal
-#clear @p[x=25,y=193,z=12] patchouli:guide_book -1 -1 {"patchouli:book": "mysticalworld:world_guide"}
+say Welcome, tree puncher, to Sky Magic Islands!
+say You've thumbed a copy of the Mystical Worlds guide book on your trip up from the Colony and are excited to experience it all! Maybe you'll collect more magical books in an Akashic tome of your own soon!?
+say Check in with Sunyata to begin your adventures!!!
