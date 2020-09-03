@@ -40,6 +40,7 @@ mods.embers.Melter.add(<fluid:electrum> * 288, <ore:gearElectrum>);
 mods.embers.Melter.add(<fluid:antimony> * 288, <ore:gearAntimony>);
 mods.embers.Melter.add(<fluid:iron> * 288, <ore:gearIron>);
 mods.embers.Melter.add(<fluid:gold> * 288, <ore:gearGold>);
+mods.embers.Melter.add(<fluid:dawnstone> * 288, <ore:gearDawnstone>);
 
 // special molten fluids
 mods.embers.Melter.add(<fluid:alchemicalbrass> * 144, <ore:ingotBrass>);
