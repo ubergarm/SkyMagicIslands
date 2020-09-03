@@ -527,6 +527,74 @@
     {
       "item": "harvestcraft:avocado_sapling|0",
       "emc": 32
+    },
+    {
+      "item": "OD|stoneMarble",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|0",
+      "emc": 16
+    },
+    {
+      "item": "chisel:limestone2|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:basalt2|7",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|1",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|6",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|5",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|3",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|2",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|4",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|0",
+      "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|1",
+      "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|2",
+      "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|3",
+      "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|4",
+      "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|5",
+      "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|6",
+      "emc": 32
     }
   ]
 }
