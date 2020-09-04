@@ -54,6 +54,16 @@ removeAndHide(<projecte:item.pe_hyperkinetic_lens>);
 // Remove and Hide the Tome of Knowledge unlocking all EMC items
 removeAndHide(<projecte:item.pe_tome>);
 
+// Remov and Hide all Dark Matter / Red matter blocks and furnaces
+// as they are impossible to remove without corresponding pickaxe or ops:
+// https://github.com/sinkillerj/ProjectE/blob/mc1.12.x/src/main/java/moze_intel/projecte/gameObjs/blocks/MatterBlock.java#L37-L49
+// https://github.com/sinkillerj/ProjectE/blob/mc1.12.x/src/main/java/moze_intel/projecte/gameObjs/items/tools/DarkPick.java#L84-L96
+// (though somehow the embers "automatic breaker" knocks them out almost immedeately - lmao)
+removeAndHide(<projecte:dm_furnace>);
+removeAndHide(<projecte:matter_block>);
+removeAndHide(<projecte:rm_furnace>);
+removeAndHide(<projecte:matter_block:1>);
+
 // Remove and Hide the ProjectEX Alchemy Table
 // as it just provides a limited early game version of the
 // ProjectE Collector EMC transmutation e.g.
