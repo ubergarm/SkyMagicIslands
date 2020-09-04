@@ -6,8 +6,7 @@
         {
             "type": "mysticalmechanics",
             "io-type": "input",
-            "levelRequiredMin": 20,
-            "levelRequiredMax": 40
+            "levelRequiredMin": 30
         },
 		{
         	"type": "fluid",
