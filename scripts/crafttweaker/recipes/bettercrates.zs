@@ -19,6 +19,9 @@ recipes.addShaped("bettercrates_wooden_crate", <bettercrates:wooden_crate>,
 		[<ore:logWood>, <ore:plankWood>, <ore:logWood>]
 	]
 );
+<bettercrates:wooden_crate>.addTooltip("WARNING: Contents will be lost if converted into EMC!");
+
+
 recipes.addShaped("bettercrates_copper_crate", <bettercrates:copper_crate>,
     [
 	    [<ore:logWood>, <ore:plankWood>, <ore:logWood>],
@@ -26,6 +29,8 @@ recipes.addShaped("bettercrates_copper_crate", <bettercrates:copper_crate>,
 		[<ore:logWood>, <ore:plankWood>, <ore:logWood>]
 	]
 );
+<bettercrates:copper_crate>.addTooltip("WARNING: Contents will be lost if converted into EMC!");
+
 recipes.addShaped("bettercrates_iron_crate", <bettercrates:iron_crate>,
     [
 	    [<ore:logWood>, <ore:plankWood>, <ore:logWood>],
@@ -33,6 +38,8 @@ recipes.addShaped("bettercrates_iron_crate", <bettercrates:iron_crate>,
 		[<ore:logWood>, <ore:plankWood>, <ore:logWood>]
 	]
 );
+<bettercrates:iron_crate>.addTooltip("WARNING: Contents will be lost if converted into EMC!");
+
 recipes.addShaped("bettercrates_golden_crate", <bettercrates:golden_crate>,
     [
 	    [<ore:logWood>, <ore:plankWood>, <ore:logWood>],
@@ -40,6 +47,8 @@ recipes.addShaped("bettercrates_golden_crate", <bettercrates:golden_crate>,
 		[<ore:logWood>, <ore:plankWood>, <ore:logWood>]
 	]
 );
+<bettercrates:golden_crate>.addTooltip("WARNING: Contents will be lost if converted into EMC!");
+
 recipes.addShaped("bettercrates_diamond_crate", <bettercrates:diamond_crate>,
     [
 	    [<ore:logWood>, <ore:plankWood>, <ore:logWood>],
@@ -47,6 +56,8 @@ recipes.addShaped("bettercrates_diamond_crate", <bettercrates:diamond_crate>,
 		[<ore:logWood>, <ore:plankWood>, <ore:logWood>]
 	]
 );
+<bettercrates:diamond_crate>.addTooltip("WARNING: Contents will be lost if converted into EMC!");
+
 recipes.addShaped("bettercrates_obsidian_crate", <bettercrates:obsidian_crate>,
     [
 	    [<ore:obsidian>, <ore:plankWood>, <ore:obsidian>],
@@ -54,9 +65,10 @@ recipes.addShaped("bettercrates_obsidian_crate", <bettercrates:obsidian_crate>,
 		[<ore:obsidian>, <ore:plankWood>, <ore:obsidian>]
 	]
 );
+<bettercrates:obsidian_crate>.addTooltip("WARNING: Contents will be lost if converted into EMC!");
 
 // Upgrades
-recipes.addShaped("bettercrates_up_wooden_crate", <bettercrates:up_wooden>, 
+recipes.addShaped("bettercrates_up_wooden_crate", <bettercrates:up_wooden>,
     [
 	    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 		[<ore:stickWood>, <bettercrates:wooden_crate>, <ore:stickWood>],
