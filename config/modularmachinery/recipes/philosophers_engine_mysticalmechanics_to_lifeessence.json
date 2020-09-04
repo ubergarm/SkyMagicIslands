@@ -1,0 +1,19 @@
+{
+    "machine": "philosophers_engine_bloodmagic",
+    "registryName": "philosophers_engine_mysticalmechanics_to_lifeessence",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "mysticalmechanics",
+            "io-type": "input",
+            "levelRequiredMin": 20,
+            "levelRequiredMax": 40
+        },
+		{
+        	"type": "fluid",
+        	"io-type": "output",
+			"fluid": "lifeessence",
+        	"amount": 50
+        }
+    ]
+}

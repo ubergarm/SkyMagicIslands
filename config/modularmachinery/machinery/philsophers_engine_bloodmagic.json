@@ -1,0 +1,86 @@
+{
+    "registryname": "philosophers_engine_bloodmagic",
+    "localizedname": "Philosopher's Engine: Blood Magic",
+    "parts": [
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "modularmagic:blocklifeessenceprovideroutput@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modulardiversity:blockmystmechoutput@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmagic:blockwillproviderinput@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "modularmagic:blocklifeessenceproviderinput@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmagic:blockwillprovideroutput@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "modulardiversity:blockmystmechinput@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+			"nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
+            "elements": [
+                "projecte:dm_pedestal@0"
+            ]
+        }
+    ]}

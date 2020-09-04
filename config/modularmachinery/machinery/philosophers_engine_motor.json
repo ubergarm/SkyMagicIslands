@@ -1,0 +1,38 @@
+{
+    "registryname": "philosophers_engine_motor",
+    "localizedname": "Philosopher's Engine: Motor",
+    "parts": [
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mystgears:redstone_dynamo@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modulardiversity:blockmystmechoutput@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
+            "elements": [
+                "projecte:dm_pedestal@0"
+            ]
+        }
+    ]}

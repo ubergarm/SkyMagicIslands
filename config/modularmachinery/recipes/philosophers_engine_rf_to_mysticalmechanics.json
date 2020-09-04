@@ -1,0 +1,18 @@
+{
+    "machine": "philosophers_engine_motor",
+    "registryName": "philosophers_engine_rf_to_mysticalmechanics",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 128
+        },
+        {
+            "type": "mysticalmechanics",
+            "io-type": "output",
+            "level": 40,
+            "time": 10
+        }
+    ]
+}
