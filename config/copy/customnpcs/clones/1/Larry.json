@@ -265,8 +265,8 @@
                 "tag": {
                     "StoredEnchantments": [
                         {
-                            "lvl": 1s,
-                            "id": 21s
+                            "lvl": 3s,
+                            "id": 35s
                         }
                     ]
                 },
@@ -440,7 +440,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 219,
+    "HurtByTimestamp": 7131,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -569,8 +569,8 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:skull",
-                "Count": 2b,
+                "id": "harvestcraft:fortunecookieitem",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
@@ -749,8 +749,8 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:gold_nugget",
-                "Count": 9b,
+                "id": "minecraft:emerald_block",
+                "Count": 3b,
                 "Damage": 0s
             },
             {
@@ -950,8 +950,8 @@
                 "freezeProgress": 0.0f,
                 "frozenPitch": 0.0f,
                 "prevHasAI": 0b,
+                "freezeDecayDelay": 0,
                 "frozenYawHead": 0.0f,
-                "frozenEntityID": -1,
                 "frozenLimbSwingAmount": 0.0f,
                 "frozenRenderYawOffset": 0.0f,
                 "frozenSwingProgress": 0.0f
@@ -1099,7 +1099,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 87342
+        "naturesaura:time_alive": 94600
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -1169,7 +1169,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Trader",
-    "TotalTicksAlive": 87038L,
+    "TotalTicksAlive": 94202L,
     "Rotation": [
         271.19748f,
         0.0f
