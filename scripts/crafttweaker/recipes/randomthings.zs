@@ -28,7 +28,6 @@ removeAndHide(<randomthings:globalchatdetector>);
 removeAndHide(<randomthings:blockdestabilizer>);
 removeAndHide(<randomthings:itemcollector>);
 removeAndHide(<randomthings:advanceditemcollector>);
-removeAndHide(<randomthings:spectrecoil_number>);
 removeAndHide(<randomthings:eclipsedclock>);
 removeAndHide(<randomthings:timeinabottle>);
 removeAndHide(<randomthings:spectrecharger>);
