@@ -595,6 +595,22 @@
     {
       "item": "astralsorcery:blockblackmarble|6",
       "emc": 32
+    },
+    {
+      "item": "astralsorcery:blockmarblestairs|0",
+      "emc": 24
+    },
+    {
+      "item": "arcanearchives:tome_arcana|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:fabric|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:thaumometer|0",
+      "emc": 0
     }
   ]
 }
