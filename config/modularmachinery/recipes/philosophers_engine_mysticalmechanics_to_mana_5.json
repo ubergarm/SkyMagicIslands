@@ -1,0 +1,17 @@
+{
+    "machine": "philosophers_engine_mana",
+    "registryName": "philosophers_engine_mysticalmechanics_to_mana_5",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "mysticalmechanics",
+            "io-type": "input",
+            "levelRequiredMin": 480
+        },
+        {
+            "type": "mana",
+            "io-type": "output",
+            "mana": 1280
+        }
+    ]
+}
