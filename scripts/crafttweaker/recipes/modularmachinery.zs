@@ -125,15 +125,15 @@ recipes.addShaped("modularmagic_blockaspectprovideroutput", <modularmagic:blocka
 recipes.addShaped("modularmagic_blockstarlightproviderinput", <modularmagic:blockstarlightproviderinput>,
   [
     [<ore:dustRedstone>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemusabledust>],
-    [<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:blockattunementrelay>, <astralsorcery:itemcraftingcomponent:4>],
-    [<astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <ore:dustRedstone>]
+    [<astralsorcery:blockattunementrelay>, <astralsorcery:itemskyresonator>, <astralsorcery:blockattunementrelay>],
+    [<astralsorcery:itemusabledust>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <ore:dustRedstone>]
   ]
 );
 
 recipes.addShaped("modularmagic_blockstarlightprovideroutput", <modularmagic:blockstarlightprovideroutput>,
   [
-    [<ore:dustRedstone>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>],
-    [<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:blockattunementrelay>, <astralsorcery:itemcraftingcomponent:4>],
+    [<ore:dustRedstone>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <astralsorcery:itemusabledust>],
+    [<astralsorcery:blockattunementrelay>, <astralsorcery:itemskyresonator>, <astralsorcery:blockattunementrelay>],
     [<astralsorcery:itemusabledust>, <astralsorcery:itemcraftingcomponent:3>, <ore:dustRedstone>]
   ]
 );
