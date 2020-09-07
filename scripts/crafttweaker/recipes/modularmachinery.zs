@@ -17,8 +17,25 @@ recipes.addShaped("modularmachinery_modularium_ingot", <modularmachinery:itemmod
   ]
 );
 
+// higher tier energy hatches
+recipes.addShaped("modularmachinery_energy_input_normal", <modularmachinery:blockenergyinputhatch:2>,
+  [
+    [<ore:dustRedstone>, <minecraft:repeater>, <ore:dustRedstone>],
+    [<ore:blockRedstone>, <modularmachinery:blockenergyinputhatch:1>, <ore:blockRedstone>],
+    [<ore:dustRedstone>, <ore:blockRedstone>, <ore:dustRedstone>]
+  ]
+);
+
+recipes.addShaped("modularmachinery_energy_input_reinforced", <modularmachinery:blockenergyinputhatch:3>,
+  [
+    [<ore:dustRedstone>, <minecraft:repeater>, <ore:dustRedstone>],
+    [<ore:blockRedstone>, <modularmachinery:blockenergyinputhatch:2>, <ore:blockRedstone>],
+    [<ore:dustRedstone>, <ore:blockRedstone>, <ore:dustRedstone>]
+  ]
+);
+
+// higher tier fluid/item hatches and misc casings/vents
 // <modularmachinery:blockcasing:3>
-// higher tier energy/fluid/item hatches
 
 // ######################################################################
 // Modular Diversity
