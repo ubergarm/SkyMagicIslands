@@ -117,4 +117,15 @@ if(hideCreativeItems) {
         removeAndHide(<mysticalmechanics:creative_mech_source>);
     }
 
+    // Arcane Archaives
+    if(loadedMods.contains("mysticalmechanics")) {
+        removeAndHide(<arcanearchives:debugorb>);
+    }
+
+    // Wizardry
+    if(loadedMods.contains("mysticalmechanics")) {
+        removeAndHide(<wizardry:creative_mana_battery>);
+        removeAndHide(<wizardry:halo_creative>);
+    }
+
 }
