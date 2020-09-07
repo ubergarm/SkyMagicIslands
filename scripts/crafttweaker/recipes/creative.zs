@@ -128,4 +128,9 @@ if(hideCreativeItems) {
         removeAndHide(<wizardry:halo_creative>);
     }
 
+    // Psi and Magical Psi
+    if(loadedMods.contains("psi")) {
+        removeAndHide(<psi:cad_assembly:5>);
+    }
 }
+
