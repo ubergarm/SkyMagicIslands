@@ -611,6 +611,118 @@
     {
       "item": "thaumcraft:thaumometer|0",
       "emc": 0
+    },
+    {
+      "item": "guideapi:bloodmagic-guide|0",
+      "emc": 0
+    },
+    {
+      "item": "wizardry:cape|0",
+      "emc": 0
+    },
+    {
+      "item": "wizardry:pearl_belt|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_white|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_orange|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_magenta|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_lightblue|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_yellow|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_lime|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_pink|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_gray|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_silver|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_cyan|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_purple|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_blue|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_brown|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_green|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_red|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:banner_black|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:vis_resonator|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:activator_rail|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:resonator|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:jar_normal|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:jar_void|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:hungry_chest|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:filter|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:inlay|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:bellows|0",
+      "emc": 0
     }
   ]
 }
