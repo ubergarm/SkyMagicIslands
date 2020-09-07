@@ -1,18 +1,24 @@
 {
     "machine": "philosophers_engine_motor",
-    "registryName": "philosophers_engine_rf_to_mysticalmechanics",
+    "registryName": "philosophers_engine_rf_to_mysticalmechanics_2",
     "recipeTime": 10,
     "requirements": [
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 128
+            "energyPerTick": 256
         },
         {
             "type": "mysticalmechanics",
             "io-type": "output",
-            "level": 40,
+            "level": 80,
             "time": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mysticalmechanics:gear_iron",
+            "chance": 0.0
         }
     ]
 }

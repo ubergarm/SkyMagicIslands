@@ -1,0 +1,24 @@
+{
+    "machine": "philosophers_engine_motor",
+    "registryName": "philosophers_engine_rf_to_mysticalmechanics_4",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1024
+        },
+        {
+            "type": "mysticalmechanics",
+            "io-type": "output",
+            "level": 320,
+            "time": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mysticalmechanics:gear_gold",
+            "chance": 0.0
+        }
+    ]
+}

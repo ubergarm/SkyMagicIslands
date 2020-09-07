@@ -15,7 +15,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "mystgears:redstone_dynamo@5"
+                "modularmachinery:blockinputbus@0"
             ]
         },
         {

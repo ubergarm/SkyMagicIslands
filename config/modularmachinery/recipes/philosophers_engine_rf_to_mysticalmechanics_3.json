@@ -1,0 +1,24 @@
+{
+    "machine": "philosophers_engine_motor",
+    "registryName": "philosophers_engine_rf_to_mysticalmechanics_3",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+        {
+            "type": "mysticalmechanics",
+            "io-type": "output",
+            "level": 160,
+            "time": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mystgears:gear_nickel",
+            "chance": 0.0
+        }
+    ]
+}
