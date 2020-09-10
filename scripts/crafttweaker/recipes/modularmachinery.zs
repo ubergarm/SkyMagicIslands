@@ -1,11 +1,9 @@
 #modloaded modularmachinery modulardiversity modularmagic naturesaura botania bloodmagic
 // Modular Machinery and Modular Magic and Modular Diversity mods
+import mods.jei.JEI.removeAndHide;
 
 // ######################################################################
 // Modular Machinery
-
-// Remove and Hide all unused components
-// TODO
 
 // Change the Modularium Ingot to require sweet sweet dark matter
 recipes.removeByRecipeName("modularmachinery:modularium_ingot");
@@ -17,32 +15,113 @@ recipes.addShaped("modularmachinery_modularium_ingot", <modularmachinery:itemmod
   ]
 );
 
-// higher tier energy hatches
+// higher tier energy input hatches
 recipes.addShaped("modularmachinery_energy_input_normal", <modularmachinery:blockenergyinputhatch:2>,
   [
     [<ore:dustRedstone>, <minecraft:repeater>, <ore:dustRedstone>],
-    [<ore:blockRedstone>, <modularmachinery:blockenergyinputhatch:1>, <ore:blockRedstone>],
-    [<ore:dustRedstone>, <ore:blockRedstone>, <ore:dustRedstone>]
+    [<modularmachinery:itemmodularium>, <modularmachinery:blockenergyinputhatch:1>, <modularmachinery:itemmodularium>],
+    [<ore:blockRedstone>, <modularmachinery:itemmodularium>, <ore:blockRedstone>]
   ]
 );
 
 recipes.addShaped("modularmachinery_energy_input_reinforced", <modularmachinery:blockenergyinputhatch:3>,
   [
     [<ore:dustRedstone>, <minecraft:repeater>, <ore:dustRedstone>],
-    [<ore:blockRedstone>, <modularmachinery:blockenergyinputhatch:2>, <ore:blockRedstone>],
-    [<ore:dustRedstone>, <ore:blockRedstone>, <ore:dustRedstone>]
+    [<modularmachinery:itemmodularium>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:itemmodularium>],
+    [<ore:blockRedstone>, <modularmachinery:itemmodularium>, <ore:blockRedstone>]
   ]
 );
 
-// higher tier fluid/item hatches and misc casings/vents
-// <modularmachinery:blockcasing:3>
+removeAndHide(<modularmachinery:blockenergyinputhatch:4>);
+removeAndHide(<modularmachinery:blockenergyinputhatch:5>);
+removeAndHide(<modularmachinery:blockenergyinputhatch:6>);
+removeAndHide(<modularmachinery:blockenergyinputhatch:7>);
+
+// higher tier energy output hatches
+removeAndHide(<modularmachinery:blockenergyoutputhatch:0>);
+removeAndHide(<modularmachinery:blockenergyoutputhatch:1>);
+removeAndHide(<modularmachinery:blockenergyoutputhatch:2>);
+removeAndHide(<modularmachinery:blockenergyoutputhatch:3>);
+removeAndHide(<modularmachinery:blockenergyoutputhatch:4>);
+removeAndHide(<modularmachinery:blockenergyoutputhatch:5>);
+removeAndHide(<modularmachinery:blockenergyoutputhatch:6>);
+removeAndHide(<modularmachinery:blockenergyoutputhatch:7>);
+
+// higher tier fluid input hatches
+recipes.addShaped("modularmachinery_fluid_input_normal", <modularmachinery:blockfluidinputhatch:2>,
+  [
+    [null, <minecraft:hopper>, null],
+    [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:1>, <modularmachinery:itemmodularium>],
+    [<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+  ]
+);
+
+recipes.addShaped("modularmachinery_fluid_input_reinforced", <modularmachinery:blockfluidinputhatch:3>,
+  [
+    [null, <minecraft:hopper>, null],
+    [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:2>, <modularmachinery:itemmodularium>],
+    [<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>]
+  ]
+);
+
+removeAndHide(<modularmachinery:blockfluidinputhatch:4>);
+removeAndHide(<modularmachinery:blockfluidinputhatch:5>);
+removeAndHide(<modularmachinery:blockfluidinputhatch:6>);
+removeAndHide(<modularmachinery:blockfluidinputhatch:7>);
+
+// higher tier fluid output hatches
+recipes.addShaped("modularmachinery_fluid_output_normal", <modularmachinery:blockfluidoutputhatch:2>,
+  [
+    [<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>],
+    [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:1>, <modularmachinery:itemmodularium>],
+    [null, <minecraft:hopper>, null]
+  ]
+);
+
+recipes.addShaped("modularmachinery_fluid_output_reinforced", <modularmachinery:blockfluidoutputhatch:3>,
+  [
+    [<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>],
+    [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:2>, <modularmachinery:itemmodularium>],
+    [null, <minecraft:hopper>, null]
+  ]
+);
+
+removeAndHide(<modularmachinery:blockfluidoutputhatch:4>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:5>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:6>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:7>);
+
+// higher tier item input hatches
+removeAndHide(<modularmachinery:blockinputbus:1>);
+removeAndHide(<modularmachinery:blockinputbus:2>);
+removeAndHide(<modularmachinery:blockinputbus:3>);
+removeAndHide(<modularmachinery:blockinputbus:4>);
+removeAndHide(<modularmachinery:blockinputbus:5>);
+removeAndHide(<modularmachinery:blockinputbus:6>);
+
+// higher tier item output hatches
+removeAndHide(<modularmachinery:blockoutputbus:0>);
+removeAndHide(<modularmachinery:blockoutputbus:1>);
+removeAndHide(<modularmachinery:blockoutputbus:2>);
+removeAndHide(<modularmachinery:blockoutputbus:3>);
+removeAndHide(<modularmachinery:blockoutputbus:4>);
+removeAndHide(<modularmachinery:blockoutputbus:5>);
+removeAndHide(<modularmachinery:blockoutputbus:6>);
+
+// misc casings/vents as Philosophers Engines have no bonus modifiers
+removeAndHide(<modularmachinery:blockcasing:1>);
+removeAndHide(<modularmachinery:blockcasing:2>);
+removeAndHide(<modularmachinery:blockcasing:3>);
+removeAndHide(<modularmachinery:blockcasing:4>);
+removeAndHide(<modularmachinery:blockcasing:5>);
+
 
 // ######################################################################
 // Modular Diversity
 
-// <modulardiversity:blockbiomedetector>
-// <modulardiversity:blockdaylightdetector>
-// <modulardiversity:blockweatherdetector>
+<modulardiversity:blockbiomedetector>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockdaylightdetector>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockweatherdetector>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
 
 // ######################################################################
 // Botania
@@ -54,6 +133,7 @@ recipes.addShaped("modulardiversity_blockmanainputhatch", <modulardiversity:bloc
     [<botania:petal:10>, <botania:pool>, <ore:dustRedstone>]
   ]
 );
+<modulardiversity:blockmanainputhatch>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
 
 recipes.addShaped("modulardiversity_blockmanaoutputhatch", <modulardiversity:blockmanaoutputhatch>,
   [
@@ -108,6 +188,14 @@ recipes.addShaped("modulardiversity_blockemberinputhatch", <modulardiversity:blo
     [<embers:ember_pipe>, <embers:ember_emitter>, <ore:dustRedstone>]
   ]
 );
+<modulardiversity:blockemberinputhatch:0>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberinputhatch:1>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberinputhatch:2>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberinputhatch:3>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberinputhatch:4>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberinputhatch:5>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberinputhatch:6>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberinputhatch:7>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
 
 recipes.addShaped("modulardiversity_blockemberoutputhatch", <modulardiversity:blockemberoutputhatch>,
   [
@@ -116,6 +204,14 @@ recipes.addShaped("modulardiversity_blockemberoutputhatch", <modulardiversity:bl
     [<embers:ember_pipe>, <embers:ember_receiver>, <ore:dustRedstone>]
   ]
 );
+<modulardiversity:blockemberoutputhatch:0>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberoutputhatch:1>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberoutputhatch:2>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberoutputhatch:3>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberoutputhatch:4>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberoutputhatch:5>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberoutputhatch:6>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
+<modulardiversity:blockemberoutputhatch:7>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
 
 // ######################################################################
 // Thaumcraft
@@ -127,6 +223,7 @@ recipes.addShaped("modularmagic_blockaspectproviderinput", <modularmagic:blockas
     [<thaumcraft:tube_valve>, <thaumcraft:essentia_output>, <ore:dustRedstone>]
   ]
 );
+<modularmagic:blockaspectproviderinput>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
 
 recipes.addShaped("modularmagic_blockaspectprovideroutput", <modularmagic:blockaspectprovideroutput>,
   [
@@ -135,6 +232,7 @@ recipes.addShaped("modularmagic_blockaspectprovideroutput", <modularmagic:blocka
     [<thaumcraft:tube_valve>, <thaumcraft:essentia_input>, <ore:dustRedstone>]
   ]
 );
+<modularmagic:blockaspectprovideroutput>.addTooltip("§4Work In Progress: §7This item not yet implemented!");
 
 // ######################################################################
 // Astral Sorcery
