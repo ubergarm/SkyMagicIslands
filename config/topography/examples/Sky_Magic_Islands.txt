@@ -198,7 +198,7 @@ skyIslands = new SkyIslandGeneratorV2()
 skyIslands.setRegionSize(32)
 addGenerator(skyIslands)
 
-// Add a global hook to caves so worley's can work its magic under the islands, set min cave y to something higher for more caves
+// Add global caves generator (seems incompatible w/ Worley's Caves and also Apotheosis unfortunately)
 caves = new VanillaCaveGenerator()
 addGenerator(caves)
 
