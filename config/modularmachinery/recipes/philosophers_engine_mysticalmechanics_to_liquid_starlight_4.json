@@ -1,19 +1,19 @@
 {
     "machine": "philosophers_engine_astral_sorcery",
-    "registryName": "philosophers_engine_mysticalmechanics_to_liquid_starlight_1",
+    "registryName": "philosophers_engine_mysticalmechanics_to_liquid_starlight_4",
     "recipeTime": 10,
     "requirements": [
         {
             "type": "mysticalmechanics",
             "io-type": "input",
-            "levelRequiredMin": 30,
-            "levelRequiredMax": 59
+            "levelRequiredMin": 240,
+            "levelRequiredMax": 479
         },
         {
             "type": "fluid",
             "io-type": "output",
             "fluid": "astralsorcery.liquidstarlight",
-            "amount": 30
+            "amount": 240
         }
     ]
 }
