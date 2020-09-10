@@ -126,6 +126,7 @@ if(hideCreativeItems) {
     if(loadedMods.contains("mysticalmechanics")) {
         removeAndHide(<wizardry:creative_mana_battery>);
         removeAndHide(<wizardry:halo_creative>);
+        removeAndHide(<wizardry:magic_wand>);
     }
 
     // Psi and Magical Psi
