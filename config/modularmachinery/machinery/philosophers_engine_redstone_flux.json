@@ -1,11 +1,14 @@
 {
-    "registryname": "philosophers_engine_motor",
-    "localizedname": "Philosopher's Engine: Motor",
+    "registryname": "philosophers_engine_redstone_flux",
+    "localizedname": "Philosopher's Engine: Redstone Flux",
+    "requires-blueprint": false,
+    "color": "9B1908",
     "parts": [
         {
             "x": 1,
             "y": -1,
             "z": 0,
+            "description": "Input Hatch",
             "elements": [
                 "modularmachinery:blockenergyinputhatch"
             ]
@@ -14,6 +17,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
+            "description": "Recipe Selector Hatch",
             "elements": [
                 "modularmachinery:blockinputbus@0"
             ]
@@ -22,14 +26,16 @@
             "x": -1,
             "y": -1,
             "z": 0,
+            "description": "Output Hatch",
             "elements": [
-                "modulardiversity:blockmystmechoutput@0"
+                "modulardiversity:blockmystmechoutput"
             ]
         },
         {
             "x": 0,
             "y": 1,
             "z": 0,
+            "description": "Requires Philosopher's Stone in pedestal to function!",
             "nbt": {"Items":[{"id":"projecte:item.pe_philosophers_stone"}]},
             "elements": [
                 "projecte:dm_pedestal@0"

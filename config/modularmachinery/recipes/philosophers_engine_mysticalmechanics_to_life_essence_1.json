@@ -1,6 +1,6 @@
 {
-    "machine": "philosophers_engine_botania",
-    "registryName": "philosophers_engine_mysticalmechanics_to_mana_1",
+    "machine": "philosophers_engine_blood_magic",
+    "registryName": "philosophers_engine_mysticalmechanics_to_life_essence",
     "recipeTime": 10,
     "requirements": [
         {
@@ -10,9 +10,10 @@
             "levelRequiredMax": 59
         },
         {
-            "type": "mana",
+            "type": "fluid",
             "io-type": "output",
-            "mana": 80
+            "fluid": "lifeessence",
+            "amount": 30
         }
     ]
 }

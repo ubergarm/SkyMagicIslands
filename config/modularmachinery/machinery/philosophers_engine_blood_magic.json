@@ -1,10 +1,12 @@
 {
-    "registryname": "philosophers_engine_bloodmagic",
+    "registryname": "philosophers_engine_blood_magic",
     "localizedname": "Philosopher's Engine: Blood Magic",
+    "requires-blueprint": false,
+    "color": "662424",
     "parts": [
         {
             "x": -1,
-            "y": -1,
+            "y": -2,
             "z": -1,
             "elements": [
                 "modularmagic:blocklifeessenceprovideroutput@0"
@@ -12,7 +14,7 @@
         },
         {
             "x": -1,
-            "y": -1,
+            "y": -2,
             "z": 1,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch"
@@ -20,7 +22,7 @@
         },
         {
             "x": 0,
-            "y": -1,
+            "y": -2,
             "z": 1,
             "elements": [
                 "modulardiversity:blockmystmechoutput@0"
@@ -28,7 +30,7 @@
         },
         {
             "x": 1,
-            "y": -1,
+            "y": -2,
             "z": 1,
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
@@ -36,7 +38,7 @@
         },
         {
             "x": 1,
-            "y": -1,
+            "y": -2,
             "z": 0,
             "elements": [
                 "modularmagic:blockwillproviderinput@0"
@@ -44,15 +46,24 @@
         },
         {
             "x": 0,
-            "y": -1,
+            "y": -2,
             "z": 0,
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
         },
         {
-            "x": 1,
+            "x": 0,
             "y": -1,
+            "z": 0,
+            "description": "Recipe Selector Hatch",
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
             "z": -1,
             "elements": [
                 "modularmagic:blocklifeessenceproviderinput@0"
@@ -60,7 +71,7 @@
         },
         {
             "x": -1,
-            "y": -1,
+            "y": -2,
             "z": 0,
             "elements": [
                 "modularmagic:blockwillprovideroutput@0"
@@ -68,7 +79,7 @@
         },
         {
             "x": 0,
-            "y": -1,
+            "y": -2,
             "z": -1,
             "elements": [
                 "modulardiversity:blockmystmechinput@0"

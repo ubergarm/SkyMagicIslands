@@ -1,6 +1,6 @@
 {
-    "machine": "philosophers_engine_botania",
-    "registryName": "philosophers_engine_mysticalmechanics_to_mana_1",
+    "machine": "philosophers_engine_astral_sorcery",
+    "registryName": "philosophers_engine_mysticalmechanics_to_liquid_starlight",
     "recipeTime": 10,
     "requirements": [
         {
@@ -10,9 +10,10 @@
             "levelRequiredMax": 59
         },
         {
-            "type": "mana",
+            "type": "fluid",
             "io-type": "output",
-            "mana": 80
+            "fluid": "astralsorcery.liquidstarlight",
+            "amount": 30
         }
     ]
 }

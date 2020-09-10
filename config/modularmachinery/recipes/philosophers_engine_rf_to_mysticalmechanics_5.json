@@ -1,5 +1,5 @@
 {
-    "machine": "philosophers_engine_motor",
+    "machine": "philosophers_engine_redstone_flux",
     "registryName": "philosophers_engine_rf_to_mysticalmechanics_5",
     "recipeTime": 10,
     "requirements": [
