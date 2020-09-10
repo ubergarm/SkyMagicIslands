@@ -1,6 +1,7 @@
 // Remove and Hide "Creative" items
 import crafttweaker.mods.ILoadedMods;
 import mods.jei.JEI.removeAndHide;
+import mods.jei.JEI.hide;
 
 // Set this to false if you want to see creative items in JEI
 var hideCreativeItems = true as bool;
@@ -135,3 +136,9 @@ if(hideCreativeItems) {
     }
 }
 
+// Add a few JEI cleanups for items that don't have textures
+hide(<monk:monk_level>);
+hide(<wizardry:altar_sacrament>);
+hide(<wizardry:altar_confession>);
+hide(<wizardry:underworld_portal>);
+hide(<wizardry:fairy_item>);
