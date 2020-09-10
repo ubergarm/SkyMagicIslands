@@ -483,8 +483,10 @@ small.addType(thc_eerie)
 small.addType(thc_magical_forest)
 
 //=====================================
-//Sets the nbt spawn structure for the dimension at y=176
-setSpawnStructure("smi_spawn_island", 176)
+//Sets the nbt spawn structure for the dimension at y=64
+//because wizardry needs ~>= 140 blocks of falling onto bedrock
+//and you can't disassemble a davinci's airship above 255
+setSpawnStructure("smi_spawn_island", 64)
 
 //=====================================
 //Disable Nether Portal Creation
