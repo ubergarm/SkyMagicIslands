@@ -723,6 +723,10 @@
     {
       "item": "thaumcraft:bellows|0",
       "emc": 0
+    },
+    {
+      "item": "astralsorcery:blockmarbleslab|0",
+      "emc": 8
     }
   ]
 }
