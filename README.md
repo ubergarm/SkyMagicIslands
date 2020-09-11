@@ -35,6 +35,8 @@ $ sudo renice -n -1 14692
 ## It is highly recommened to pregenerate chunks for both stability and performance!
 ## Pregenerate chunks in square with radius 100 around Opped player
 /pregen gen startradius square ~ ~ 100
+/pregen stop
+/pregen clear
 ```
 
 ## References
