@@ -91,6 +91,7 @@ and support them however feels right to you! Thanks and have fun!
 * [AsianHalfSquat](https://www.youtube.com/user/asianhalfsquat) This guy has a great signal to noise ratio and is how I discovered many of these mods!
 * [Mods Summed Up](https://www.youtube.com/playlist?list=PLWUnrwn0-CNWnJbQ8XawEWdEnmRAFEgYk) Great quick overviews of a single mod all summed up!
 * [Equivilent Skies](https://www.curseforge.com/minecraft/modpacks/equivalent-skies) Inspired starting off with the new ProjectEX book of knowledge!
+* [Project Ozone 3](https://www.curseforge.com/minecraft/modpacks/project-ozone-3-a-new-way-forward) Inspired some of the Magcal Modular Machine Multi-blocks!
 
 Also a big shout out and thank you to my personal gaming and playtesting
 crew of `katgoespewpew`, `Malkthius`, and `GregoryZamuza`! Without their
