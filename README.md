@@ -3,17 +3,17 @@ Sky Magic Islands
 Magical SkyBlock Modpack for Minecraft 1.12.2
 
 ## Overview
-A highly integrated modpack weaving a cast of helpful Custom NPCs together
-with classic and new magical mods all while turning ProjectE on its head!
+A highly integrated modpack weaving together a cast of Custom NPCs with
+both classic and new magical mods all while turning ProjectE/EX on its head!
 
 ## Highlights
 - Explore amazing *new* Sky Island World Generation provided by [Topography](https://www.curseforge.com/minecraft/mc-mods/topography) SkyIslandsV2 provider!
-- 70+ beautiful biomes from [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty), [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) and more! Find out which are peaceful (not spawning mos) and which more dangerous than others (spawning powerful Mutant mobs)!
-- No grinding thanks to heavily revamped [ProjectE](https://www.curseforge.com/minecraft/mc-mods/projecte) and [ProjectEX](https://www.curseforge.com/minecraft/mc-mods/project-ex) progression turning alchemy on its head offering the EMC idlegame without ruining anything!
-- Mana from Steam Power?! Why not! Blend magic and mechanics eventually converting mana types between mods using custom end game [Modular Machinery](https://www.curseforge.com/minecraft/mc-mods/modular-machinery)!
+- 70+ beautiful biomes from [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty), [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) and more! Find out which are peaceful (not spawning mobs) and which are more dangerous than others (spawning powerful Mutant mobs)!
+- No grinding thanks to a heavily revamped [ProjectE](https://www.curseforge.com/minecraft/mc-mods/projecte) and [ProjectEX](https://www.curseforge.com/minecraft/mc-mods/project-ex) progression turning alchemy on its head offering the EMC "idle game" without ruining anything!
+- Mana from Steam Power?! Liquid Starlight from Nature's Aura?! Why not! Create late game Philosopher's Engine multiblocks to blend magic and gear powered mechanics converting mana types between many mods!
 - Unleash your creativity with a bevy of blocks to decorate all those beautiful multiblocck structures!
-- Show off your style wearing a boatload of baubles and cosmetic armor slots!
-- Get off to a great start with puzzles and quests provided by an all star cast of [Noppes' Custom NPCs](https://www.curseforge.com/minecraft/mc-mods/custom-npcs)!
+- Show off your style wearing a boat-load of baubles and tweak you look without losing stats thanks to cosmetic armor slots!
+- Get off to a great start with quests provided by an all star cast of [Noppes' Custom NPCs](https://www.curseforge.com/minecraft/mc-mods/custom-npcs)!
 
 What are you waiting for?! Go get started with this magical blend of
 mods only all available in Mineraft 1.12.2!!!
@@ -68,7 +68,7 @@ Many of these mods have great resource packs available
 over at [bdcraft forums](https://bdcraft.net/) if you
 can't find it on curseforge first. I also highly recommend [Fatasy
 Ores](https://www.curseforge.com/minecraft/texture-packs/fantasy-ores-by-cesarzorak)
-as well. For development I personally use about ~20ish packs at `x64` which cover a
+as well. For development I personally use about ~20ish packs at `64px` which cover a
 lot of the mods without out-shining the mods with original textures imho.
 
 ## Shaders
