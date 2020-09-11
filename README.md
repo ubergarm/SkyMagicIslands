@@ -235,6 +235,7 @@ Just under 150 beautiful mods strong:
 * Placebo Shadows_of_Fire
 * Project EX  LatvianModder
 * ProjectE    SinKillerJ
+* Project Nashorn	HalestormXV
 * Psi Vazkii
 * Random Things   Lumien231
 * Roots   EpicSquid315
@@ -267,22 +268,6 @@ Just under 150 beautiful mods strong:
 * WorldGen Block Replacer The_Fireplace
 * Xaero's Minimap xaero96
 * Xaero's World Map   xaero96
-
-## nashorn.jar
-The Custom NPCs have a small javascript to keep them parked in the
-location at which they spawn. This requires runtime environment for
-programs written in ECMAScript that runs on top of JVM like `nashorn`
-to be available in the mods folder. The `sha1sum` of the included jar
-file is:
-```
-e9ff199addfe30a4fa6db95a6b15adb20be7b24c  mods/nashorn.jar
-```
-
-The software license for `nashorn.jar` is
-[LGPLv2](https://openjdk.java.net/legal/gplv2+ce.html)
-and more information is available from the [OpenJDK Project
-Nashorn](https://openjdk.java.net/projects/nashorn/) and source from
-[AdoptOpenJDK/openjdk-jdk8u](https://github.com/AdoptOpenJDK/openjdk-jdk8u/tree/master/nashorn).
 
 ## Logo Font
 [Intuitive Font by Bruno de Souza Leão](https://fontlibrary.org/en/font/intuitive)

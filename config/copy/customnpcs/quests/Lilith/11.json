@@ -18,7 +18,7 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
         "DecreaseFaction2Points": 0b
     },
     "RewardExp": 7,
-    "QuestCommand": "execute @p[x=5,y=191,z=10] 5 191 10 detect 4 190 10 minecraft:grass 0 noppes clone spawn Larry 1 0:5,191,7 Luciana",
+    "QuestCommand": "execute @p[x=5,y=79,z=10] 5 79 10 detect 4 78 10 minecraft:grass 0 noppes clone spawn Larry 1 0:5,79,7 Luciana",
     "ModRev": 18,
     "Type": 0,
     "QuestMail": {
