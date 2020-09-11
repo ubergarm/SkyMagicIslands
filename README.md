@@ -80,6 +80,15 @@ but unfortunately many shaders are not very comptibe with the advanced
 magical and particle effetcts many of these mods provide so I don't
 recommend any to get the original mod makers visuals more accurate.
 
+## Server
+This modpack was developed for
+[forge-1.12.2-14.23.5.2854](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html)
+but also has pretty good compatibility with
+[Mohist 1.12.2](https://github.com/Mohist-Community/Mohist) as well if you want
+or need a Hybrid server implementing Forge/Papr/Spigot/Bukkit APIs. There
+are some known issues with specific tileEntities with issues open on
+their tracker.
+
 ## Mods
 Please support our mod developers! They are the creative inspiration and
 perspirations for many beautiful gems and works of art! Check out their
