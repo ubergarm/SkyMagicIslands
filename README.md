@@ -1,7 +1,7 @@
 Sky Magic Islands
 ===
 A highly integrated modpack weaving together a cast of Custom NPCs with
-both classic and new magical mods all while turning completely rebalanced
+both classic and new magical mods all while turning completely re-balanced
 ProjectE/EX EMC on its head!
 
 ## Highlights
@@ -9,7 +9,7 @@ ProjectE/EX EMC on its head!
 - 70+ beautiful biomes from [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty), [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) and more! Find out which are peaceful (not spawning mobs) and which are more dangerous than others (spawning powerful Mutant mobs)!
 - No grinding thanks to a heavily revamped [ProjectE](https://www.curseforge.com/minecraft/mc-mods/projecte) and [ProjectEX](https://www.curseforge.com/minecraft/mc-mods/project-ex) progression turning alchemy on its head offering the EMC "idle game" without ruining anything!
 - Mana from Steam Power?! Liquid Starlight from Nature's Aura?! Why not! Create late game Philosopher's Engine multiblocks to blend magic and gear powered mechanics converting mana types between many mods!
-- Unleash your creativity with a bevy of blocks to decorate all those beautiful multiblocck structures!
+- Unleash your creativity with a bevy of blocks to decorate all those beautiful multiblock structures!
 - Show off your style wearing a boat-load of baubles and tweak you look without losing stats thanks to cosmetic armor slots!
 - Build an airship and fly into the Nether for fast travel then back up into the overworld! (Your friends can ride on BiblioCraft seats, but they will glitch off if you try to take them across the Nether/Overworld line).
 - SNAD and Chisel blocks in Bonsai Pots! Stamp molten Thaumium and Void metal into gears! Totally rebalanced Monk Mod!
@@ -102,8 +102,8 @@ This modpack is compatible with
 I personally develop with optfine installed which gives some
 performance benifits, the `c` button zoom features, and dynamic lighting,
 but unfortunately many shaders are not very comptibe with the advanced
-magical and particle effetcts many that these mods provide- so I don't
-recommend using them to get the original mod makers visuals more accurate.
+magical and particle effects many that these mods provide; therefore I don't
+recommend using them to preserve original mod makers effects more accurately.
 
 ## Shout Outs
 * [Mischief of Mice](https://www.youtube.com/channel/UCU3gwpclVZSYofj616OQKLQ) Valen goes in depth explaining mods bit by bit!
