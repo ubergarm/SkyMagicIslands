@@ -20,7 +20,12 @@ What are you waiting for?! Go get started with this magical blend of
 mods only all available in Mineraft 1.12.2!!!
 
 ## Installation
-~6GB RAM seems fine for client; less okay for small server
+
+* ~6GB RAM seems fine for client; less okay for small server.
+* I suggest turning off fog, clouds, and to disable auto-jump.
+* If your PC can handle it, turn up render distance a bit to 10 or 12.
+* You can access NPC Quest Log by rebinding the `L` key or by using the tab above your inventory on the right.
+* During world generation select the default `Sky Magic Islands` an do not click `preview`.
 
 *IMPORTANT NOTE*: Do *NOT* update Modular Mechanics/Magic/Diversity or
 you will break the pack! I specifically chose these versions as they are
@@ -43,7 +48,9 @@ are some known issues with specific tileEntities with issues open on
 their tracker. Please confirm any unusual behavior while using Mohist is also present
 under Forge before reporting bugs so you know where to report it.
 
-The server pack file is forthcoming after client is approved on [curseforge](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands).
+The server pack file, issue tracker, and code links are forthcoming on
+[curseforge](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands)
+now that the client file is approved.
 
 #### Scoreboard
 Some commands for you and your friends to work together on the Philosopher
