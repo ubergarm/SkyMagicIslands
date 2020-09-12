@@ -14,7 +14,7 @@ ProjectE/EX EMC on its head!
 - Build an airship and fly into the Nether for fast travel then back up into the overworld! (Your friends can ride on [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) seats, but they will glitch off if you try to take them across the Nether/Overworld line).
 - SNAD and Chisel blocks in Bonsai Pots! Stamp molten Thaumium and Void metal into gears! Totally rebalanced [Monk Mod](https://www.curseforge.com/minecraft/mc-mods/the-monk-mod)!
 - Many inventory solutions available early game with complex Crate/EMC/Magical integrations possible for all you warehouse keepers out there!
-- Get off to a great start with quests provided by an all star cast of [Noppes' Custom NPCs](https://www.curseforge.com/minecraft/mc-mods/custom-npcs)!
+- Get off to a great start with eary game quests provided by an all star cast of [Noppes' Custom NPCs](https://www.curseforge.com/minecraft/mc-mods/custom-npcs)!
 
 What are you waiting for?! Go get started with this magical blend of
 mods only all available in Mineraft 1.12.2!!!
@@ -139,7 +139,6 @@ perspiration for many beautiful gems and works of art! Check out their
 [curseforge](https://curseforge.com) project pages and follow the links
 for donate, follow, subscribe, and support them however feels right to you!
 Thanks and have fun!
-
 
 #### Mod List
 Just under 150 beautiful mods strong:
