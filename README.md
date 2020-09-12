@@ -19,6 +19,20 @@ ProjectE/EX EMC on its head!
 What are you waiting for?! Go get started with this magical blend of
 mods only all available in Mineraft 1.12.2!!!
 
+## Getting Started
+A few tips to start you off on the right foot:
+
+* You must "turn in" a completed quest with the NPC that gave it to you to receive your reward!
+* After "turning in" your first quest with "Sunyata", you will receive everything needed to begin using EMC and completing more quests.
+* You can craft better quality Transmutation Tables and Tablets before completing the Philosopher Stone quest!
+* You will need to use the JEI to figure out creative ways to transmute items into other items using different mods' recipes. You can also find many useful and high EMC items by simply exploring the structures that generate on many of the islands.
+* Many mods provide Achievements to guide your progress but might need to be unlocked before the tab is visible. For example, punch and break 10 wood logs with your bare hands while not wearing any armor to unlock `The Monk Mod` Achievements. This mod pack uses NPC quests to provide more organic and open exploration of the various magical mods and does *not* add any explicit step-by-step task Achievements other than those that come with the mods.
+
+This modpack is designed with small private multiplayer servers in mind,
+so of course you can divide up the crafting items for the Philosopher's
+Stone quest and then all complete it by sharing your items and EMC
+knowledge with friends!
+
 ## Installation
 
 * ~6GB RAM seems fine for client; less okay for small server.
