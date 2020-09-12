@@ -8,11 +8,11 @@ ProjectE/EX EMC on its head!
 - Explore amazing *new* Sky Island World Generation provided by [Topography](https://www.curseforge.com/minecraft/mc-mods/topography) SkyIslandsV2 provider!
 - 70+ beautiful biomes from [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty), [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) and more! Find out which are peaceful (not spawning mobs) and which are more dangerous than others (spawning powerful Mutant mobs)!
 - No grinding thanks to a heavily revamped [ProjectE](https://www.curseforge.com/minecraft/mc-mods/projecte) and [ProjectEX](https://www.curseforge.com/minecraft/mc-mods/project-ex) progression turning alchemy on its head offering the EMC "idle game" without ruining anything!
-- Mana from Steam Power?! Liquid Starlight from Nature's Aura?! Why not! Create late game Philosopher's Engine multiblocks to blend magic and gear powered mechanics converting mana types between many mods!
+- Mana from Steam Power?! Liquid Starlight from Nature's Aura?! Why not! Create late game Philosopher's Engine multiblocks to blend magic and gear powered mechanics converting "mana" types between many mods!
 - Unleash your creativity with a bevy of blocks to decorate all those beautiful multiblock structures!
-- Show off your style wearing a boat-load of baubles and tweak you look without losing stats thanks to cosmetic armor slots!
-- Build an airship and fly into the Nether for fast travel then back up into the overworld! (Your friends can ride on BiblioCraft seats, but they will glitch off if you try to take them across the Nether/Overworld line).
-- SNAD and Chisel blocks in Bonsai Pots! Stamp molten Thaumium and Void metal into gears! Totally rebalanced Monk Mod!
+- Show off your style wearing a boat-load of baubles and tweak your appearance without losing stats thanks to cosmetic armor slots!
+- Build an airship and fly into the Nether for fast travel then back up into the overworld! (Your friends can ride on [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) seats, but they will glitch off if you try to take them across the Nether/Overworld line).
+- SNAD and Chisel blocks in Bonsai Pots! Stamp molten Thaumium and Void metal into gears! Totally rebalanced [Monk Mod](https://www.curseforge.com/minecraft/mc-mods/the-monk-mod)!
 - Many inventory solutions available early game with complex Crate/EMC/Magical integrations possible for all you warehouse keepers out there!
 - Get off to a great start with quests provided by an all star cast of [Noppes' Custom NPCs](https://www.curseforge.com/minecraft/mc-mods/custom-npcs)!
 
@@ -25,7 +25,7 @@ mods only all available in Mineraft 1.12.2!!!
 * I suggest turning off fog, clouds, and to disable auto-jump.
 * If your PC can handle it, turn up render distance a bit to 10 or 12.
 * You can access NPC Quest Log by rebinding the `L` key or by using the tab above your inventory on the right.
-* During world generation select the default `Sky Magic Islands` an do not click `preview`.
+* During world generation select the default `Sky Magic Islands` an do *NOT* click `preview`.
 
 *IMPORTANT NOTE*: Do *NOT* update Modular Mechanics/Magic/Diversity or
 you will break the pack! I specifically chose these versions as they are
@@ -67,11 +67,15 @@ entity names so it looks better to disable nametagVisibility:
 
 #### Pregenerate Chunks
 It is highly recommended to pregenerate chunks for both stability and performance!
-Example commands to start/stop generating 100 chunk radius around yourself if you're op'd:
+Example commands to start/stop generating 100 chunk radius around your x/z location
+in the Overworld dimension (you need to have OPs):
 
-* `/pregen gen startradius square ~ ~ 100`
+* `/pregen gen startradius square ~ ~ 100 0 TerrainOnly`
 * `/pregen stop`
 * `/pregen clear`
+
+I recommend using `TerrainOnly` as I noticed a glitch with un-openable
+loot chests in structures after doing full pregeneration.
 
 #### Visual Metrics
 For anyone self hosting I suggest checking out
@@ -85,11 +89,11 @@ pid of the tickUpdate task and pin it to a single cpu core an give it
 slight priority to make it easier to monitor how much CPU headroom you
 have and how hard world gen hits you.
 
-* Learn to recognize what is usuallyth 2nd highest process on CPU usage
+* Learn to recognize what is usually the 2nd highest process on CPU usage:
 * `$ htop`
-* Pin the process if you have multiple cores so the scheduler leaves it alone
+* Pin the process if you have multiple cores so the scheduler leaves it alone:
 * `$ sudo taskset -p 04 pid`
-* Renice the process to give it priority over other user threads, don't go too "not nice" though!
+* Renice the process to give it slight priority over other user threads:
 * `$ sudo renice -n -1 pid`
 
 ## Resource Packs
@@ -116,6 +120,7 @@ recommend using them to preserve original mod makers effects more accurately.
 * [Mischief of Mice](https://www.youtube.com/channel/UCU3gwpclVZSYofj616OQKLQ) Valen goes in depth explaining mods bit by bit!
 * [AsianHalfSquat](https://www.youtube.com/user/asianhalfsquat) This guy has a great signal to noise ratio and is how I discovered many of these mods!
 * [Mods Summed Up](https://www.youtube.com/playlist?list=PLWUnrwn0-CNWnJbQ8XawEWdEnmRAFEgYk) Info-packed quick overviews of a single mod all summed up!
+* [How To: Pack Dev](https://www.youtube.com/playlist?list=PLJB-Y_FDFQZ7zVl-64Eb3hvhtUdLC20fq) IterationFunk keeps it funky and gives pro-tips that taught me much to create this pack!
 * [Equivilent Skies](https://www.curseforge.com/minecraft/modpacks/equivalent-skies) Inspired starting off with the new ProjectEX customized book of knowledge sharing!
 * [Project Ozone 3](https://www.curseforge.com/minecraft/modpacks/project-ozone-3-a-new-way-forward) Inspired some of the Magcal Modular Machine Multiblocks and I enjoyed playing it with my friends.
 
@@ -130,9 +135,10 @@ Finally, thanks to you and all the players out there making this community great
 
 ## Mods
 Please support our mod developers! They are the creative inspiration and
-perspirations for many beautiful gems and works of art! Check out their
-[curseforge](https://curseforge.com) page and follow the links for issue reporting and to donate
-and support them however feels right to you! Thanks and have fun!
+perspiration for many beautiful gems and works of art! Check out their
+[curseforge](https://curseforge.com) project pages and follow the links
+for donate, follow, subscribe, and support them however feels right to you!
+Thanks and have fun!
 
 
 #### Mod List
