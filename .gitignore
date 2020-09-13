@@ -29,7 +29,7 @@ plugins/
 /saves/
 server.properties
 servers.dat
-/SkyMagicIslands-config-test.zip
+/SkyMagicIslands*.zip
 spigot.yml
 tmp/
 usercache.json

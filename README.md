@@ -53,18 +53,35 @@ downgrade to these exact versions:
 * `modularmagic-1.4.0.jar`
 
 ## Server
+Make sure to download the server zip file for the same version as the client from here:
+[curseforge](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands/files)
+
+#### Example Linux Installation
+Make sure to read the EULA, configure the startup script for the
+amount of RAM available on your server, and edit the `server.properties`:
+
+* `unzip SkyMagicIslands-Server-v0.9.4-Minecraft-v1.12.2.zip`
+* `cd SkyMagicIslands`
+* `cp server.properties.example server.properties`
+* `echo "eula=true" > eula.txt`
+* `./start.sh`
+
+Windows will be very similar, but you might need a `start.bat` file instead.
+
+#### Mohist Server
 This modpack was developed using
 [forge-1.12.2-14.23.5.2854](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html)
 but also has pretty good compatibility with
-[Mohist 1.12.2](https://github.com/Mohist-Community/Mohist) as well if you want
+[Mohist](https://github.com/Mohist-Community/Mohist) as well if you want
 or need a hybrid server implementing Forge/Paper/Spigot/Bukkit APIs. There
 are some known issues with specific tileEntities with issues open on
-their tracker. Please confirm any unusual behavior while using Mohist is also present
+their tracker. You can find the
+[latest Mohist 1.12.2 server jar build here](https://ci.codemc.io/job/Mohist-Community/job/Mohist-1.12.2/lastBuild/).
+
+Please confirm any unusual behavior while using Mohist is also present
 under Forge before reporting bugs so you know where to report it.
 
-The server pack file is forthcoming on
-[curseforge](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands)
-now that the client file is approved.
+If you choose Mohist, you might need to configure the vaious `.yml` files it creates.
 
 #### Scoreboard
 Some commands for you and your friends to work together on the Philosopher
