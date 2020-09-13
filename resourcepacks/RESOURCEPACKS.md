@@ -3,6 +3,11 @@ Suggested Resource Packs
 Here are the resource packs that I used while developing
 [Sky Magic Islands](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands)
 
+You can download all of these zip files into your
+`C:\Users\MYUSERNAME\Twitch\Minecraft\Instances\Sky Magic Islands\resourcepacks\`
+folder and then make sure to select them next time you start client for
+them to take effect.
+
 I totally welcome if someone from the bdcraft.net community would like
 to make an all-in-one pack for Sky Magic Islands!
 

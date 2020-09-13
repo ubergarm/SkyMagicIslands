@@ -118,8 +118,7 @@ can't find it on [curseforge](https://curseforge.com) first. I also highly recom
 as well. For development I personally use about ~20ish packs at `64px` which cover a
 lot of the mods without out-shining the mods with original textures imho.
 
-If anyone from that community would like to make a resource pack for this modpack,
-I'd be happy to link you to all the one's that I've found so far.
+[Here is a list of all the resurce packs used during development and for the screenshots](https://github.com/ubergarm/SkyMagicIslands/blob/master/resourcepacks/RESOURCEPACKS.md)
 
 ## Shaders
 This modpack is compatible with
