@@ -3,8 +3,8 @@
 ## Change SERVERJAR to match actual server file
 SERVERJAR="forge-1.12.2-14.23.5.2854.jar"
 #SERVERJAR="Mohist-1.12.2-b71b544-server.jar"
-## Change MAXRAM to be less than actal sever RAM
-MAXRAM="5G"
+## Change MAXRAM to be less than actual availabe sever RAM
+MAXRAM="4G"
 
 ## This isn't great design, but quick bandage for now:
 ## How many times to restart server before giving up
@@ -38,6 +38,6 @@ while [ $COUNT -gt 0 ]; do
          -jar "$SERVERJAR" \
          nogui
 
-    echo "[$(date)] Server stopped! Will restart $COUNT more times!"
+    echo "[$(date)] Server stopped! Will restart $COUNT more times or push CNTRL+C to exit!"
     sleep 5
 done
