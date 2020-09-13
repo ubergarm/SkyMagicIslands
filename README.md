@@ -4,6 +4,8 @@ A highly integrated modpack weaving together a cast of Custom NPCs with
 both classic and new magical mods all while turning completely re-balanced
 ProjectE/EX EMC on its head!
 
+[![License](https://i.creativecommons.org/l/by-nc/3.0/88x31.png)](https://github.com/ubergarm/SkyMagicIslands/blob/master/LICENSE)
+
 ## Highlights
 - Explore amazing *new* Sky Island World Generation provided by [Topography](https://www.curseforge.com/minecraft/mc-mods/topography) SkyIslandsV2 provider!
 - 70+ beautiful biomes from [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty), [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) and more! Find out which are peaceful (not spawning mobs) and which are more dangerous than others (spawning powerful Mutant mobs)!
