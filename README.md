@@ -4,8 +4,6 @@ A highly integrated modpack weaving together a cast of Custom NPCs with
 both classic and new magical mods all while turning completely re-balanced
 ProjectE/EX EMC on its head!
 
-[![License](https://i.creativecommons.org/l/by-nc/3.0/88x31.png)](https://github.com/ubergarm/SkyMagicIslands/blob/master/LICENSE)
-
 ## Highlights
 - Explore amazing *new* Sky Island World Generation provided by [Topography](https://www.curseforge.com/minecraft/mc-mods/topography) SkyIslandsV2 provider!
 - 70+ beautiful biomes from [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty), [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) and more! Find out which are peaceful (not spawning mobs) and which are more dangerous than others (spawning powerful Mutant mobs)!
@@ -16,7 +14,7 @@ ProjectE/EX EMC on its head!
 - Build an airship and fly into the Nether for fast travel then back up into the overworld! (Your friends can ride on [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) seats, but they will glitch off if you try to take them across the Nether/Overworld line).
 - SNAD and Chisel blocks in Bonsai Pots! Stamp molten Thaumium and Void metal into gears! Totally rebalanced [Monk Mod](https://www.curseforge.com/minecraft/mc-mods/the-monk-mod)!
 - Many inventory solutions available early game with complex Crate/EMC/Magical integrations possible for all you warehouse keepers out there!
-- Get off to a great start with eary game quests provided by an all star cast of [Noppes' Custom NPCs](https://www.curseforge.com/minecraft/mc-mods/custom-npcs)!
+- Get off to a great start with early game quests provided by an all star cast of [Noppes' Custom NPCs](https://www.curseforge.com/minecraft/mc-mods/custom-npcs)!
 
 What are you waiting for?! Go get started with this magical blend of
 mods only all available in Mineraft 1.12.2!!!
@@ -26,6 +24,7 @@ A few tips to start you off on the right foot:
 
 * You must "turn in" a completed quest with the NPC that gave it to you to receive your reward!
 * After "turning in" your first quest with "Sunyata", you will receive everything needed to begin using EMC and completing more quests.
+* You can access NPC Quest Log by rebinding the `L` key or by using the tab above your inventory on the right.
 * You can craft better quality Transmutation Tables and Tablets before completing the Philosopher Stone quest!
 * You will need to use the JEI to figure out creative ways to transmute items into other items using different mods' recipes. You can also find many useful and high EMC items by simply exploring the structures that generate on many of the islands.
 * Many mods provide Achievements to guide your progress but might need to be unlocked before the tab is visible. For example, punch and break 10 wood logs with your bare hands while not wearing any armor to unlock `The Monk Mod` Achievements. This mod pack uses NPC quests to provide more organic and open exploration of the various magical mods and does *not* add any explicit step-by-step task Achievements other than those that come with the mods.
@@ -40,7 +39,6 @@ knowledge with friends!
 * ~6GB RAM seems fine for client; less okay for small server.
 * I suggest turning off fog, clouds, and to disable auto-jump.
 * If your PC can handle it, turn up render distance a bit to 10 or 12.
-* You can access NPC Quest Log by rebinding the `L` key or by using the tab above your inventory on the right.
 * During world generation select the default `Sky Magic Islands` an do *NOT* click `preview`.
 
 *IMPORTANT NOTE*: Do *NOT* update Modular Mechanics/Magic/Diversity or
@@ -64,7 +62,7 @@ are some known issues with specific tileEntities with issues open on
 their tracker. Please confirm any unusual behavior while using Mohist is also present
 under Forge before reporting bugs so you know where to report it.
 
-The server pack file, issue tracker, and code links are forthcoming on
+The server pack file is forthcoming on
 [curseforge](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands)
 now that the client file is approved.
 
@@ -150,157 +148,18 @@ to finish and test this pack!
 Finally, thanks to you and all the players out there making this community great!
 
 ## Mods
-Please support our mod developers! They are the creative inspiration and
-perspiration for many beautiful gems and works of art! Check out their
-[curseforge](https://curseforge.com) project pages and follow the links
-for donate, follow, subscribe, and support them however feels right to you!
-Thanks and have fun!
+Please support our mod developers! They are the creative inspiration
+and perspiration for many beautiful gems and works of art! Check out
+their project pages and follow the links to donate, follow, subscribe,
+and support them however feels right to you!  Thanks and have fun!
 
-#### Mod List
-Just under 150 beautiful mods strong:
-
-* Akashic Tome Vazkii
-* AppleSkin squeek502
-* Arcane Archives AranaiRa
-* Aroma1997Core   Aroma1997
-* AromaBackup Aroma1997
-* Astral Sorcery  HellFirePvP
-* AutoRegLib  Vazkii
-* B.A.S.E lanse505
-* Back Tools  ohaiiChun
-* Baubles Azanor13
-* Better Advancements way2muchnoise
-* Better Builder's Wands  Portablejim
-* Better Crates   TheTestMod
-* Bewitchment sunconure11
-* BiblioCraft Nuchaz
-* Biomes O' Plenty    Forstride
-* Block Drops (JEI Addon) KidsDontPlay
-* Blockcraftery   EpicSquid315
-* Blood Arsenal   Arcaratus
-* Blood Magic WayofTime
-* BnBGamingCore   bloodnbonesgaming
-* BNBGamingLib    bloodnbonesgaming
-* Bonsai Trees 2  davenonymous
-* Botania Vazkii
-* Botanic Bonsai  LatvianModder
-* Bountiful   ejektaflex
-* BountifulBaubles    Cursed1nferno
-* Ceramics    KnightMiner
-* Chameleon   Texelsaur
-* Chisel  tterrag1098
-* Chop Down Updated   Shovinus
-* Chunk-Pregenerator  Speiger
-* CodeChicken Lib 1.8.+   covers1624
-* Comforts    TheIllusiveC4
-* ConnectedTexturesMod    tterrag1098
-* ContentTweaker  Jaredlll08
-* Controlling Jaredlll08
-* Cooking for Blockheads  BlayTheNinth
-* Copy-Paste  joshiejack
-* Cosmetic Armor Reworked LainMI
-* CraftTweaker    Jaredlll08
-* Custom NPCs Noppes_
-* Davincis Vessels    darkevilmac
-* Dimensional Edibles Jackyy
-* DimensionalDoors    DimensionalDevelopment
-* Ding    ohaiiChun
-* Dynamic Surroundings    OreCruncher
-* Embers Rekindled    BordListian
-* Enchantment Descriptions    DarkhaxDev
-* Ender Storage 1.8.+ covers1624
-* Fairy Lights    pau101
-* Farming for Blockheads  BlayTheNinth
-* GraveStone Mod  henkelmax
-* Guide-API   TehNut
-* HotbarLock Reborn   Keksuccino
-* Hwyla   TehNut
-* iChunUtil   ohaiiChun
-* InfinityLib InfinityRaider
-* Inventory Tweaks    JimeoWan
-* JER Ore Integration Ax1eum
-* Just Enough HarvestCraft (JEHC) mrAppleXZ
-* Just Enough Items (JEI) mezz
-* Just Enough Resources (JER) way2muchnoise
-* LibrarianLib    wiresegal
-* LLibrary    _ForgeUser11902522
-* Macaw's Bridges sketch_macaw
-* Macaw's Furniture   sketch_macaw
-* Macaw's Roofs   sketch_macaw
-* Macaw's Windows sketch_macaw
-* Magical Psi wiiv
-* Mahou Tsukai    stepcros
-* MalisisCore Ordinastie
-* MalisisDoors    Ordinastie
-* MalisisSwitches Ordinastie
-* Mechanical Crafting decivex
-* MmmMmmMmmMmm    bonusboni
-* Modular Diversity   BordListian
-* Modular Machinery   HellFirePvP
-* Modular Magic   frinn38
-* More Overlays   FeldiM245
-* Morpheus    Quetzi
-* Mouse Tweaks    YaLTeR
-* MovingWorld darkevilmac
-* Mowzie's Mobs   bobmowzie
-* Multi Mine  atomicstrykergrumpy
-* Mutant Beasts   Chumbanotz
-* Mystical Gears  RCXcrafter
-* Mystical Mechanics API  BordListian
-* Mystical World  EpicSquid315
-* MysticalLib EpicSquid315
-* Nature's Aura   Ellpeck
-* Nature's Compass    Chaosyr
-* Nature's Topography al132
-* Neat    Vazkii
-* No Mob Spawning on Trees    oldjunyi
-* OpenBlocks Elevator vsngarcia
-* OreLib  OreCruncher
-* Pam's BrewCraft pamharvestcraft
-* Pam's HarvestCraft  pamharvestcraft
-* Patchouli   Vazkii
-* Ping    Girafi
-* Placebo Shadows_of_Fire
-* Project EX  LatvianModder
-* ProjectE    SinKillerJ
-* Project Nashorn	HalestormXV
-* Psi Vazkii
-* Random Things   Lumien231
-* Roots   EpicSquid315
-* Rope Bridge lordcazsius
-* Shadowfacts' Forgelin   ShadowfactsDev
-* Simple Storage Network  Lothrazar
-* Snad    TheRoBrit
-* Soot    BordListian
-* Soul Shards Respawn TehNut
-* Sound Filters   Tmtravlr
-* Storage Drawers Texelsaur
-* SwingThroughGrass   exidex
-* Thaumcraft  Azanor13
-* Thaumic JEI Buuz135
-* Thaumic Periphery   mangoose3039
-* The Disenchanter Mod    impelon
-* The Flying Things   pau101
-* The Monk Mod    RWTema
-* Toast Control   Shadows_of_Fire
-* Topography  bloodnbonesgaming
-* Totemic ljfa2
-* Trumpet Skeleton    jamieswhiteshirt_
-* V10verlap   V10lator
-* Villager Market face_of_cat
-* Villager Trade Tables   csb987
-* Waila Harvestability    squeek502
-* Wawla - What Are We Looking At  DarkhaxDev
-* Waystones   BlayTheNinth
-* Wizardry Mod    Demoniaque1
-* WorldGen Block Replacer The_Fireplace
-* Xaero's Minimap xaero96
-* Xaero's World Map   xaero96
+[Complete list of mods with authors and links available here under Related Projects.](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands/files/3054870)
 
 ## Logo Font
 [Intuitive Font by Bruno de Souza Leão](https://fontlibrary.org/en/font/intuitive)
 
 ## License
+[![License](https://i.creativecommons.org/l/by-nc/3.0/88x31.png)](https://github.com/ubergarm/SkyMagicIslands/blob/master/LICENSE)
 [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
 Creative Commons Attribution-NonCommercial 3.0 Unported
 
