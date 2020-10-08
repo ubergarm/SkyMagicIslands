@@ -306,4 +306,5 @@ recipes.addShaped("projectex_arcane_tablet", <projectex:arcane_tablet>,
   ]
 );
 <projectex:arcane_tablet>.displayName = "Crafting Transmutation Tablet";
+<projectex:stone_table>.addTooltip("§ANote: §7You can upgrade to better Transmutation Table or Tablets before getting Philosopher's Stone!");
 
