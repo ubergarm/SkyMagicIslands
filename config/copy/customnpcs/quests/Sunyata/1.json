@@ -75,6 +75,16 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
                 "id": "minecraft:gold_nugget",
                 "Count": 9b,
                 "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "waystones:warp_stone",
+                "Count": 1b,
+                "Damage": 0s
             }
         ]
     },
@@ -82,6 +92,6 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
 
 As the story of my old Colony life comes to a close, a new chapter rises up amongst these majestic Sky Magic Islands! Who knows what adventures await?! Maybe even one day I'll understand enough to command Dark Matter with my own Philosopher's Stone!
 
-Sunyata hands me a basic stone alchemy table, my signing bonus of 9 gold nuggets, and a glowing book full of wonderous knowledge to start me on my journey!",
+Sunyata hands me a basic stone alchemy table, my EMC signing bonus, a warp stone for travel, and a glowing book full of wonderous knowledge to start me on my journey!",
     "NextQuestTitle": ""
 }
