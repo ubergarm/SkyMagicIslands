@@ -65,6 +65,16 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
                 "id": "brewcraft:cherryvodkaitem",
                 "Count": 1b,
                 "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:quartz_block",
+                "Count": 4b,
+                "Damage": 0s
             }
         ]
     },
@@ -103,7 +113,7 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
         ]
     },
     "LeaveItems": 0b,
-    "CompleteText": "Lilith leaps into the air, arms outstretched, and shouts \"Huzzzzaaaah!\" After catching her breath, she smiles and holds out a fancy bottle of clear liquid, a beautiful blue gem, and a delicate purple flower.
+    "CompleteText": "Lilith leaps into the air, arms outstretched, and shouts \"Huzzzzaaaah!\" After catching her breath, she smiles and holds out a fancy bottle of clear liquid, a delicate purple flower, some blocks and a gem!
 
 \"A token of my thanks! Next time you come back you better bring gold nuggets—and *lots* of them!\", she says, throwing back her head and laughing.
 
