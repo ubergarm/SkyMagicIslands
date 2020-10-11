@@ -19,3 +19,12 @@ recipes.addShaped("harvestcraft_shippingbin", <harvestcraft:shippingbin>,
     [<ore:plankWood>, <minecraft:log:*>, <ore:plankWood>]
   ]
 );
+
+recipes.removeByRecipeName("harvestcraft:minerstewitem");
+recipes.addShapeless("harvestcraft_minerstewitem", <harvestcraft:minerstewitem>,
+  [
+    <ore:toolPot>, <minecraft:iron_ingot>, <minecraft:gold_ingot>,
+    <minecraft:redstone>, <ore:flowerMinersDelight>, <minecraft:diamond>,
+    <minecraft:coal>, <minecraft:flint>, <minecraft:rotten_flesh>
+  ]
+);
