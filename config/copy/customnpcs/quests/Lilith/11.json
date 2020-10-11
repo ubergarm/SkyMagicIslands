@@ -8,7 +8,7 @@
     "Title": "Building Materials",
     "Text": "Lilith asked me for some building materials to help her start a new magic shop. Apparently, I was unable to resist because despite my best intentions I still ended up with this quest.
 
-It shouldn't take too much EMC from my stone table to fill this order. Maybe her shop will be of value to me in the long run?",
+It shouldn't take too much EMC from my stone table to fill this order and her shop will be of value!",
     "QuestFactionPoints": {
         "DecreaseFaction1Points": 0b,
         "OptionFaction2Points": 100,
@@ -17,7 +17,7 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
         "OptionFaction1Points": 100,
         "DecreaseFaction2Points": 0b
     },
-    "RewardExp": 7,
+    "RewardExp": 160,
     "QuestCommand": "execute @p[x=5,y=79,z=10] 5 79 10 detect 4 78 10 minecraft:grass 0 noppes clone spawn Larry 1 0:5,79,7 Luciana",
     "ModRev": 18,
     "Type": 0,
@@ -29,7 +29,7 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1598912557964L,
+        "TimePast": 1602441054561L,
         "Time": 0L,
         "Subject": ""
     },
@@ -72,9 +72,9 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "minecraft:quartz_block",
-                "Count": 4b,
-                "Damage": 0s
+                "id": "minecraft:dye",
+                "Count": 16b,
+                "Damage": 5s
             }
         ]
     },
@@ -113,7 +113,7 @@ It shouldn't take too much EMC from my stone table to fill this order. Maybe her
         ]
     },
     "LeaveItems": 0b,
-    "CompleteText": "Lilith leaps into the air, arms outstretched, and shouts \"Huzzzzaaaah!\" After catching her breath, she smiles and holds out a fancy bottle of clear liquid, a delicate purple flower, some blocks and a gem!
+    "CompleteText": "Lilith leaps into the air, arms outstretched, and shouts \"Huzzzzaaaah!\" After catching her breath, she smiles and holds out a fancy bottle of clear liquid, a delicate purple flower, some dye, and a gem!
 
 \"A token of my thanks! Next time you come back you better bring gold nuggets—and *lots* of them!\", she says, throwing back her head and laughing.
 

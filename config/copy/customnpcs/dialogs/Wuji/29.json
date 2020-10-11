@@ -1,15 +1,15 @@
 {
     "DialogShowWheel": 0b,
-    "AvailabilityQuestId": -1,
+    "AvailabilityQuestId": 12,
     "Options": [
         {
             "OptionSlot": 0,
             "Option": {
                 "DialogCommand": "",
                 "Dialog": -1,
-                "Title": "I'll be right back!",
-                "DialogColor": 14737632,
-                "OptionType": 1
+                "Title": "Right! That can't be too hard!",
+                "DialogColor": 16777215,
+                "OptionType": 0
             }
         }
     ],
@@ -17,8 +17,8 @@
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
     "AvailabilityScoreboard2Value": 1,
-    "DialogId": 27,
-    "AvailabilityQuest": 0,
+    "DialogId": 29,
+    "AvailabilityQuest": 6,
     "AvailabilityDialog4": 0,
     "AvailabilityScoreboardObjective": "",
     "AvailabilityDialog3": 0,
@@ -28,7 +28,7 @@
     "AvailabilityQuest4": 0,
     "ModRev": 18,
     "DecreaseFaction1Points": 0b,
-    "DialogQuest": -1,
+    "DialogQuest": 12,
     "AvailabilityDialog2": 0,
     "OptionFactions1": -1,
     "AvailabilityDayTime": 0,
@@ -38,18 +38,24 @@
     "AvailabilityScoreboardValue": 1,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Questing Complete",
-    "AvailabilityDialog": 2,
+    "DialogTitle": "Transmutation Table",
+    "AvailabilityDialog": 0,
     "AvailabilityScoreboard2Type": 1,
     "AvailabilityFaction2": 0,
+    "DialogSound": "ping:bloop",
     "AvailabilityFactionId": -1,
     "AvailabilityFaction2Stance": 0,
     "DialogCommand": "",
-    "AvailabilityDialogId": 27,
+    "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Thanks again for your help! My friend and fellow purveyor of magical goods, Luciana, came to help build the new shop using the materials you gave me!
+    "DialogText": "Your beginners' Stone Transmutation Table has limited capability, but you can upgrade to a regular Transmutation Table or make various EMC Links without a Philosopher's Stone.
 
-The next time you chat with me, I'll be setup and ready to trade! Cheers!",
+The next step in your progress is to harvest sufficient EMC, create a Transmutation Table, and bring it back to me for inspection.
+
+Nothing is me,
+Everything is me.
+This too is given up—
+You remain what you are: here and now!",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -66,7 +72,7 @@ The next time you chat with me, I'll be setup and ready to trade! Cheers!",
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1602439678562L,
+        "TimePast": 1602439075662L,
         "Time": 0L,
         "Subject": ""
     }

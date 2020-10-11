@@ -6,7 +6,7 @@
     "QuestCompletion": 0,
     "IgnoreNBT": 1b,
     "Title": "Philosopher's Stone",
-    "Text": "I must find my own Philsopher's Stone and then bring it to old man Wuji back at Sky Island Outpost HQ near 16, 200, 16.
+    "Text": "I must find my own Philsopher's Stone and then bring it to old man Wuji back at Sky Island Outpost HQ near 16, 85, 16.
 
 He suggested it would take something from many different schools of magic.
 
@@ -33,7 +33,7 @@ I wonder what he will give me if I complete this quest?!",
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1598912908966L,
+        "TimePast": 1602438341512L,
         "Time": 0L,
         "Subject": ""
     },
@@ -43,6 +43,8 @@ I wonder what he will give me if I complete this quest?!",
             {
                 "Slot": 0b,
                 "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
                     "customnpcs:itemscripteddata": {
                     }
                 },

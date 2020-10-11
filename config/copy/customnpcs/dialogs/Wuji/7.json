@@ -1,15 +1,15 @@
 {
     "DialogShowWheel": 0b,
-    "AvailabilityQuestId": -1,
+    "AvailabilityQuestId": 1,
     "Options": [
         {
             "OptionSlot": 0,
             "Option": {
                 "DialogCommand": "",
                 "Dialog": 9,
-                "Title": "Uh, sure, I have some questions...",
+                "Title": "Uh, sure, see you soon!",
                 "DialogColor": 14737632,
-                "OptionType": 1
+                "OptionType": 0
             }
         },
         {
@@ -19,7 +19,7 @@
                 "Dialog": 9,
                 "Title": "Whatever you say, old man!",
                 "DialogColor": 16711680,
-                "OptionType": 1
+                "OptionType": 0
             }
         }
     ],
@@ -28,7 +28,7 @@
     "AvailabilityFactionStance": 0,
     "AvailabilityScoreboard2Value": 1,
     "DialogId": 7,
-    "AvailabilityQuest": 0,
+    "AvailabilityQuest": 2,
     "AvailabilityDialog4": 0,
     "AvailabilityScoreboardObjective": "",
     "AvailabilityDialog3": 0,
@@ -46,22 +46,22 @@
     "AvailabilityFaction2Id": -1,
     "OptionFaction1Points": 100,
     "AvailabilityScoreboardValue": 1,
-    "DialogDisableEsc": 1b,
+    "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
     "DialogTitle": "Meeting Wuji",
-    "AvailabilityDialog": 2,
+    "AvailabilityDialog": 0,
     "AvailabilityScoreboard2Type": 1,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
     "AvailabilityFaction2Stance": 0,
     "DialogCommand": "",
-    "AvailabilityDialogId": 7,
+    "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
     "DialogText": "I am Wuji, fearless leader of this place! Welcome, aspiring alchemist, to Sky Magic Islands Outpost HQ!
 
-As a newly initiated neophyte, you will aid our mission by exploring and researching all manners of alchemy and magic! Though today you seek for that which appears outside of you, true wisdom and innerstanding come when the light turns back upon its self and discovers the true source within!
+As a newly initiated neophyte, you will aid our mission by exploring and researching all manners of alchemy and magic! Though today you seek for that which appears outside of you, true wisdom and innerstanding come when the light turns back upon its self and discovers the true source within...
 
-The airship that brought you up from the ground colony has already departed leaving your old life behind. Don't worry! The views up here are great and a paycheck of three gold nuggets each day doesn't hurt the old EMC pocket book either!
+Pickup your starting gear from Sunyata, have a look around the island, and when you're ready for another quest come see me again!
 
 ",
     "AvailabilityQuest4Id": -1,
@@ -80,7 +80,7 @@ The airship that brought you up from the ground colony has already departed leav
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597166616491L,
+        "TimePast": 1602437879861L,
         "Time": 0L,
         "Subject": ""
     }

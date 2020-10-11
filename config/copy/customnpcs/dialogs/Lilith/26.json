@@ -47,7 +47,9 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Hey you ready or what? Where's the goods?",
+    "DialogText": "Hey you ready or what? Where's the goods?
+
+*(you can check your Quest Log by binding the key e.g. `L` or using the top right tab above your inventory screen)",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -64,7 +66,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597293907815L,
+        "TimePast": 1602440863862L,
         "Time": 0L,
         "Subject": ""
     }

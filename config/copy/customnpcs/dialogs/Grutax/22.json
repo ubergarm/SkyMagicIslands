@@ -37,7 +37,13 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "We're all itchin' to get mining, let me know as soon as you come up with the two Ember Bores!",
+    "DialogText": "We're all itchin' to get mining, let me know as soon as you come up with the two Ember Bores and fuel!
+
+I'm sure you already know this, but my alchemist friend mentioned upgrading simple charcoal into long burning Alchemical Coal using the right kind of \"Energy Collector MK1\"... whatever that means!?
+
+If we're fast enough we will be first to market before that y=4 overworld bore company beats us to it!
+
+*(you can check your Quest Log by binding the key e.g. `L` or using the top right tab above your inventory screen)",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -54,7 +60,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597209057384L,
+        "TimePast": 1602440913712L,
         "Time": 0L,
         "Subject": ""
     }

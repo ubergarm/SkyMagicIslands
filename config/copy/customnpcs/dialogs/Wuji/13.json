@@ -1,6 +1,6 @@
 {
     "DialogShowWheel": 0b,
-    "AvailabilityQuestId": -1,
+    "AvailabilityQuestId": 12,
     "Options": [
     ],
     "AvailabilityScoreboardType": 1,
@@ -8,8 +8,8 @@
     "AvailabilityFactionStance": 0,
     "AvailabilityScoreboard2Value": 1,
     "DialogId": 13,
-    "AvailabilityQuest": 0,
-    "AvailabilityDialog4": 2,
+    "AvailabilityQuest": 1,
+    "AvailabilityDialog4": 0,
     "AvailabilityScoreboardObjective": "",
     "AvailabilityDialog3": 1,
     "AvailabilityQuest2": 0,
@@ -52,7 +52,7 @@ Be warned however, knowledge is not wisdom; power is not bliss! Seek ye first wi
     "AvailabilityQuest2Id": -1,
     "AvailabilityDialog2Id": 11,
     "AvailabilityDialog3Id": 12,
-    "AvailabilityDialog4Id": 13,
+    "AvailabilityDialog4Id": -1,
     "AvailabilityMinPlayerLevel": 0,
     "DecreaseFaction2Points": 0b,
     "DialogMail": {
@@ -63,7 +63,7 @@ Be warned however, knowledge is not wisdom; power is not bliss! Seek ye first wi
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597349600930L,
+        "TimePast": 1602438412811L,
         "Time": 0L,
         "Subject": ""
     }

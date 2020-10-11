@@ -38,7 +38,7 @@
     "AvailabilityScoreboardValue": 1,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Completed Quest",
+    "DialogTitle": "Completed PS Quest",
     "AvailabilityDialog": 0,
     "AvailabilityScoreboard2Type": 1,
     "AvailabilityFaction2": 0,
@@ -70,7 +70,7 @@ Wei Wu Wei!!!",
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597349568081L,
+        "TimePast": 1602435723612L,
         "Time": 0L,
         "Subject": ""
     }

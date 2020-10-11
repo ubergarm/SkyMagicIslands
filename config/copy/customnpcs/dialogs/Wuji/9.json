@@ -36,10 +36,30 @@
             "OptionSlot": 3,
             "Option": {
                 "DialogCommand": "",
+                "Dialog": 29,
+                "Title": "Transmutation Table",
+                "DialogColor": 261175,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 4,
+            "Option": {
+                "DialogCommand": "",
                 "Dialog": 13,
                 "Title": "Philosopher's Stone",
                 "DialogColor": 261175,
                 "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 5,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": -1,
+                "Title": "Nothing now, peace out!",
+                "DialogColor": 16777215,
+                "OptionType": 0
             }
         }
     ],
@@ -48,7 +68,7 @@
     "AvailabilityFactionStance": 0,
     "AvailabilityScoreboard2Value": 1,
     "DialogId": 9,
-    "AvailabilityQuest": 6,
+    "AvailabilityQuest": 2,
     "AvailabilityDialog4": 0,
     "AvailabilityScoreboardObjective": "",
     "AvailabilityDialog3": 0,
@@ -77,7 +97,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "So you still seek more word pointers? What thoughts dance upon your mind in the fullness of this present moment?",
+    "DialogText": "It is common in the beginning to seek word pointers... What thoughts dance upon the mind in the fullness of this present moment?",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -94,7 +114,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597205676190L,
+        "TimePast": 1602438840213L,
         "Time": 0L,
         "Subject": ""
     }

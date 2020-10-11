@@ -20,7 +20,7 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
     "QuestCommand": "setblock 20 84 10 waystones:waystone 8 replace {WaystoneName:\"Sky Magic Islands HQ\",IsDummy:0b,WasGenerated:1b,x:20,y:84,z:10,IsMossy:0b,id:\"waystones:waystone\",IsGlobal:0b}",
     "QuestDialogs": [
         {
-            "Integer": 13,
+            "Integer": 7,
             "Slot": 0
         }
     ],
@@ -34,7 +34,7 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1597357722497L,
+        "TimePast": 1602437960211L,
         "Time": 0L,
         "Subject": ""
     },
@@ -79,6 +79,8 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
             {
                 "Slot": 3b,
                 "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
                     "customnpcs:itemscripteddata": {
                     }
                 },
@@ -92,6 +94,6 @@ Afterwards, return to Sunyata to collect my starting gear, signing bonus, and th
 
 As the story of my old Colony life comes to a close, a new chapter rises up amongst these majestic Sky Magic Islands! Who knows what adventures await?! Maybe even one day I'll understand enough to command Dark Matter with my own Philosopher's Stone!
 
-Sunyata hands me a basic stone alchemy table, my EMC signing bonus, a warp stone for travel, and a glowing book full of wonderous knowledge to start me on my journey!",
+Sunyata hands me a basic stone transmutation table, my EMC signing bonus, a warp stone for travel, and a glowing book full of wonderous knowledge to start me on my journey!",
     "NextQuestTitle": ""
 }

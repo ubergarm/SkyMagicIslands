@@ -51,7 +51,7 @@
 
 I'm still preparing your equipment, but in the meantime go talk to our fearless leader, Wuji, he can tell you more! Occasionally he will even mention the Philosopher's Stone!
 
-*(bind your CustomNPCs quest log button to track NPC quest details)",
+*(you can check your Quest Log by binding the key e.g. `L` or using the top right tab above your inventory screen)",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
