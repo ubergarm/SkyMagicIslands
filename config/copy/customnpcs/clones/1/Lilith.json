@@ -134,7 +134,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "bewitchment:garlic_seeds",
+                "id": "bewitchment:dragons_blood_sapling",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -172,7 +172,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "bewitchment:mandrake_seeds",
+                "id": "randomthings:pitcherplant",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -210,7 +210,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "roots:wildroot",
+                "id": "naturesaura:gold_leaf",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -369,7 +369,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 20846,
+    "HurtByTimestamp": 798,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -743,8 +743,8 @@
                 "freezeProgress": 0.0f,
                 "frozenPitch": 0.0f,
                 "prevHasAI": 0b,
+                "freezeDecayDelay": 0,
                 "frozenYawHead": 0.0f,
-                "frozenEntityID": -1,
                 "frozenLimbSwingAmount": 0.0f,
                 "frozenRenderYawOffset": 0.0f,
                 "frozenSwingProgress": 0.0f
@@ -892,7 +892,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 596740
+        "naturesaura:time_alive": 597651
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -993,7 +993,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Trader",
-    "TotalTicksAlive": 596384L,
+    "TotalTicksAlive": 597222L,
     "Rotation": [
         274.8357f,
         0.0f
@@ -1003,27 +1003,5 @@ function init(event) {
     "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
-    "ActiveEffects": [
-        {
-            "Ambient": 0b,
-            "CurativeItems": [
-                {
-                    "ForgeCaps": {
-                        "astralsorcery:cap_item_amulet_holder": {
-                        },
-                        "customnpcs:itemscripteddata": {
-                        }
-                    },
-                    "id": "minecraft:milk_bucket",
-                    "Count": 1b,
-                    "Damage": 0s
-                }
-            ],
-            "ShowParticles": 1b,
-            "Duration": 2,
-            "Id": 119b,
-            "Amplifier": 0b
-        }
-    ],
     "SpawnCycle": 0
 }

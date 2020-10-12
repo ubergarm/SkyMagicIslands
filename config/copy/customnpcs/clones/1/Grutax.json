@@ -24,7 +24,7 @@
                     }
                 },
                 "id": "embers:crystal_ember",
-                "Count": 2b,
+                "Count": 7b,
                 "Damage": 0s
             },
             {
@@ -34,7 +34,7 @@
                     }
                 },
                 "id": "embers:shard_ember",
-                "Count": 10b,
+                "Count": 15b,
                 "Damage": 0s
             },
             {
@@ -44,7 +44,7 @@
                     }
                 },
                 "id": "embers:crystal_ember",
-                "Count": 1b,
+                "Count": 3b,
                 "Damage": 0s
             },
             {
@@ -63,8 +63,8 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "embers:shard_ember",
-                "Count": 3b,
+                "id": "embers:dust_ember",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
@@ -73,7 +73,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "embers:dust_ember",
+                "id": "embers:nugget_dawnstone",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -83,7 +83,7 @@
                     "customnpcs:itemscripteddata": {
                     }
                 },
-                "id": "embers:nugget_dawnstone",
+                "id": "minecraft:ghast_tear",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -118,7 +118,7 @@
             "Line": "Not every day yields the same, but that is life, eh, {player}?"
         },
         {
-            "Line": "I've heard rumors of an offshore ember bore floating at the lowest elevation in the overworld!"
+            "Line": "I've heard rumors that its possible to offshore ember bore floating at the y=4 elevation in the overworld!"
         }
     ],
     "IgnoreCobweb": 0b,
@@ -270,7 +270,7 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 3350,
+    "HurtByTimestamp": 220,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -459,8 +459,8 @@
                 "freezeProgress": 0.0f,
                 "frozenPitch": 0.0f,
                 "prevHasAI": 0b,
+                "freezeDecayDelay": 0,
                 "frozenYawHead": 0.0f,
-                "frozenEntityID": -1,
                 "frozenLimbSwingAmount": 0.0f,
                 "frozenRenderYawOffset": 0.0f,
                 "frozenSwingProgress": 0.0f
@@ -608,7 +608,7 @@
             "marks": [
             ]
         },
-        "naturesaura:time_alive": 436156
+        "naturesaura:time_alive": 438893
     },
     "MovingState": 0,
     "MovingPos": 0,
@@ -708,7 +708,7 @@ function init(event) {
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 0,
     "Title": "Ember Smith",
-    "TotalTicksAlive": 435984L,
+    "TotalTicksAlive": 438629L,
     "Rotation": [
         32.714844f,
         0.0f
