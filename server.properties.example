@@ -36,5 +36,5 @@ max-build-height=256
 level-seed=everydayisagoodday
 use-native-transport=true
 prevent-proxy-connections=false
-motd=\u00A7BSky \u00A7DMagic Islands \u00A7Fv0.9.4
+motd=\u00A7BSky \u00A7DMagic Islands \u00A7Fv1.0.0
 enable-rcon=false

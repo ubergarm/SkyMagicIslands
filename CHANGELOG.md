@@ -8,6 +8,7 @@
 - Add Astral Sorcery Block Lens to MultiMine blacklist
 - Add note to Stone Table making it clear that you can upgrade it
 - Add JEResources worldgen block probabilities graphs into JEI per dimension
+- Server Only: Bumped `mohist-1.12.2-21-server.jar` to `mohist-1.12.2-67-server.jar`
 
 #### New Mods, Changes, and Updates
 | Last Mod Version | Current Mod Version |

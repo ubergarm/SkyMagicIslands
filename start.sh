@@ -2,7 +2,7 @@
 
 ## Change SERVERJAR to match actual server file
 SERVERJAR="forge-1.12.2-14.23.5.2854.jar"
-#SERVERJAR="mohist-1.12.2-21-server.jar"
+#SERVERJAR="mohist-1.12.2-67-server.jar"
 ## Change MAXRAM to be less than actual availabe sever RAM
 MAXRAM="4G"
 
