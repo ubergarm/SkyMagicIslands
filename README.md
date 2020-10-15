@@ -173,10 +173,10 @@ and support them however feels right to you!  Thanks and have fun!
 
 ## Updating
 
-If you started plying on an earlier version of this modpack, to get the
+If you started playing on an earlier version of this modpack, to get the
 updated Grutax item giver and Lilith / Luciana trades you either have
 to start a new save (generates a fresh NBT spawn island) or you can
-manually update them using the Custom NPCs npc wand and mob spwner e.g.
+manually update them using the Custom NPCs npc wand and mob cloner e.g.
 
 ```
 # as an op or w/ cheats enabled

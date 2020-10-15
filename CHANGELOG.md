@@ -1,4 +1,7 @@
 ## v1.0.0
+Special thanks to katgoespewpew for playtesting and improving early game
+quest progression to smooth out your start!
+
 - Add waystone's warp stone to initial quest reward
 - Add warp stones, hoppers, bonsai pots to stone table whitelist
 - Add new Wuji quest for Transmutation Table
