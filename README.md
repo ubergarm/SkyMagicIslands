@@ -171,6 +171,26 @@ and support them however feels right to you!  Thanks and have fun!
 
 [Complete list of mods with authors and links available here under Related Projects.](https://www.curseforge.com/minecraft/modpacks/sky-magic-islands/files/3054870)
 
+## Updating
+
+If you started plying on an earlier version of this modpack, to get the
+updated Grutax item giver and Lilith / Luciana trades you either have
+to start a new save (generates a fresh NBT spawn island) or you can
+manually update them using the Custom NPCs npc wand and mob spwner e.g.
+
+```
+# as an op or w/ cheats enabled
+/give @p customnpcs:npcwand
+/give @p customnpcs:npcmobcloner
+```
+
+1. Then use the Wand to right click on an NPC and select `Delete`
+2. Right click the *exact* same spot on the ground w/ the Mob Cloner
+3. Click the `Server` tab, the NPC name, and finally click `Spawn`
+
+This is only needed for Grutax and Lilith as all global dialogue
+and quest stuff is not stored in the NBT files.
+
 ## Logo Font
 [Intuitive Font by Bruno de Souza Leão](https://fontlibrary.org/en/font/intuitive)
 
